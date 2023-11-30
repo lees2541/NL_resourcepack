@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/glowstone_dust"
+  },
+   "overrides": [
+		{"predicate": {"custom_model_data":23055}, "model": "item/custom/explorer/swordsman/hwang_sword_broken_dust"}
+		,
+		{"predicate": {"custom_model_data":23549}, "model": "item/custom/explorer/wizard/broken_orb"}
+	]
+}

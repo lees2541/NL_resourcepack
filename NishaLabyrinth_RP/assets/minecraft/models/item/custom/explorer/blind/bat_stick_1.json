@@ -1,0 +1,13 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/custom/bat_stick"
+	},
+	"display":{
+		"gui": {
+			"rotation": [7, 0, 0],
+			"scale": [2.13281, 2.18164, 1]
+		}
+	}
+}

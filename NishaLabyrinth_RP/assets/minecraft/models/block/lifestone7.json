@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"9": "item/lifestone/7",
+		"particle": "item/lifestone/1"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 8],
+			"to": [12, 8, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#9"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#9"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#9"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#9"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#9"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#9"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"translation": [1.75, 7.5, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 6.5, 0]
+		},
+		"ground": {
+			"translation": [0, 2.75, 0]
+		},
+		"gui": {
+			"translation": [1, 8, 0],
+			"scale": [2.38867, 2.09961, 1]
+		},
+		"fixed": {
+			"rotation": [-180, -1.5, -180],
+			"translation": [-1, 8, 0],
+			"scale": [2.02344, 1.90625, 1]
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld_rod",
+	"textures": {
+		"layer0": "item/custom/bat_stick"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [113, 89, 0],
+			"translation": [0, -3.75, -4.5],
+			"scale": [1.52344, 1.34766, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [56, -87, 12],
+			"translation": [0, -2.5, 1],
+			"scale": [1.57031, 1.39648, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-50, 108, 44],
+			"translation": [-3.25, 5, 0],
+			"scale": [1.76563, 1.38281, 0.54688]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-23, -74, -49],
+			"translation": [2, -0.75, 0],
+			"scale": [1.76, 1.38, 0.53008]
+		},
+		"ground": {
+			"scale": [1.23828, 1.16992, 1]
+		},
+		"gui": {
+			"scale": [2.13648, 2.18, 1]
+		},
+		"fixed": {
+			"scale": [1.5625, 1.42188, 1]
+		}
+	}
+}

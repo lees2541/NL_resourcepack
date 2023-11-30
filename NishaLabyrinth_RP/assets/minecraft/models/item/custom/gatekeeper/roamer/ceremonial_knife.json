@@ -1,0 +1,39 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/custom/ceremonial_knife"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-128.22, -85.2, 118.89],
+			"translation": [-0.75, -9.5, 3.5],
+			"scale": [1.20508, 1.09688, 0.67031]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-67.85, 82.51, -178.35],
+			"translation": [0.75, -9.25, 3.5],
+			"scale": [1.2, 1.09, 0.67]
+		},
+		"firstperson_righthand": {
+			"rotation": [-54.85, 2.31, -7.29],
+			"translation": [-4.75, 6.5, 4.5],
+			"scale": [0.76875, 0.64766, 0.25898]
+		},
+		"firstperson_lefthand": {
+			"rotation": [161, 59, 90],
+			"translation": [-3, 3.25, 0]
+		},
+		"ground": {
+			"translation": [0, 4.75, 0]
+		},
+		"gui": {
+			"translation": [0.5, 1.5, 0],
+			"scale": [1.13086, 1.28711, 1]
+		},
+		"fixed": {
+			"translation": [0, 2.25, 0],
+			"scale": [1.36133, 1.44922, 1]
+		}
+	}
+}

@@ -1,0 +1,53 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/written_book"
+  },
+  "overrides": [
+		{"predicate": {"custom_model_data":101001}, "model": "item/custom/explorer/swordsman/swordsman_image"}
+		,{"predicate": {"custom_model_data":101002}, "model": "item/custom/explorer/swordsman/swordsman_image2"}
+		,{"predicate": {"custom_model_data":101003}, "model": "item/custom/explorer/swordsman/swordsman_image3"}
+		,{"predicate": {"custom_model_data":101004}, "model": "item/custom/explorer/swordsman/swordsman_image4"}
+		,{"predicate": {"custom_model_data":101005}, "model": "item/custom/explorer/swordsman/swordsman_ill"}
+		,{"predicate": {"custom_model_data":102001}, "model": "item/custom/explorer/wizard/magician_image"}
+		,{"predicate": {"custom_model_data":102002}, "model": "item/custom/explorer/wizard/magician_ill"}
+		,{"predicate": {"custom_model_data":103001}, "model": "item/custom/explorer/survivor/survivor_image"}
+		,{"predicate": {"custom_model_data":103002}, "model": "item/custom/explorer/survivor/survivor_image2"}
+		,{"predicate": {"custom_model_data":103003}, "model": "item/custom/explorer/survivor/survivor_ill"}
+		,{"predicate": {"custom_model_data":104001}, "model": "item/custom/explorer/soldier/soldier_image"}
+		,{"predicate": {"custom_model_data":104002}, "model": "item/custom/explorer/soldier/soldier_image2"}
+		,{"predicate": {"custom_model_data":104003}, "model": "item/custom/explorer/soldier/soldier_image3"}
+		,{"predicate": {"custom_model_data":104004}, "model": "item/custom/explorer/soldier/soldier_ill"}
+		,{"predicate": {"custom_model_data":105001}, "model": "item/custom/explorer/police/police_image"}
+		,{"predicate": {"custom_model_data":105002}, "model": "item/custom/explorer/police/police_ill"}
+		,{"predicate": {"custom_model_data":106001}, "model": "item/custom/explorer/fisher/fisher_image"}
+		,{"predicate": {"custom_model_data":106002}, "model": "item/custom/explorer/fisher/fisher_image1"}
+		,{"predicate": {"custom_model_data":106003}, "model": "item/custom/explorer/fisher/fisher_image2"}
+		,{"predicate": {"custom_model_data":106004}, "model": "item/custom/explorer/fisher/fisher_image3"}
+		,{"predicate": {"custom_model_data":106005}, "model": "item/custom/explorer/fisher/fisher_image4"}
+		,{"predicate": {"custom_model_data":106006}, "model": "item/custom/explorer/fisher/fisher_image5"}
+		,{"predicate": {"custom_model_data":106007}, "model": "item/custom/explorer/fisher/fisher_ill"}
+		,{"predicate": {"custom_model_data":107001}, "model": "item/custom/explorer/blind/blind_image"}
+		,{"predicate": {"custom_model_data":107002}, "model": "item/custom/explorer/blind/blind_image1"}
+		,{"predicate": {"custom_model_data":107003}, "model": "item/custom/explorer/blind/blind_image2"}
+		,{"predicate": {"custom_model_data":107004}, "model": "item/custom/explorer/blind/blind_ill"}
+		,{"predicate": {"custom_model_data":108001}, "model": "item/custom/explorer/prisoner/prisoner_image"}
+		,{"predicate": {"custom_model_data":201001}, "model": "item/custom/gatekeeper/roamer/roamer_image"}
+		,{"predicate": {"custom_model_data":201002}, "model": "item/custom/gatekeeper/roamer/roamer_image2"}
+		,{"predicate": {"custom_model_data":201003}, "model": "item/custom/gatekeeper/roamer/roamer_ill"}
+		,{"predicate": {"custom_model_data":202001}, "model": "item/custom/gatekeeper/sniffer/sniffer_image"}
+		,{"predicate": {"custom_model_data":202002}, "model": "item/custom/gatekeeper/sniffer/sniffer_image2"}
+		,{"predicate": {"custom_model_data":202003}, "model": "item/custom/gatekeeper/sniffer/sniffer_ill"}
+		,{"predicate": {"custom_model_data":203001}, "model": "item/custom/gatekeeper/chopper/chopper_image"}
+		,{"predicate": {"custom_model_data":203002}, "model": "item/custom/gatekeeper/chopper/chopper_image2"}
+		,{"predicate": {"custom_model_data":203003}, "model": "item/custom/gatekeeper/chopper/chopper_ill"}
+		,{"predicate": {"custom_model_data":204001}, "model": "item/custom/gatekeeper/tellus/tellus_image"}
+		,{"predicate": {"custom_model_data":204002}, "model": "item/custom/gatekeeper/tellus/tellus_ill"}
+		,{"predicate": {"custom_model_data":301001}, "model": "item/custom/skill/skill1"}
+		,{"predicate": {"custom_model_data":301002}, "model": "item/custom/skill/skill2"}
+		,{"predicate": {"custom_model_data":302001}, "model": "item/custom/location/library_icon"}
+		,{"predicate": {"custom_model_data":302002}, "model": "item/custom/library/lock_lib"}
+		,{"predicate": {"custom_model_data":302003}, "model": "item/custom/library/lock"}
+		,{"predicate": {"custom_model_data":302004}, "model": "item/custom/location/prison_icon"}
+	]
+}

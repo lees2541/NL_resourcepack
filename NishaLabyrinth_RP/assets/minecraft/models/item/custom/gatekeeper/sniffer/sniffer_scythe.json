@@ -1,0 +1,18 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/sniffer_scythe"
+    },
+	"display": {
+        "thirdperson_righthand": {
+            "scale": [ 2.2, 2.6, 2 ],
+			"translation": [3, 3 ,3],
+			"rotation": [90,90,-20]
+        },
+		"firstperson_righthand": {
+			"scale": [ -1.0, 1.0, 1],
+			"translation": [-1, 5,5],
+			"rotation": [0, 90, -30]
+		}
+	}
+}

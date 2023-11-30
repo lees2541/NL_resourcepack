@@ -1,0 +1,31 @@
+{
+    "targets": [
+        "swap",
+        "final",
+        "data",
+        "dataf"
+    ],
+    "passes": [
+        {
+            "name": "glowing/save_info",
+            "intarget": "final",
+            "outtarget": "data"
+        },
+        {
+            "name": "glowing/entity_outline",
+            "intarget": "final",
+            "outtarget": "swap",
+            "auxtargets": [
+                {
+                    "name": "DataSampler",
+                    "id": "data"
+                }
+            ]
+        },
+        {
+            "name": "blit",
+            "intarget": "swap",
+            "outtarget": "final"
+        }
+    ]
+}

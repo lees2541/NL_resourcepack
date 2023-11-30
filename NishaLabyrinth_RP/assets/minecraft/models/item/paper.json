@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+		{"predicate": {"custom_model_data":3000001}, "model": "item/custom/items/library/shield_piece"}		
+		,{"predicate": {"custom_model_data":3000002}, "model": "item/custom/items/library/dispel_scroll_piece"}
+		,{"predicate": {"custom_model_data":3000003}, "model": "item/custom/items/library/revival_stone_piece"}		
+		,{"predicate": {"custom_model_data":3000004}, "model": "item/custom/items/library/revival_stone"}
+		,{"predicate": {"custom_model_data":3000005}, "model": "item/custom/items/library/prison_key"}
+		,{"predicate": {"custom_model_data":3000006}, "model": "item/custom/items/library/upgraded_prison_key"}
+		,{"predicate": {"custom_model_data":3000007}, "model": "item/custom/items/library/lock"}
+		,{"predicate": {"custom_model_data":3000008}, "model": "item/custom/items/library/prison_key1"}
+		,{"predicate": {"custom_model_data":3000009}, "model": "item/custom/items/library/prison_key2"}
+		,{"predicate": {"custom_model_data":3000010}, "model": "item/custom/items/library/prison_key3"}
+		,{"predicate": {"custom_model_data":3000011}, "model": "item/custom/items/library/upgraded_prison_key1"}
+		,{"predicate": {"custom_model_data":3000012}, "model": "item/custom/items/library/upgraded_prison_key2"}
+		,{"predicate": {"custom_model_data":3000013}, "model": "item/custom/items/library/upgraded_prison_key3"}
+
+	]
+}

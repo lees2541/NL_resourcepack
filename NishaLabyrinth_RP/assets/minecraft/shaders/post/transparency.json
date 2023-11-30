@@ -1,0 +1,183 @@
+{
+    "targets": [
+        { "name": "controller", "width": 8, "height": 16 },  
+        { "name": "controllerSwap", "width": 8, "height": 16 },
+        { "name": "controllerf", "width": 8, "height": 16 },
+        { "name": "controllerSwapf", "width": 8, "height": 16 },
+        { "name": "controllero", "width": 8, "height": 16 },
+        { "name": "controllerSwapo", "width": 8, "height": 16 },
+        "water",
+        "translucent",
+        "itemEntity",
+        "particles",
+        "clouds",
+        "weather",
+        "final",
+        "swap",
+        "swap1",
+		"previous"
+    ],
+    "passes": [
+        {
+            "name": "toggler/copy",
+            "intarget": "controllero",
+            "outtarget": "controllerSwapo"
+        },
+        {
+            "name": "toggler/findcoloro",
+            "intarget": "controllerSwapo",
+            "outtarget": "controllero",
+            "auxtargets": [
+                {
+                    "name": "ParticleSampler",
+                    "id": "particles"
+                }
+            ]
+        },
+		{
+            "name": "toggler/copy",
+            "intarget": "controllerf",
+            "outtarget": "controllerSwapf"
+        },
+        {
+            "name": "toggler/findcolorf",
+            "intarget": "controllerSwapf",
+            "outtarget": "controllerf",
+            "auxtargets": [
+                {
+                    "name": "ParticleSampler",
+                    "id": "particles"
+                }
+            ]
+        },
+        {
+            "name": "toggler/copy",
+            "intarget": "controller",
+            "outtarget": "controllerSwap"
+        },
+        {
+            "name": "toggler/findcolor",
+            "intarget": "controllerSwap",
+            "outtarget": "controller",
+            "auxtargets": [
+                {
+                    "name": "ParticleSampler",
+                    "id": "particles"
+                }
+            ]
+        },
+        {
+            "name": "toggler/remove",
+            "intarget": "particles",
+            "outtarget": "final"
+        },
+        {
+            "name": "blit",
+            "intarget": "final",
+            "outtarget": "particles"
+        },
+        {
+            "name": "transparency",
+            "intarget": "minecraft:main",
+            "outtarget": "swap",
+            "auxtargets": [
+                {
+                    "name": "DiffuseDepthSampler",
+                    "id": "minecraft:main:depth"
+                },
+                {
+                    "name": "TranslucentSampler",
+                    "id": "translucent"
+                },
+                {
+                    "name": "TranslucentDepthSampler",
+                    "id": "translucent:depth"
+                },
+                {
+                    "name": "ItemEntitySampler",
+                    "id": "itemEntity"
+                },
+                {
+                    "name": "ItemEntityDepthSampler",
+                    "id": "itemEntity:depth"
+                },
+                {
+                    "name": "ParticlesSampler",
+                    "id": "particles"
+                },
+                {
+                    "name": "ParticlesDepthSampler",
+                    "id": "particles:depth"
+                },
+                {
+                    "name": "CloudsSampler",
+                    "id": "clouds"
+                },
+                {
+                    "name": "CloudsDepthSampler",
+                    "id": "clouds:depth"
+                },
+                {
+                    "name": "WeatherSampler",
+                    "id": "weather"
+                },
+                {
+                    "name": "WeatherDepthSampler",
+                    "id": "weather:depth"
+                }
+            ]
+        },
+        {
+            "name": "toggler/shader",
+            "intarget": "swap",
+            "outtarget": "final",
+            "auxtargets": [
+                {"name": "ControlSamplerf","id": "controllerf"},
+                {"name": "ControlSampler","id": "controller"},
+                {"name": "DiffuseDepthSampler","id": "minecraft:main:depth"},
+                {"name": "DebuffSampler","id": "debuff","width":  1712,"height": 11568,"bilinear": false},
+                {"name": "BuffSampler","id": "buff","width":  1712,"height": 11568,"bilinear": false}
+            ]
+        },
+        {
+            "name": "blit",
+            "intarget": "final",
+            "outtarget": "swap"
+        },
+        {
+            "name": "glowing/overlay",
+            "intarget": "swap",
+            "outtarget": "final",
+            "auxtargets": [
+                {"name": "ControlSamplero","id": "controllero"},
+                {"name": "DiffuseDepthSampler","id": "minecraft:main:depth"},
+                {"name": "GlowingSampler","id": "glowing","width":  428,"height": 241,"bilinear": false}
+            ]
+        },
+        {
+            "name": "blit",
+            "intarget": "final",
+            "outtarget": "swap"
+        },
+        {
+            "name": "toggler/sobel",
+            "intarget": "swap",
+            "outtarget": "final",
+            "auxtargets": [
+                {"name": "ControlSampler","id": "controller"},
+                {"name": "DiffuseDepthSampler","id": "minecraft:main:depth"}
+            ]
+        },
+        {
+            "name": "blit",
+            "intarget": "final",
+            "outtarget": "minecraft:main"
+        }
+		
+		
+		
+		 
+    ]
+}
+
+

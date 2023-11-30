@@ -1,0 +1,12 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/custom/police_image"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"translation": [-9.25, 9.25, -1.25]
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/custom/roamer_image"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"translation": [-8.5, 17.25, -1.25]
+		},
+		"firstperson_lefthand": {
+			"translation": [-8.5, 8.25, 0]
+		}
+	}
+}

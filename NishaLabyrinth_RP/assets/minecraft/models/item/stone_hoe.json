@@ -1,0 +1,39 @@
+{
+ "parent": "minecraft:item/handheld",
+ "textures": {
+  "layer0": "minecraft:item/stone_hoe"
+ },
+  
+ "overrides": [
+  {"predicate": {"custom_model_data":100001}, "model": "block/rs/redstone1"},
+  {"predicate": {"custom_model_data":100002}, "model": "block/rs/redstone2"},
+  {"predicate": {"custom_model_data":100003}, "model": "block/rs/redstone3"},
+  {"predicate": {"custom_model_data":100004}, "model": "block/rs/redstone4"},
+  {"predicate": {"custom_model_data":100005}, "model": "block/rs/redstone5"},
+  {"predicate": {"custom_model_data":100006}, "model": "block/rs/redstone6"},
+  {"predicate": {"custom_model_data":100007}, "model": "block/rs/redstone7"},
+  {"predicate": {"custom_model_data":100008}, "model": "block/rs/redstone8"},
+  {"predicate": {"custom_model_data":100009}, "model": "block/rs/redstone9"},
+  {"predicate": {"custom_model_data":100010}, "model": "block/rs/redstone10"},
+  {"predicate": {"custom_model_data":100011}, "model": "block/rs/redstone11"},
+  {"predicate": {"custom_model_data":100012}, "model": "block/rs/redstone12"},
+  {"predicate": {"custom_model_data":100013}, "model": "block/rs/redstone13"},
+  {"predicate": {"custom_model_data":100014}, "model": "block/rs/redstone14"},
+  {"predicate": {"custom_model_data":100015}, "model": "block/rs/redstone15"},
+  {"predicate": {"custom_model_data":100016}, "model": "block/rs/redstone16"},
+  {"predicate": {"custom_model_data":100017}, "model": "block/rs/redstone17"},
+  {"predicate": {"custom_model_data":100018}, "model": "block/rs/redstone18"},
+  {"predicate": {"custom_model_data":100019}, "model": "block/rs/redstone19"},
+  {"predicate": {"custom_model_data":100020}, "model": "block/rs/redstone20"},
+  {"predicate": {"custom_model_data":100021}, "model": "block/rs/redstone21"},
+  {"predicate": {"custom_model_data":100022}, "model": "block/rs/redstone22"},
+  {"predicate": {"custom_model_data":100023}, "model": "block/rs/redstone23"},
+  {"predicate": {"custom_model_data":100024}, "model": "block/rs/redstone24"},
+  {"predicate": {"custom_model_data":100025}, "model": "block/rs/redstone25"},
+  {"predicate": {"custom_model_data":100026}, "model": "block/rs/redstone26"},
+  {"predicate": {"custom_model_data":100027}, "model": "block/rs/redstone27"},
+  {"predicate": {"custom_model_data":100028}, "model": "block/rs/redstone28"},
+  {"predicate": {"custom_model_data":100029}, "model": "block/rs/redstone29"},
+  {"predicate": {"custom_model_data":100030}, "model": "block/rs/redstone30"}
+ ]
+}

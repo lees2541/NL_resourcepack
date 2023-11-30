@@ -1,0 +1,12 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/custom/sniffer_image"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"translation": [-9.5, 17.5, -4]
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:block/redstone_torch"
+  },
+	"overrides": [
+		{"predicate": {"custom_model_data":33298}, "model": "item/custom/gatekeeper/keeper_soul_lantern"}
+	]
+}
