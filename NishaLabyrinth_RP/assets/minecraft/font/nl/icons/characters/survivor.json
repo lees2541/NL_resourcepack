@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/soldier/soldier_head.png",
+            "ascent": 12,
+            "height": 20,
+            "chars": ["\uE001"]
+        }
+    ]
+}
