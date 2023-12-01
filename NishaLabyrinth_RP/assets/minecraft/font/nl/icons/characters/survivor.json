@@ -2,10 +2,17 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "minecraft:custom/nl/characters/soldier/soldier_head.png",
+            "file": "minecraft:custom/nl/characters/blind/blind_head.png",
+            "ascent": 13,
+            "height": 40,
+            "chars": ["\uE001"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/soldier/icon_half.png",
             "ascent": 12,
             "height": 20,
-            "chars": ["\uE001"]
+            "chars": ["\uE002"]
         }
     ]
 }
