@@ -1,0 +1,18 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/roamer_only/broken_orb"
+    },
+	"display": {
+        "thirdperson_righthand": {
+			"rotation":[70,70,0],
+            "scale": [ 0.5, 0.5, 1.5 ],
+			"translation":[0, 3, 1]
+        },
+        "thirdperson_lefthand": {
+			"rotation":[70,70,0],
+            "scale": [ 0.5, 0.5, 1.5 ],
+			"translation": [ 0, 3, 1]
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/custom/swordsman_image"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [107, 86, 75],
+			"translation": [0.5, 5.25, 2.5],
+			"scale": [1.33789, 1.43945, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [107, 86, 75],
+			"translation": [0.5, 5.25, 2.5],
+			"scale": [1.337, 1.439, 1]
+		},
+		"firstperson_righthand": {
+			"translation": [-10, 9, -5],
+			"scale": [1.45313, 1.12305, 1]
+		},
+		"firstperson_lefthand": {
+			"translation": [2.25, 4, 0],
+			"scale": [0.77734, 0.85352, 1]
+		}
+	}
+}

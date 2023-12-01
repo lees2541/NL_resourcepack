@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/written_book"
+  },
+  "overrides": [
+		{"predicate": {"custom_model_data":101001}, "model": "item/custom/explorer/swordsman/swordsman_image"}
+		,{"predicate": {"custom_model_data":101002}, "model": "item/custom/explorer/swordsman/swordsman_image2"}
+		,{"predicate": {"custom_model_data":101003}, "model": "item/custom/explorer/swordsman/swordsman_image3"}
+		,{"predicate": {"custom_model_data":101004}, "model": "item/custom/explorer/swordsman/swordsman_image4"}
+		,{"predicate": {"custom_model_data":102001}, "model": "item/custom/explorer/wizard/magician_image"}
+		,{"predicate": {"custom_model_data":103001}, "model": "item/custom/explorer/survivor/survivor_image"}
+		,{"predicate": {"custom_model_data":103002}, "model": "item/custom/explorer/survivor/survivor_image2"}
+		,{"predicate": {"custom_model_data":104001}, "model": "item/custom/explorer/soldier/soldier_image"}
+		,{"predicate": {"custom_model_data":104002}, "model": "item/custom/explorer/soldier/soldier_image2"}
+		,{"predicate": {"custom_model_data":104003}, "model": "item/custom/explorer/soldier/soldier_image3"}
+		,{"predicate": {"custom_model_data":105001}, "model": "item/custom/explorer/police/police_image"}
+		,{"predicate": {"custom_model_data":201001}, "model": "item/custom/gatekeeper/roamer/roamer_image"}
+		,{"predicate": {"custom_model_data":201002}, "model": "item/custom/gatekeeper/roamer/roamer_image2"}
+		,{"predicate": {"custom_model_data":201003}, "model": "item/custom/gatekeeper/roamer/roamer_ill"}
+		,{"predicate": {"custom_model_data":202001}, "model": "item/custom/gatekeeper/sniffer/sniffer_image"}
+		,{"predicate": {"custom_model_data":202002}, "model": "item/custom/gatekeeper/sniffer/sniffer_image2"}
+		,{"predicate": {"custom_model_data":202003}, "model": "item/custom/gatekeeper/sniffer/sniffer_ill"}
+		,{"predicate": {"custom_model_data":203001}, "model": "item/custom/gatekeeper/chopper/chopper_image"}
+		,{"predicate": {"custom_model_data":203002}, "model": "item/custom/gatekeeper/chopper/chopper_image2"}
+		,{"predicate": {"custom_model_data":203003}, "model": "item/custom/gatekeeper/chopper/chopper_ill"}
+		,{"predicate": {"custom_model_data":204001}, "model": "item/custom/gatekeeper/tellus/tellus_image"}
+		,{"predicate": {"custom_model_data":204002}, "model": "item/custom/gatekeeper/tellus/tellus_ill"}
+		,{"predicate": {"custom_model_data":301001}, "model": "item/custom/skill/skill1"}
+		,{"predicate": {"custom_model_data":301002}, "model": "item/custom/skill/skill2"}
+	]
+}

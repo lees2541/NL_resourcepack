@@ -1,0 +1,32 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/roamer_only/hwang_sword_broken"
+    },
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, -130],
+			"translation": [-1.5, -4.5, 1.25],
+			"scale": [1.24219, 1.2793, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 130],
+			"translation": [-1.25, -4.5, 1.25],
+			"scale": [1.25, 1.25, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-14, -66, 59],
+			"translation": [5.25, 4, -5],
+			"scale": [1.20945, 1.19773, 1.01]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-7, 115, -67],
+			"translation": [-0.25, 6, -0.25],
+			"scale": [0.84, 1, 0.87]
+		},
+		"gui": {
+			"rotation": [-2, 162, 91],
+			"translation": [0, -0.25, -5]
+		}
+	}
+}
