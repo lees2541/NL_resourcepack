@@ -6,13 +6,6 @@
             "ascent": 13,
             "height": 40,
             "chars": ["\uE001"]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:custom/nl/characters/soldier/icon_half.png",
-            "ascent": 12,
-            "height": 20,
-            "chars": ["\uE002"]
         }
     ]
 }
