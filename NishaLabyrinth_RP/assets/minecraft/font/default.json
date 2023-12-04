@@ -14,7 +14,7 @@
         },
 		{
             "type": "reference",
-            "id": "minecraft:nl/icons/characters/survivor"
+            "id": "minecraft:nl/icons/characters/default"
         }
     ]
 }
