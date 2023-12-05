@@ -1,0 +1,61 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/default/survivor_head.png",
+            "ascent": 13,
+            "height": 40,
+            "chars": ["\uE301"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/default/magician_head.png",
+            "ascent": 13,
+            "height": 40,
+            "chars": ["\uE302"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/default/swordsman_head.png",
+            "ascent": 13,
+            "height": 40,
+            "chars": ["\uE303"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/default/blind_head.png",
+            "ascent": 13,
+            "height": 40,
+            "chars": ["\uE304"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/default/blind_head.png",
+            "ascent": 13,
+            "height": 40,
+            "chars": ["\uE305"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/default/blind_head.png",
+            "ascent": 13,
+            "height": 40,
+            "chars": ["\uE306"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/default/blind_head.png",
+            "ascent": 13,
+            "height": 40,
+            "chars": ["\uE307"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/default/blind_head.png",
+            "ascent": 13,
+            "height": 40,
+            "chars": ["\uE308"]
+        }
+        
+    ]
+}

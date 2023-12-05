@@ -15,6 +15,14 @@
 		{
             "type": "reference",
             "id": "minecraft:nl/icons/characters/default"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:nl/icons/buff"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:nl/icons/debuff"
         }
     ]
 }
