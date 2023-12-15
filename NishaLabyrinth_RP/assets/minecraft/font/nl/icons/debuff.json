@@ -17,8 +17,8 @@
 		{
             "type": "bitmap",
             "file": "minecraft:custom/nl/characters/default/swordsman_head.png",
-            "ascent": 13,
-            "height": 40,
+            "ascent": -15,
+            "height": 15,
             "chars": ["\uE403"]
         },
 		{

@@ -3,8 +3,8 @@
         {
             "type": "bitmap",
             "file": "minecraft:custom/nl/characters/default/survivor_head.png",
-            "ascent": 13,
-            "height": 40,
+            "ascent": 7,
+            "height": 16,
             "chars": ["\uE301"]
         },
 		{
