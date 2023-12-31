@@ -1,0 +1,25 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/altar/tred_0",
+            "ascent": 9,
+            "height": 32,
+            "chars": ["\uE500"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/altar/tred_1",
+            "ascent": 9,
+            "height": 32,
+            "chars": ["\uE501"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/altar/tred_2",
+            "ascent": 9,
+            "height": 32,
+            "chars": ["\uE502"]
+        }
+    ]
+}
