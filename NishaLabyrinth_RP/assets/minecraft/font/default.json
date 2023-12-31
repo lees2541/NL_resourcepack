@@ -23,6 +23,10 @@
         {
             "type": "reference",
             "id": "minecraft:nl/icons/debuff"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:nl/bossbar/altar/altar_progress"
         }
     ]
 }
