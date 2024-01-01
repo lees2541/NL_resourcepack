@@ -20,6 +20,76 @@
             "ascent": 9,
             "height": 32,
             "chars": ["\uE502"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/altar/tred_3.png",
+            "ascent": 9,
+            "height": 32,
+            "chars": ["\uE503"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/altar/tred_4.png",
+            "ascent": 9,
+            "height": 32,
+            "chars": ["\uE504"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/altar/tred_5.png",
+            "ascent": 9,
+            "height": 32,
+            "chars": ["\uE505"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/altar/tred_6.png",
+            "ascent": 9,
+            "height": 32,
+            "chars": ["\uE506"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/altar/tred_7.png",
+            "ascent": 9,
+            "height": 32,
+            "chars": ["\uE507"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/altar/tred_8.png",
+            "ascent": 9,
+            "height": 32,
+            "chars": ["\uE508"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/altar/tred_9.png",
+            "ascent": 9,
+            "height": 32,
+            "chars": ["\uE509"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/altar/tred_10.png",
+            "ascent": 9,
+            "height": 32,
+            "chars": ["\uE510"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/altar/tred_r.png",
+            "ascent": 9,
+            "height": 32,
+            "chars": ["\uE511"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/altar/blank.png",
+            "ascent": 9,
+            "height": 32,
+            "chars": ["\uE512"]
         }
     ]
 }
