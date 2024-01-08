@@ -2,14 +2,14 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "minecraft:custom/nl/characters/default/survivor_head_hit.png",
+            "file": "minecraft:custom/nl/characters/hit/hunter_head_hit.png",
             "ascent": 19,
             "height": 32,
             "chars": ["\uE112"]
         },
 		{
             "type": "bitmap",
-            "file": "minecraft:custom/nl/characters/default/magician_headr.png",
+            "file": "minecraft:custom/nl/characters/hit/survivor_head_hit.png",
             "ascent": 19,
             "height": 32,
             "chars": ["\uE122"]
