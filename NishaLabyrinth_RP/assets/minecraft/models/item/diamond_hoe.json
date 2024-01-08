@@ -7,6 +7,8 @@
  "overrides": [
   {"predicate": {"custom_model_data":10001}, "model": "block/custom/safe"},
   {"predicate": {"custom_model_data":10002}, "model": "block/custom/alert"},
-  {"predicate": {"custom_model_data":10003}, "model": "block/custom/danger"}
+  {"predicate": {"custom_model_data":10003}, "model": "block/custom/danger"},
+  {"predicate": {"custom_model_data":10005}, "model": "block/custom/broken"},
+  {"predicate": {"custom_model_data":10006}, "model": "block/custom/muff_alert"}
  ]
 }
