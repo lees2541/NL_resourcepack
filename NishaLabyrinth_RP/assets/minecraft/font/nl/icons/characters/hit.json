@@ -7,6 +7,13 @@
             "height": 32,
             "chars": ["\uE112"]
         },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/default/magician_headr.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE122"]
+        },
 		{
             "type": "bitmap",
             "file": "minecraft:custom/nl/characters/hit/hunter_head_hit.png",
