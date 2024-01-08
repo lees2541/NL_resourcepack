@@ -1,0 +1,46 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/default/survivor_headr.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE112"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/default/magician_headr.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE122"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/default/swordsman_headr.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE132"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/default/blind_headr.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE142"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/default/hunter_head.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE212"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/default/chopper_head.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE222"]
+        }
+    ]
+}
