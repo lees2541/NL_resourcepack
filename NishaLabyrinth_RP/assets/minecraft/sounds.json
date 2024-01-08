@@ -363,5 +363,12 @@
 [
 "chopper/chopper_tired"
 ]
+},
+"lifestone1":
+{
+"sounds":
+[
+"random/lifestone1"
+]
 }
 }
