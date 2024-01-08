@@ -27,6 +27,10 @@
         {
             "type": "reference",
             "id": "minecraft:nl/bossbar/altar/altar_progress"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:nl/icons/characters/hit"
         }
     ]
 }
