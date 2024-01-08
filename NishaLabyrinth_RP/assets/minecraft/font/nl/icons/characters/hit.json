@@ -2,7 +2,7 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "minecraft:custom/nl/characters/default/survivor_headr.png",
+            "file": "minecraft:custom/nl/characters/default/survivor_head_hit.png",
             "ascent": 19,
             "height": 32,
             "chars": ["\uE112"]
@@ -30,7 +30,7 @@
         },
 		{
             "type": "bitmap",
-            "file": "minecraft:custom/nl/characters/default/hunter_head.png",
+            "file": "minecraft:custom/nl/characters/default/hunter_head_hit.png",
             "ascent": 19,
             "height": 32,
             "chars": ["\uE212"]
