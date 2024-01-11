@@ -1,0 +1,60 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/stun/survivor_head_stun.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE113"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/stun/magician_head_stun.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE123"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/stun/swordman_head_stun.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE133"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/stun/blind_head_stun.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE143"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/stun/thief_head_stun.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE153"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/stun/fisher_head_stun.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE163"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/stun/soldier_head_stun.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE173"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/stun/hunter_head_stun.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE213"]
+        }
+    ]
+}

@@ -9,10 +9,45 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:custom/nl/characters/default/magician_headr.png",
+            "file": "minecraft:custom/nl/characters/hit/magician_head_hit.png",
             "ascent": 19,
             "height": 32,
             "chars": ["\uE122"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/hit/swordman_head_hit.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE132"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/hit/blind_head_hit.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE142"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/hit/thief_head_hit.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE152"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/hit/fisher_head_hit.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE162"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/hit/solider_head_hit.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE172"]
         },
 		{
             "type": "bitmap",

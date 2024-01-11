@@ -31,6 +31,10 @@
         {
             "type": "reference",
             "id": "minecraft:nl/icons/characters/hit"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:nl/icons/characters/stun"
         }
     ]
 }
