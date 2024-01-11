@@ -44,7 +44,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:custom/nl/characters/hit/solider_head_hit.png",
+            "file": "minecraft:custom/nl/characters/hit/soldier_head_hit.png",
             "ascent": 19,
             "height": 32,
             "chars": ["\uE172"]
