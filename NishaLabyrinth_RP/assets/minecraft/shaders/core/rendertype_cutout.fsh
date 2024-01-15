@@ -29,7 +29,7 @@ void main() {
     if (color.a < 0.1) {
         discard;
     }
-    fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
+    fragColor = linear_fog(color, vertexDistance, 2.0, 4.5, vec4(0.0,0.0,0.1,0.2));//수풀 및 일부투명설정의 블럭들의 거리에따른 밝기및 색 조정
     if(FogColor.rgb==vec3(0.0,0.0,0.0)){
 		fragColor = linear_fog(color, vertexDistance, 1.5, 4.0, vec4(0.0,0.0,0.0,0.8));
 		if(vertexDistance > 4.0 && vertexDistance<12.0){
