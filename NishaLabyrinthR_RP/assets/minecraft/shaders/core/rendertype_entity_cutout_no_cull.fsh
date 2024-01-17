@@ -30,7 +30,7 @@ void main() {
     if (color.a < 0.1) {
         discard;
     }
-    fragColor = linear_fog(color, vertexDistance, 3.0, 6.0, vec4(0.0,0.0,0.0,0.9));//안개거리에 따른 엔티티의 밝기 변화
+    fragColor = linear_fog(color, vertexDistance, 3.0, 6.0, vec4(0.0,0.0,0.0,0.3));//안개거리에 따른 엔티티의 밝기 변화
     if(FogColor.rgb==vec3(0.0,0.0,0.0) && FogStart >=3.0){
         fragColor = linear_fog(color, vertexDistance, 10.0, 12.5, vec4(0.0,0.0,0.1,0.3));
     }
