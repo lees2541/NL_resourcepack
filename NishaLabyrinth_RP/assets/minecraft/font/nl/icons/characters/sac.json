@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/sac/survivor_headr_sac.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE114"]
+        }
+    ]
+}

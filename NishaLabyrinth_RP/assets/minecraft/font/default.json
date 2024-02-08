@@ -35,6 +35,10 @@
         {
             "type": "reference",
             "id": "minecraft:nl/icons/characters/stun"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:nl/icons/characters/sac"
         }
     ]
 }
