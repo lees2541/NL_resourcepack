@@ -13,5 +13,5 @@ vec4 minecraft_mix_light(vec3 lightDir0, vec3 lightDir1, vec3 normal, vec4 color
 }
 
 vec4 minecraft_sample_lightmap(sampler2D lightMap, ivec2 uv) {
-    return texture(lightMap, clamp(uv / 256.0, vec2(3.0 / 16.0), vec2(15.5 / 16.0)));// vec2 안의 숫자를 조정해서 블럭의 최소밝기, 최대밝기를 수정 가능 기본 최솟값: 0.5
+    return texture(lightMap, clamp(uv / 256.0, vec2(2.5 / 16.0), vec2(15.5 / 16.0)));// vec2 안의 숫자를 조정해서 블럭의 최소밝기, 최대밝기를 수정 가능 기본 최솟값: 0.5
 }
