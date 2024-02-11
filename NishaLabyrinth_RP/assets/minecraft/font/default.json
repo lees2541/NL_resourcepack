@@ -39,6 +39,10 @@
         {
             "type": "reference",
             "id": "minecraft:nl/icons/characters/sac"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:nl/title/stigma/stigma"
         }
     ]
 }
