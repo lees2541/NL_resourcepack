@@ -5,6 +5,7 @@
  },
   
  "overrides": [
+  {"predicate": {"custom_model_data":100000}, "model": "block/lifestone_n"},
   {"predicate": {"custom_model_data":100001}, "model": "block/lifestone1"},
   {"predicate": {"custom_model_data":100002}, "model": "block/lifestone2"},
   {"predicate": {"custom_model_data":100003}, "model": "block/lifestone3"},
