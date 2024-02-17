@@ -384,5 +384,12 @@
 [
 "random/imprison_chain"
 ]
+},
+"statue_buy":
+{
+"sounds":
+[
+"random/statue_buy"
+]
 }
 }
