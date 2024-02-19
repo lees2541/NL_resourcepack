@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/custom/library_coin",
+		"particle": "block/custom/library_coin"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 8],
+			"to": [12, 7, 8],
+			"faces": {
+				"north": {"uv": [1.5, 1, 14.25, 14.875], "texture": "#0"},
+				"east": {"uv": [1.5, 1, 14.25, 14.875], "texture": "#0"},
+				"south": {"uv": [1.5, 1, 14.25, 14.875], "texture": "#0"},
+				"west": {"uv": [1.5, 1, 14.25, 14.875], "texture": "#0"},
+				"up": {"uv": [1.5, 1, 14.25, 14.875], "texture": "#0"},
+				"down": {"uv": [1.5, 1, 14.25, 14.875], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [54, 0, 0],
+			"translation": [0, 4, 5]
+		},
+		"firstperson_righthand": {
+			"translation": [0.75, 9.5, 0.75],
+			"scale": [1.44532, 1.20703, 1.02734]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		},
+		"gui": {
+			"translation": [-1, 9.25, 0],
+			"scale": [2.38477, 2.10547, 1]
+		},
+		"fixed": {
+			"translation": [-1.75, 10.5, 0],
+			"scale": [3.04492, 2.35742, 1]
+		}
+	}
+}
