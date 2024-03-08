@@ -4,7 +4,6 @@
     "layer0": "minecraft:item/emerald"
   },
   "overrides": [
-	{"predicate": {"custom_model_data":1001}, "model": "block/custom/eye_coin"},
-	{"predicate": {"custom_model_data":1002}, "model": "block/custom/library_coin"}
+	{"predicate": {"custom_model_data":1001}, "model": "block/custom/eye_coin"}
 	]
 }

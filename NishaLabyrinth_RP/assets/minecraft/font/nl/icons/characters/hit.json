@@ -55,27 +55,6 @@
             "ascent": 19,
             "height": 32,
             "chars": ["\uE212"]
-        },
-		{
-            "type": "bitmap",
-            "file": "minecraft:custom/nl/characters/hit/chopper_head_hit.png",
-            "ascent": 19,
-            "height": 32,
-            "chars": ["\uE222"]
-        },
-		{
-            "type": "bitmap",
-            "file": "minecraft:custom/nl/characters/hit/sniffer_head_hit.png",
-            "ascent": 19,
-            "height": 32,
-            "chars": ["\uE232"]
-        },
-		{
-            "type": "bitmap",
-            "file": "minecraft:custom/nl/characters/hit/tellus_head_hit.png",
-            "ascent": 19,
-            "height": 32,
-            "chars": ["\uE242"]
         }
     ]
 }

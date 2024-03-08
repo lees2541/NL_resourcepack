@@ -9,34 +9,6 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:custom/nl/stigma/stigma_1.png",
-            "ascent": 25,
-            "height": 60,
-            "chars": ["\uE601"]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:custom/nl/stigma/stigma_2.png",
-            "ascent": 25,
-            "height": 60,
-            "chars": ["\uE602"]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:custom/nl/stigma/stigma_3.png",
-            "ascent": 25,
-            "height": 60,
-            "chars": ["\uE603"]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:custom/nl/stigma/stigma_4.png",
-            "ascent": 25,
-            "height": 60,
-            "chars": ["\uE604"]
-        },
-        {
-            "type": "bitmap",
             "file": "minecraft:custom/nl/stigma/stigma_5.png",
             "ascent": 25,
             "height": 60,
