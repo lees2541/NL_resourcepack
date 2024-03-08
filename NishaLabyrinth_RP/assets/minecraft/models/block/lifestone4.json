@@ -1,41 +1,73 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"6": "item/lifestone/4",
-		"particle": "item/lifestone/1"
+		"0": "block/custom/lifestone_block",
+		"4": "block/custom/life_count4",
+		"particle": "block/custom/lifestone_block"
 	},
 	"elements": [
 		{
-			"from": [4, 0, 8],
-			"to": [12, 8, 8],
+			"from": [6, 4, 5],
+			"to": [9, 7, 8],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 5, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#6"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#6"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#6"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#6"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#6"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#6"}
+				"north": {"uv": [3.875, 2.625, 14.5, 12.125], "texture": "#0"},
+				"east": {"uv": [3.875, 2.625, 14.5, 12.125], "texture": "#0"},
+				"south": {"uv": [3.875, 2.625, 14.5, 12.125], "texture": "#0"},
+				"west": {"uv": [3.875, 2.625, 14.5, 12.125], "texture": "#0"},
+				"up": {"uv": [3.875, 2.625, 14.5, 12.125], "texture": "#0"},
+				"down": {"uv": [3.875, 2.625, 14.5, 12.125], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.5, 3.75, 4.75],
+			"to": [11.5, 3.75, 8],
+			"rotation": {"angle": -45, "axis": "x", "origin": [6, 2, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 15.875, 16], "rotation": 180, "texture": "#4"},
+				"east": {"uv": [0, 0, 15.875, 16], "rotation": 180, "texture": "#4"},
+				"south": {"uv": [0, 0, 15.875, 16], "rotation": 180, "texture": "#4"},
+				"west": {"uv": [0, 0, 15.875, 16], "rotation": 180, "texture": "#4"},
+				"up": {"uv": [0, 0, 15.875, 16], "rotation": 180, "texture": "#4"},
+				"down": {"uv": [0, 0, 15.875, 16], "rotation": 180, "texture": "#4"}
 			}
 		}
 	],
 	"display": {
+		"thirdperson_righthand": {
+			"translation": [0.5, 5.25, 2.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-0.25, 5.25, 2.25]
+		},
 		"firstperson_righthand": {
-			"translation": [1.75, 7.5, 0]
+			"rotation": [-118.1, 32.26, 128.47],
+			"translation": [-2, 8.25, 2.75],
+			"scale": [0.75781, 1, 1]
 		},
 		"firstperson_lefthand": {
 			"translation": [0, 6.5, 0]
 		},
 		"ground": {
-			"translation": [0, 2.75, 0]
+			"translation": [0, 4.25, 1.5],
+			"scale": [1.22461, 1.31445, 1]
 		},
 		"gui": {
-			"translation": [1, 8, 0],
-			"scale": [2.38867, 2.09961, 1]
+			"rotation": [-116.72, 2.92, 177.27],
+			"translation": [-1.5, 7.5, 0],
+			"scale": [2.37305, 2.41406, 2.83594]
 		},
 		"fixed": {
-			"rotation": [-180, -1.5, -180],
-			"translation": [-1, 8, 0],
-			"scale": [2.02344, 1.90625, 1]
+			"translation": [0.75, 6.5, 2.25],
+			"scale": [1.83398, 1.64844, 1.8457]
 		}
-	}
+	},
+	"groups": [
+		{
+			"name": "lifestone_n",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
 }

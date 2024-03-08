@@ -6,6 +6,48 @@
             "ascent": 19,
             "height": 32,
             "chars": ["\uE114"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/sac/magician_headr_sac.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE124"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/sac/swordman_headr_sac.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE134"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/sac/blind_headr_sac.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE144"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/sac/thief_headr_sac.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE154"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/sac/fisher_headr_sac.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE164"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/sac/soldier_headr_sac.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE174"]
         }
     ]
 }

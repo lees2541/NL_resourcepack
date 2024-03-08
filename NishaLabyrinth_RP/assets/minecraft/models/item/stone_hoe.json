@@ -5,6 +5,7 @@
  },
   
  "overrides": [
+  {"predicate": {"custom_model_data":100000}, "model": "block/rs/redstone0"},
   {"predicate": {"custom_model_data":100001}, "model": "block/rs/redstone1"},
   {"predicate": {"custom_model_data":100002}, "model": "block/rs/redstone2"},
   {"predicate": {"custom_model_data":100003}, "model": "block/rs/redstone3"},
