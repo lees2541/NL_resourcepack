@@ -5,21 +5,21 @@
             "file": "minecraft:custom/nl/lifestone_slot/lifestone.png",
             "ascent": 2,
             "height": 10,
-            "chars": ["\uE601"]
+            "chars": ["\uE611"]
         },
 		{
             "type": "bitmap",
             "file": "minecraft:custom/nl/lifestone_slot/survivor/campfire.png",
             "ascent": 13,
             "height": 40,
-            "chars": ["\uE611"]
+            "chars": ["\uE612"]
         },
 		{
             "type": "bitmap",
             "file": "minecraft:custom/nl/lifestone_slot/magician/orb.png",
             "ascent": 13,
             "height": 40,
-            "chars": ["\uE621"]
+            "chars": ["\uE613"]
         }
     ]
 }
