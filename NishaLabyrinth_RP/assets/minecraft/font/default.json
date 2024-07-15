@@ -36,7 +36,7 @@
             "type": "reference",
             "id": "minecraft:nl/icons/characters/stun"
         },
-        {
+		{
             "type": "reference",
             "id": "minecraft:nl/icons/characters/sac"
         },
@@ -47,6 +47,10 @@
         {
             "type": "reference",
             "id": "minecraft:nl/icons/lifestone_slot/lifestone_slot"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:nl/icons/stigma_slot/stigma_slot"
         }
     ]
 }

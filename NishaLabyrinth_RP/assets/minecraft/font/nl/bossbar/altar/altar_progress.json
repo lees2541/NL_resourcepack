@@ -90,6 +90,20 @@
             "ascent": 9,
             "height": 32,
             "chars": ["\uE512"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/altar/blank_s.png",
+            "ascent": 9,
+            "height": 32,
+            "chars": ["\uE513"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/altar/blank_xs.png",
+            "ascent": 9,
+            "height": 32,
+            "chars": ["\uE514"]
         }
     ]
 }

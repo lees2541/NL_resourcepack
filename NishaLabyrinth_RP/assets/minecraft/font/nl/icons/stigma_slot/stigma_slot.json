@@ -1,0 +1,39 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/stigma_slot/stigma1.png",
+            "ascent": -4,
+            "height": 11,
+            "chars": ["\uE621"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/stigma_slot/stigma2.png",
+            "ascent": -4,
+            "height": 11,
+            "chars": ["\uE622"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/stigma_slot/stigma3.png",
+            "ascent": -4,
+            "height": 11,
+            "chars": ["\uE623"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/stigma_slot/stigma4.png",
+            "ascent": -4,
+            "height": 11,
+            "chars": ["\uE624"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/stigma_slot/stigma5.png",
+            "ascent": -3,
+            "height": 15,
+            "chars": ["\uE625"]
+        }
+    ]
+}
