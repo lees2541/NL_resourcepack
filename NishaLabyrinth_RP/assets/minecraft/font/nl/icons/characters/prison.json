@@ -1,0 +1,53 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/prison/survivor_headr_prison.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE115"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/prison/magician_headr_prison.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE125"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/prison/swordman_headr_prison.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE135"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/prison/blind_headr_prison.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE145"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/prison/thief_headr_prison.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE155"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/prison/fisher_headr_prison.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE165"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/prison/soldier_headr_prison.png",
+            "ascent": 19,
+            "height": 32,
+            "chars": ["\uE175"]
+        }
+    ]
+}

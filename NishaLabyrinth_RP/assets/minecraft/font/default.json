@@ -51,6 +51,10 @@
         {
             "type": "reference",
             "id": "minecraft:nl/icons/stigma_slot/stigma_slot"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:nl/icons/characters/prison"
         }
     ]
 }
