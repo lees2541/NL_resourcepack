@@ -4,14 +4,14 @@
             "type": "bitmap",
             "file": "minecraft:custom/nl/characters/default/survivor_headr.png",
             "ascent": 19,
-            "height": 32,
+            "height": 30,
             "chars": ["\uE111"]
         },
 		{
             "type": "bitmap",
             "file": "minecraft:custom/nl/characters/default/magician_headr.png",
             "ascent": 19,
-            "height": 32,
+            "height": 30,
             "chars": ["\uE121"]
         },
 		{

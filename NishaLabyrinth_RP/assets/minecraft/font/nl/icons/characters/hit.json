@@ -11,14 +11,14 @@
             "type": "bitmap",
             "file": "minecraft:custom/nl/characters/hit/magician_head_hit.png",
             "ascent": 19,
-            "height": 32,
+            "height": 30,
             "chars": ["\uE122"]
         },
         {
             "type": "bitmap",
             "file": "minecraft:custom/nl/characters/hit/swordman_head_hit.png",
             "ascent": 19,
-            "height": 32,
+            "height": 30,
             "chars": ["\uE132"]
         },
         {

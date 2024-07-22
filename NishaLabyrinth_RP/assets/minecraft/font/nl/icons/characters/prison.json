@@ -4,14 +4,14 @@
             "type": "bitmap",
             "file": "minecraft:custom/nl/characters/prison/survivor_headr_prison.png",
             "ascent": 19,
-            "height": 32,
+            "height": 30,
             "chars": ["\uE115"]
         },
         {
             "type": "bitmap",
             "file": "minecraft:custom/nl/characters/prison/magician_headr_prison.png",
             "ascent": 19,
-            "height": 32,
+            "height": 30,
             "chars": ["\uE125"]
         },
         {
