@@ -1,0 +1,32 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/skill_slot/survivor_camp.png",
+            "ascent": -9,
+            "height": 20,
+            "chars": ["\uE631"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/skill_slot/swordman_baldo.png",
+            "ascent": -9,
+            "height": 20,
+            "chars": ["\uE633"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/skill_slot/thief_hide.png",
+            "ascent": -9,
+            "height": 20,
+            "chars": ["\uE635"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/skill_slot/soldier_quest.png",
+            "ascent": -9,
+            "height": 20,
+            "chars": ["\uE637"]
+        }
+    ]
+}
