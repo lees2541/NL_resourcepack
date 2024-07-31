@@ -10,8 +10,8 @@
 		{
             "type": "bitmap",
             "file": "minecraft:custom/nl/lifestone_slot/survivor/campfire.png",
-            "ascent": 13,
-            "height": 40,
+            "ascent": -13,
+            "height": 10,
             "chars": ["\uE612"]
         },
 		{

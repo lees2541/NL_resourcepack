@@ -59,6 +59,10 @@
         {
             "type": "reference",
             "id": "minecraft:nl/icons/skill_slot/skill_slot"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:nl/icons/skill_slot2/skill_slot2"
         }
     ]
 }

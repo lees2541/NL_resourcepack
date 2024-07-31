@@ -1,0 +1,25 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/skill_slot2/swordman_pado1.png",
+            "ascent": -8,
+            "height": 12,
+            "chars": ["\uE731"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/skill_slot2/swordman_pado2.png",
+            "ascent": -8,
+            "height": 12,
+            "chars": ["\uE732"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/skill_slot2/swordman_pado3.png",
+            "ascent": -8,
+            "height": 12,
+            "chars": ["\uE733"]
+        }
+    ]
+}
