@@ -1,6 +1,12 @@
 {
-    "vertex": "NishaLabyrinth_RP:program/toggler/shader",
-    "fragment": "NishaLabyrinth_RP:program/glowing/overlay",
+    "blend": {
+        "func": "add",
+        "srcrgb": "one",
+        "dstrgb": "zero"
+    },
+    "vertex": "toggler/shader",
+    "fragment": "glowing/overlay",
+    "attributes": [ "Position" ],
     "samplers": [
         { "name": "DiffuseSampler" },
         { "name": "ControlSampler" },

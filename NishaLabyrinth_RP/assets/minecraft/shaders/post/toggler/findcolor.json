@@ -1,6 +1,12 @@
 {
+    "blend": {
+        "func": "add",
+        "srcrgb": "one",
+        "dstrgb": "zero"
+    },
     "vertex": "toggler/copy",
     "fragment": "toggler/findcolor",
+    "attributes": [ "Position" ],
     "samplers": [
         { "name": "DiffuseSampler" },
         { "name": "ParticleSampler" }

@@ -4,8 +4,8 @@
         "srcrgb": "srcalpha",
         "dstrgb": "1-srcalpha"
     },
-    "vertex": "rendertype_entity_glint_direct",
-    "fragment": "rendertype_entity_glint_direct",
+    "vertex": "core/rendertype_entity_glint_direct",
+    "fragment": "core/rendertype_entity_glint_direct",
     "attributes": [
         "Position",
         "UV0"

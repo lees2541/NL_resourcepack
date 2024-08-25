@@ -1,7 +1,12 @@
 {
-
-    "vertex": "NishaLabyrinth_RP:program/toggler/copy",
-    "fragment": "minecraft:post/blit",
+    "blend": {
+        "func": "add",
+        "srcrgb": "one",
+        "dstrgb": "zero"
+    },
+    "vertex": "toggler/copy",
+    "fragment": "blit",
+    "attributes": [ "Position" ],
     "samplers": [
         { "name": "DiffuseSampler" }
     ],

@@ -1,6 +1,12 @@
 {
-    "vertex": "minecraft:post/sobel",
-    "fragment": "NishaLabyrinth_RP:program/glowing/shaders",
+    "blend": {
+        "func": "add",
+        "srcrgb": "one",
+        "dstrgb": "zero"
+    },
+    "vertex": "sobel",
+    "fragment": "glowing/shaders",
+    "attributes": [ "Position" ],
     "samplers": [
         { "name": "DiffuseSampler" },
         { "name": "DataSampler" },
