@@ -1,8 +1,8 @@
 {
     "vertex": "minecraft:post/sobel",
-    "fragment": "NishaLabyrinth_RP:program/glowing/entity_sobel",
+    "fragment": "minecraft:program/glowing/entity_sobel",
     "samplers": [
-        { "name": "DiffuseSampler" },
+        { "name": "InSampler" },
         { "name": "DataSampler" }
     ],
     "uniforms": [

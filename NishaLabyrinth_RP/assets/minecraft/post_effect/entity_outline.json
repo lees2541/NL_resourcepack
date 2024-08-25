@@ -7,10 +7,10 @@
     },
     "passes": [
         {
-            "program": "NishaLabyrinth_RP:program/glowing/save_info",
+            "program": "minecraft:program/glowing/save_info",
             "inputs": [
                 {
-                    "sampler_name": "Diffuse",
+                    "sampler_name": "In",
                     "target": "minecraft:entity_outline",
                     "bilinear": true
                 }
@@ -18,10 +18,10 @@
             "output": "data"
         },
         {
-            "program": "NishaLabyrinth_RP:program/glowing/entity_outline",
+            "program": "minecraft:program/glowing/entity_outline",
             "inputs": [
                 {
-                    "sampler_name": "Diffuse",
+                    "sampler_name": "In",
                     "target": "minecraft:entity_outline",
                     "bilinear": true
                 },

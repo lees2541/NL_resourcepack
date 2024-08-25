@@ -1,12 +1,7 @@
 {
-    "blend": {
-        "func": "add",
-        "srcrgb": "one",
-        "dstrgb": "zero"
-    },
-    "vertex": "toggler/sobel",
-    "fragment": "toggler/sobel",
-    "attributes": [ "Position" ],
+
+    "vertex": "minecraft:program/toggler/sobel",
+    "fragment": "minecraft:program/toggler/sobel",
     "samplers": [
         { "name": "DiffuseSampler" },
         { "name": "ControlSampler" }

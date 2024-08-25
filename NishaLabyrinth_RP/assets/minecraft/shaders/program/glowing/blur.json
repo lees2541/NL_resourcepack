@@ -1,6 +1,6 @@
 {
     "vertex": "minecraft:post/sobel",
-    "fragment": "NishaLabyrinth_RP:program/glowing/blur",
+    "fragment": "minecraft:program/glowing/blur",
     "samplers": [
         { "name": "DiffuseSampler" }
     ],

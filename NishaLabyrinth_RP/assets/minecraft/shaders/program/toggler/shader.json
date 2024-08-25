@@ -1,12 +1,6 @@
 {
-    "blend": {
-        "func": "add",
-        "srcrgb": "one",
-        "dstrgb": "zero"
-    },
-    "vertex": "toggler/shader",
-    "fragment": "toggler/shader",
-    "attributes": [ "Position" ],
+    "vertex": "minecraft:program/toggler/shader",
+    "fragment": "minecraft:program/toggler/shader",
     "samplers": [
         { "name": "DiffuseSampler" },
         { "name": "ControlSampler" },

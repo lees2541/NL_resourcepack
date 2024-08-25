@@ -1,6 +1,6 @@
 {
     "vertex": "minecraft:post/sobel",
-    "fragment": "NishaLabyrinth_RP:program/glowing/save_infof",
+    "fragment": "minecraft:program/glowing/save_infof",
     "samplers": [
         { "name": "DiffuseSampler" }
     ],

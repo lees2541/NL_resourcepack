@@ -1,6 +1,6 @@
 {
     "vertex": "minecraft:post/sobel",
-    "fragment": "NishaLabyrinth_RP:program/glowing/copy",
+    "fragment": "minecraft:program/glowing/copy",
     "samplers": [
         { "name": "DiffuseSampler" }
     ],

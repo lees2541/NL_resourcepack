@@ -1,177 +1,171 @@
 {
-    "targets": [
+    "targets": {
         "controller": {"width": 8, "height": 16 },  
         "controllerSwap": {"width": 8, "height": 16 },
         "controllerf": { "width": 8, "height": 16 },
         "controllerSwapf": { "width": 8, "height": 16 },
         "controllero": { "width": 8, "height": 16 },
         "controllerSwapo": { "width": 8, "height": 16 },
-        "water": {},
-        "translucent": {},
-        "itemEntity": {},
-        "particles": {},
-        "clouds": {},
-        "weather": {},
         "final": {},
         "swap": {},
         "swap1": {},
 		"previous": {}
-    ],
+    },
     "passes": [
         {
-            "name": "toggler/copy",
+            "program": "minecraft:program/toggler/copy",
             "inputs": [
                 {
-                    "sampler_name": "Diffuse",
+                    "sampler_name": "In",
                     "target": "controllero"
                 }
             ],
             "output": "controllerSwapo"
         },
         {
-            "name": "toggler/findcoloro",
+            "program": "minecraft:program/toggler/findcoloro",
             "inputs": [
                 {
                     "sampler_name": "Diffuse",
                     "target": "controllerSwapo"
                 },
                 {
-                    "sampler_name": "ParticleSampler",
-                    "target": "particles"
+                    "sampler_name": "Particles",
+                    "target": "minecraft:particles"
                 }
             ],
-            "output": "controllero",
+            "output": "controllero"
         },
 		{
-            "name": "toggler/copy",
+            "program": "minecraft:program/toggler/copy",
             "inputs": [
                 {
-                    "sampler_name": "Diffuse",
+                    "sampler_name": "In",
                     "target": "controllerf"
                 }
             ],
             "output": "controllerSwapf"
         },
         {
-            "name": "toggler/findcolorf",
+            "program": "minecraft:program/toggler/findcolorf",
             "inputs": [
                 {
                     "sampler_name": "Diffuse",
                     "target": "controllerSwapf"
                 },
                 {
-                    "sampler_name": "ParticleSampler",
-                    "target": "particles"
+                    "sampler_name": "Particles",
+                    "target": "minecraft:particles"
                 }
             ],
-            "output": "controllerf",
+            "output": "controllerf"
         },
         {
-            "name": "toggler/copy",
+            "program": "minecraft:program/toggler/copy",
             "inputs": [
                 {
-                    "sampler_name": "Diffuse",
+                    "sampler_name": "In",
                     "target": "controller"
                 }
             ],            
             "output": "controllerSwap"
         },
         {
-            "name": "toggler/findcolor",
+            "program": "minecraft:program/toggler/findcolor",
             "inputs": [
                 {
                     "sampler_name": "Diffuse",
                     "target": "controllerSwap"
                 },
                 {
-                    "sampler_name": "ParticleSampler",
-                    "target": "particles"
+                    "sampler_name": "Particles",
+                    "target": "minecraft:particles"
                 }
             ],
-            "output": "controller",
+            "output": "controller"
         },
         {
-            "name": "toggler/remove",
+            "program": "minecraft:program/toggler/remove",
             "inputs": [
                 {
                     "sampler_name": "Diffuse",
-                    "target": "particles"
+                    "target": "minecraft:particles"
                 }
             ],
             "output": "final"
         },
         {
-            "name": "blit",
+            "program": "minecraft:post/blit",
             "inputs": [
                 {
-                    "sampler_name": "Diffuse",
+                    "sampler_name": "In",
                     "target": "final"
                 }
             ],
-            "output": "particles"
+            "output": "minecraft:particles"
         },
         {
-            "name": "transparency",
+            "program": "minecraft:post/transparency",
             "inputs": [
                 {
-                    "sampler_name": "Diffuse",
+                    "sampler_name": "Main",
                     "target": "minecraft:main"
                 },
                 {
-                    "sampler_name": "DiffuseDepthSampler",
+                    "sampler_name": "MainDepth",
                     "target": "minecraft:main",
                     "use_depth_buffer": true
                 },
                 {
-                    "sampler_name": "TranslucentSampler",
-                    "target": "translucent"
+                    "sampler_name": "Translucent",
+                    "target": "minecraft:translucent"
                 },
                 {
-                    "sampler_name": "TranslucentDepthSampler",
-                    "target": "translucent",
+                    "sampler_name": "TranslucentDepth",
+                    "target": "minecraft:translucent",
                     "use_depth_buffer": true
                 },
                 {
-                    "sampler_name": "ItemEntitySampler",
-                    "target": "itemEntity"
+                    "sampler_name": "ItemEntity",
+                    "target": "minecraft:item_entity"
                 },
                 {
-                    "sampler_name": "ItemEntityDepthSampler",
-                    "target": "itemEntity",
+                    "sampler_name": "ItemEntityDepth",
+                    "target": "minecraft:item_entity",
                     "use_depth_buffer": true
                 },
                 {
-                    "sampler_name": "ParticlesSampler",
-                    "target": "particles"
+                    "sampler_name": "Particles",
+                    "target": "minecraft:particles"
                 },
                 {
-                    "sampler_name": "ParticlesDepthSampler",
-                    "target": "particles",
+                    "sampler_name": "ParticlesDepth",
+                    "target": "minecraft:particles",
                     "use_depth_buffer": true
                 },
                 {
-                    "sampler_name": "CloudsSampler",
-                    "target": "clouds"
+                    "sampler_name": "Clouds",
+                    "target": "minecraft:clouds"
                 },
                 {
-                    "sampler_name": "CloudsDepthSampler",
-                    "target": "clouds",
+                    "sampler_name": "CloudsDepth",
+                    "target": "minecraft:clouds",
                     "use_depth_buffer": true
                 },
                 {
-                    "sampler_name": "WeatherSampler",
-                    "target": "weather"
+                    "sampler_name": "Weather",
+                    "target": "minecraft:weather"
                 },
                 {
-                    "sampler_name": "WeatherDepthSampler",
-                    "target": "weather",
+                    "sampler_name": "WeatherDepth",
+                    "target": "minecraft:weather",
                     "use_depth_buffer": true
                 }
             ],
             "output": "swap"
         },
         {
-            "name": "toggler/shader",
+            "program": "minecraft:program/toggler/shader",
             "inputs": [
                 {
                     "sampler_name": "Diffuse",
@@ -206,17 +200,17 @@
             "output": "final"
         },
         {
-            "name": "blit",
+            "program": "minecraft:post/blit",
             "inputs": [
                 {
-                    "sampler_name": "Diffuse",
+                    "sampler_name": "In",
                     "target": "final"
                 }
             ],
             "output": "swap"
         },
         {
-            "name": "glowing/overlay",
+            "program": "minecraft:program/glowing/overlay",
             "inputs": [
                 {
                     "sampler_name": "Diffuse",
@@ -241,17 +235,17 @@
             "output": "final"
         },
         {
-            "name": "blit",
+            "program": "minecraft:post/blit",
             "inputs": [
                 {
-                    "sampler_name": "Diffuse",
+                    "sampler_name": "In",
                     "target": "final"
                 }
             ],
             "output": "swap"
         },
         {
-            "name": "toggler/sobel",
+            "program": "minecraft:program/toggler/sobel",
             "inputs": [
                 {
                     "sampler_name": "Diffuse",
@@ -270,10 +264,10 @@
             "output": "final"
         },
         {
-            "name": "blit",
+            "program": "minecraft:post/blit",
             "inputs": [
                 {
-                    "sampler_name": "Diffuse",
+                    "sampler_name": "In",
                     "target": "final"
                 }
             ],
