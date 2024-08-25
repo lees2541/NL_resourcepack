@@ -1,15 +1,15 @@
 {
     "targets": {
-        "controller": {"width": 8, "height": 16 },  
-        "controllerSwap": {"width": 8, "height": 16 },
-        "controllerf": { "width": 8, "height": 16 },
-        "controllerSwapf": { "width": 8, "height": 16 },
-        "controllero": { "width": 8, "height": 16 },
-        "controllerSwapo": { "width": 8, "height": 16 },
         "final": {},
         "swap": {},
         "swap1": {},
-		"previous": {}
+		"previous": {},
+        "controller": {"width":8, "height":16},  
+        "controller_swap": {"width":8, "height":16},
+        "controllerf": {"width":8, "height":16},
+        "controller_swapf": {"width":8, "height":16},
+        "controllero": {"width":8, "height":16},
+        "controller_swapo": {"width":8, "height":16}
     },
     "passes": [
         {
@@ -20,14 +20,14 @@
                     "target": "controllero"
                 }
             ],
-            "output": "controllerSwapo"
+            "output": "controller_swapo"
         },
         {
             "program": "minecraft:program/toggler/findcoloro",
             "inputs": [
                 {
-                    "sampler_name": "Diffuse",
-                    "target": "controllerSwapo"
+                    "sampler_name": "In",
+                    "target": "controller_swapo"
                 },
                 {
                     "sampler_name": "Particles",
@@ -44,14 +44,14 @@
                     "target": "controllerf"
                 }
             ],
-            "output": "controllerSwapf"
+            "output": "controller_swapf"
         },
         {
             "program": "minecraft:program/toggler/findcolorf",
             "inputs": [
                 {
-                    "sampler_name": "Diffuse",
-                    "target": "controllerSwapf"
+                    "sampler_name": "In",
+                    "target": "controller_swapf"
                 },
                 {
                     "sampler_name": "Particles",
@@ -68,14 +68,14 @@
                     "target": "controller"
                 }
             ],            
-            "output": "controllerSwap"
+            "output": "controller_swap"
         },
         {
             "program": "minecraft:program/toggler/findcolor",
             "inputs": [
                 {
-                    "sampler_name": "Diffuse",
-                    "target": "controllerSwap"
+                    "sampler_name": "In",
+                    "target": "controller_swap"
                 },
                 {
                     "sampler_name": "Particles",
@@ -88,7 +88,7 @@
             "program": "minecraft:program/toggler/remove",
             "inputs": [
                 {
-                    "sampler_name": "Diffuse",
+                    "sampler_name": "In",
                     "target": "minecraft:particles"
                 }
             ],

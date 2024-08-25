@@ -1,5 +1,4 @@
 {
-
     "vertex": "minecraft:program/toggler/sobel",
     "fragment": "minecraft:program/toggler/sobel",
     "samplers": [

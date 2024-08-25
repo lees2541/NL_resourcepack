@@ -2,7 +2,7 @@
     "vertex": "minecraft:program/toggler/copy",
     "fragment": "minecraft:program/toggler/findcolor",
     "samplers": [
-        { "name": "DiffuseSampler" },
+        { "name": "InSampler" },
         { "name": "ParticlesSampler" }
     ],
     "uniforms": [
