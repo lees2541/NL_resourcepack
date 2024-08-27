@@ -1,0 +1,11 @@
+{
+ "parent": "minecraft:item/handheld",
+ "textures": {
+  "layer0": "minecraft:item/red_dye"
+ },
+  
+ "overrides": [
+  {"predicate": {"custom_model_data":60001}, "model": "item/custom/resume/blind_resume"},
+  {"predicate": {"custom_model_data":70001}, "model": "item/custom/resume/sniffer_resume"}
+ ]
+}

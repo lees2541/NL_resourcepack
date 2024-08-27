@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/custom/demolisher"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [70.94, 86.23, -17.91],
+			"translation": [-0.5, -3.75, 2],
+			"scale": [2.08203, 2.47461, 0.91406]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 130],
+			"translation": [-1.25, -4.5, 1.25],
+			"scale": [1.25, 1.25, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-28.54, -66.28, 8.39],
+			"translation": [2.5, 1.25, -3],
+			"scale": [1.35398, 1.27, 1.01]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-7, 115, -67],
+			"translation": [-0.25, 6, -0.25],
+			"scale": [0.84, 1, 0.87]
+		},
+		"gui": {
+			"rotation": [-2, 162, 91],
+			"translation": [0, -0.25, -5]
+		}
+	}
+}

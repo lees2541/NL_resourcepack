@@ -15,6 +15,7 @@
   {"predicate": {"custom_model_data":341}, "model": "block/custom/thief"},
   {"predicate": {"custom_model_data":342}, "model": "block/custom/chopper"},
   {"predicate": {"custom_model_data":343}, "model": "block/custom/magician"},
-  {"predicate": {"custom_model_data":344}, "model": "block/custom/hunter"}
+  {"predicate": {"custom_model_data":344}, "model": "block/custom/hunter"},
+  {"predicate": {"custom_model_data":345}, "model": "block/custom/cavehunter"}
  ]
 }

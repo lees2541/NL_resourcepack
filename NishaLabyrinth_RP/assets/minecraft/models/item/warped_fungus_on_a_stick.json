@@ -4,7 +4,10 @@
     "layer0": "minecraft:item/warped_fungus_on_a_stick"
   },
   "overrides": [
-		{"predicate": {"custom_model_data":1003055}, "model": "item/custom/explorer/swordsman/hwang_sword_broken_dust"}		
+		{"predicate": {"custom_model_data":1001501}, "model": "item/custom/explorer/survivor/survivor_tool"}
+		,{"predicate": {"custom_model_data":1001502}, "model": "item/custom/explorer/survivor/survivor_tool_x"}
+		,{"predicate": {"custom_model_data":1001503}, "model": "item/custom/explorer/survivor/survivor_tool_y"}
+		,{"predicate": {"custom_model_data":1003055}, "model": "item/custom/explorer/swordsman/hwang_sword_broken_dust"}		
 		,{"predicate": {"custom_model_data":1003195}, "model": "item/custom/explorer/swordsman/hwang_sword_1"}
 		,{"predicate": {"custom_model_data":1003196}, "model": "item/custom/explorer/swordsman/hwang_sword_2"}
 		,{"predicate": {"custom_model_data":1003197}, "model": "item/custom/explorer/swordsman/hwang_sword_3"}
@@ -20,5 +23,6 @@
 		,{"predicate": {"custom_model_data":1006548}, "model": "item/custom/explorer/wizard/broken_orb"}
 		,{"predicate": {"custom_model_data":1007563}, "model": "item/custom/gatekeeper/chopper/glutton"}
 		,{"predicate": {"custom_model_data":1008001}, "model": "item/custom/explorer/outlaw/outlaw_rifle"}
+		,{"predicate": {"custom_model_data":1009001}, "model": "item/custom/explorer/cavehunter/demolisher"}
 	]
 }
