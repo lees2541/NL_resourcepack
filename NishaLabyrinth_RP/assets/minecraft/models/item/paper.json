@@ -17,6 +17,7 @@
 		,{"predicate": {"custom_model_data":3000011}, "model": "item/custom/items/library/upgraded_prison_key1"}
 		,{"predicate": {"custom_model_data":3000012}, "model": "item/custom/items/library/upgraded_prison_key2"}
 		,{"predicate": {"custom_model_data":3000013}, "model": "item/custom/items/library/upgraded_prison_key3"}
+		,{"predicate": {"custom_model_data":3000014}, "model": "block/custom/maseok"}
 		,{"predicate": {"custom_model_data":3001001}, "model": "item/custom/explorer/survivor/survivor_perk_x"}
 		,{"predicate": {"custom_model_data":3001002}, "model": "item/custom/explorer/survivor/survivor_perk_y"}
 	]
