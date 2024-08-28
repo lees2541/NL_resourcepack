@@ -49,5 +49,7 @@
 		,{"predicate": {"custom_model_data":302002}, "model": "item/custom/library/lock_lib"}
 		,{"predicate": {"custom_model_data":302003}, "model": "item/custom/library/lock"}
 		,{"predicate": {"custom_model_data":302004}, "model": "item/custom/location/prison_icon"}
+		,{"predicate": {"custom_model_data":3001001}, "model": "item/custom/explorer/survivor/survivor_book_x"}
+		,{"predicate": {"custom_model_data":3001002}, "model": "item/custom/explorer/survivor/survivor_book_y"}
 	]
 }
