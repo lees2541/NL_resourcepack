@@ -6,8 +6,8 @@
 		"previous": {},
         "controller": {"width":8, "height":16},  
         "controller_swap": {"width":8, "height":16},
-        "controllerf": {"width":8, "height":16},
-        "controller_swapf": {"width":8, "height":16},
+        "controller2": {"width":8, "height":16},
+        "controller_swap2": {"width":8, "height":16},
         "controllero": {"width":8, "height":16},
         "controller_swapo": {"width":8, "height":16}
     },
@@ -41,24 +41,24 @@
             "inputs": [
                 {
                     "sampler_name": "In",
-                    "target": "controllerf"
+                    "target": "controller2"
                 }
             ],
-            "output": "controller_swapf"
+            "output": "controller_swap2"
         },
         {
-            "program": "minecraft:program/toggler/findcolorf",
+            "program": "minecraft:program/toggler/findcolor2",
             "inputs": [
                 {
                     "sampler_name": "In",
-                    "target": "controller_swapf"
+                    "target": "controller_swap2"
                 },
                 {
                     "sampler_name": "Particles",
                     "target": "minecraft:particles"
                 }
             ],
-            "output": "controllerf"
+            "output": "controller2"
         },
         {
             "program": "minecraft:program/toggler/copy",
@@ -172,11 +172,11 @@
                     "target": "swap"
                 },
                 {
-                    "sampler_name": "ControlSamplerf",
-                    "target": "controllerf"
+                    "sampler_name": "Control2",
+                    "target": "controller2"
                 },
                 {
-                    "sampler_name": "ControlSampler",
+                    "sampler_name": "Control",
                     "target": "controller"
                 },
                 {
