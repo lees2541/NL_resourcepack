@@ -8,8 +8,8 @@
         "controller_swap": {"width":8, "height":16},
         "controller2": {"width":8, "height":16},
         "controller_swap2": {"width":8, "height":16},
-        "controllero": {"width":8, "height":16},
-        "controller_swapo": {"width":8, "height":16}
+        "controller3": {"width":8, "height":16},
+        "controller_swap3": {"width":8, "height":16}
     },
     "passes": [
         {
@@ -17,24 +17,24 @@
             "inputs": [
                 {
                     "sampler_name": "In",
-                    "target": "controllero"
+                    "target": "controller3"
                 }
             ],
-            "output": "controller_swapo"
+            "output": "controller_swap3"
         },
         {
-            "program": "minecraft:program/toggler/findcoloro",
+            "program": "minecraft:program/toggler/findcolor3",
             "inputs": [
                 {
                     "sampler_name": "In",
-                    "target": "controller_swapo"
+                    "target": "controller_swap3"
                 },
                 {
                     "sampler_name": "Particles",
                     "target": "minecraft:particles"
                 }
             ],
-            "output": "controllero"
+            "output": "controller3"
         },
 		{
             "program": "minecraft:program/toggler/copy",
@@ -213,12 +213,8 @@
             "program": "minecraft:program/glowing/overlay",
             "inputs": [
                 {
-                    "sampler_name": "Main",
+                    "sampler_name": "In",
                     "target": "swap"
-                },
-                {
-                    "sampler_name": "ControlSamplero",
-                    "target": "controllero"
                 },
                 {
                     "sampler_name": "MainDepth",
@@ -226,10 +222,14 @@
                     "use_depth_buffer": true
                 },
                 {
-                    "sampler_name": "GlowingSampler",
+                    "sampler_name": "Glowing",
                     "location": "glowing",
                     "width":  428,
                     "height": 241
+                },
+                {
+                    "sampler_name": "Control",
+                    "target": "controller3"
                 }
             ],
             "output": "final"

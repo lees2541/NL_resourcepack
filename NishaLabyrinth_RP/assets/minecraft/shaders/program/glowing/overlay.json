@@ -2,10 +2,9 @@
     "vertex": "minecraft:program/toggler/shader",
     "fragment": "minecraft:program/glowing/overlay",
     "samplers": [
-        { "name": "MainSampler" },
+        { "name": "InSampler" },
         { "name": "ControlSampler" },
-        { "name": "GlowingSampler"},
-        { "name": "ControlSampler" }
+        { "name": "GlowingSampler"}
     ],
     "uniforms": [
         { "name": "ProjMat",    "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
