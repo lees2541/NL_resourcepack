@@ -2,9 +2,9 @@
     "vertex": "minecraft:program/toggler/shader",
     "fragment": "minecraft:program/toggler/shader",
     "samplers": [
-        { "name": "DiffuseSampler" },
+        { "name": "MainSampler" },
         { "name": "ControlSampler" },
-        { "name": "DiffuseDepthSampler" },
+        { "name": "MainDepthSampler" },
         { "name": "DebuffSampler" },
         { "name": "BuffSampler" }
     ],

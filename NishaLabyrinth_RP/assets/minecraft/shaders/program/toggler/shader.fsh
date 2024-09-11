@@ -2,8 +2,8 @@
 
 
 // mix의 세번째 인자를 0.5로 츄라이
-uniform sampler2D DiffuseSampler;
-uniform sampler2D DiffuseDepthSampler;
+uniform sampler2D MainSampler;
+uniform sampler2D MainDepthSampler;
 uniform sampler2D ControlSampler;
 uniform sampler2D ControlSamplerf;
 uniform sampler2D DebuffSampler;
@@ -37,7 +37,7 @@ const float exposuref = 0.7; //커질수록 더 밝아진다 기존: 2
 const float AOEF = 2.;// 커질수록 원의 크기가 작아진다 기존:8
 
 void main() {
-    vec4 prev_color  = texture(DiffuseSampler, texCoord);
+    vec4 prev_color  = texture(MainSampler, texCoord);
     vec4 overlay;
     vec4 overlay2;
     //vec4 overlay3;
@@ -51,7 +51,7 @@ void main() {
     float d;
     switch(int(control_color.b * 255.)) {
         case 1:
-            depth = LinearizeDepth(texture(DiffuseDepthSampler, texCoord).r);
+            depth = LinearizeDepth(texture(MainDepthSampler, texCoord).r);
             distance = length(vec3(1., (2.*texCoord - 1.) * vec2(OutSize.x/OutSize.y,1.) * tan(radians(_FOV / 2.))) * depth);
 
             uv = texCoord;
@@ -60,7 +60,7 @@ void main() {
             fragColor = vec4(fragColor.rgb*clamp(1.0 + d,0.1,10.0),1.0);
             break;
         case 2:
-            depth = LinearizeDepth(texture(DiffuseDepthSampler, texCoord).r);
+            depth = LinearizeDepth(texture(MainDepthSampler, texCoord).r);
             distance = length(vec3(1., (2.*texCoord - 1.) * vec2(OutSize.x/OutSize.y,1.) * tan(radians(_FOV / 2.))) * depth);
 
             uv = texCoord;
@@ -69,7 +69,7 @@ void main() {
             fragColor = vec4(fragColor.rgb*clamp(1.0 + d,0.1,10.0),1.0);
             break;
         /*case 1:
-            float depth = LinearizeDepth(texture(DiffuseDepthSampler, texCoord).r);
+            float depth = LinearizeDepth(texture(MainDepthSampler, texCoord).r);
             float distance = length(vec3(1., (2.*texCoord - 1.) * vec2(OutSize.x/OutSize.y,1.) * tan(radians(_FOV / 2.))) * depth);
 
             vec2 uv = texCoord;
@@ -78,7 +78,7 @@ void main() {
             fragColor = vec4(fragColor.rgb*clamp(1.0 + d,0.1,10.0),1.0);
             break;
         case 2:
-            float depth = LinearizeDepth(texture(DiffuseDepthSampler, texCoord).r);
+            float depth = LinearizeDepth(texture(MainDepthSampler, texCoord).r);
             float distance = length(vec3(1., (2.*texCoord - 1.) * vec2(OutSize.x/OutSize.y,1.) * tan(radians(_FOV / 2.))) * depth);
 
             vec2 uv = texCoord;
@@ -131,7 +131,7 @@ void main() {
                 break;
             case 255:
                 break;
-            } 
+        } 
     }
     
 	/*if(overlay.a > 0.0) {

@@ -1,8 +1,8 @@
 #version 150
 
 #moj_import <light.glsl>
-#moj_import <fog.glsl>
-#moj_import <emissive_utils.glsl>
+#moj_import <minecraft:fog.glsl>
+#moj_import <minecraft:emissive_utils.glsl>
 
 in vec3 Position;
 in vec4 Color;

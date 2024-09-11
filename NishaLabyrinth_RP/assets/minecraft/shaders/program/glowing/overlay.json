@@ -2,7 +2,7 @@
     "vertex": "minecraft:program/toggler/shader",
     "fragment": "minecraft:program/glowing/overlay",
     "samplers": [
-        { "name": "DiffuseSampler" },
+        { "name": "MainSampler" },
         { "name": "ControlSampler" },
         { "name": "GlowingSampler"},
         { "name": "ControlSampler" }

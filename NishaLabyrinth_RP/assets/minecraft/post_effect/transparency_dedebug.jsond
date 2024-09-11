@@ -168,7 +168,7 @@
             "program": "minecraft:program/toggler/shader",
             "inputs": [
                 {
-                    "sampler_name": "Main",
+                    "sampler_name": "Diffuse",
                     "target": "swap"
                 },
                 {
@@ -180,7 +180,7 @@
                     "target": "controller"
                 },
                 {
-                    "sampler_name": "MainDepth",
+                    "sampler_name": "DiffuseDepthSampler",
                     "target": "minecraft:main",
                     "use_depth_buffer": true
                 },
@@ -213,7 +213,7 @@
             "program": "minecraft:program/glowing/overlay",
             "inputs": [
                 {
-                    "sampler_name": "Main",
+                    "sampler_name": "Diffuse",
                     "target": "swap"
                 },
                 {
@@ -221,7 +221,7 @@
                     "target": "controllero"
                 },
                 {
-                    "sampler_name": "MainDepth",
+                    "sampler_name": "DiffuseDepthSampler",
                     "target": "minecraft:main",
                     "use_depth_buffer": true
                 },
@@ -248,15 +248,15 @@
             "program": "minecraft:program/toggler/sobel",
             "inputs": [
                 {
-                    "sampler_name": "Main",
+                    "sampler_name": "Diffuse",
                     "target": "swap"
                 },
                 {
-                    "sampler_name": "Control",
+                    "sampler_name": "ControlSampler",
                     "target": "controller"
                 },
                 {
-                    "sampler_name": "MainDepth",
+                    "sampler_name": "DiffuseDepthSampler",
                     "target": "minecraft:main",
                     "use_depth_buffer": true
                 }

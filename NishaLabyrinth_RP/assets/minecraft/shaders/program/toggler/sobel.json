@@ -2,7 +2,7 @@
     "vertex": "minecraft:program/toggler/sobel",
     "fragment": "minecraft:program/toggler/sobel",
     "samplers": [
-        { "name": "DiffuseSampler" },
+        { "name": "MainSampler" },
         { "name": "ControlSampler" }
     ],
     "uniforms": [

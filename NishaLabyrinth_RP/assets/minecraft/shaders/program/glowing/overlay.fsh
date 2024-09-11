@@ -2,7 +2,7 @@
 
 
 // mix의 세번째 인자를 0.5로 츄라이
-uniform sampler2D DiffuseSampler;
+uniform sampler2D MainSampler;
 uniform sampler2D ControlSamplero;
 uniform sampler2D GlowingSampler;
 
@@ -20,7 +20,7 @@ out vec4 fragColor;
 
 
 void main() {
-    vec4 prev_color  = texture(DiffuseSampler, texCoord);
+    vec4 prev_color  = texture(MainSampler, texCoord);
     vec4 overlay3;
     //vec4 overlay3;
 	fragColor = prev_color;

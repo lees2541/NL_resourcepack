@@ -1,12 +1,6 @@
 {
-    "vertex": "core/particle",
-    "fragment": "core/particle",
-    "attributes": [
-        "Position",
-        "UV0",
-        "Color",
-        "UV2"
-    ],
+    "vertex": "minecraft:core/particle",
+    "fragment": "minecraft:core/particle",
     "samplers": [
         { "name": "Sampler0" },
         { "name": "Sampler2" }
