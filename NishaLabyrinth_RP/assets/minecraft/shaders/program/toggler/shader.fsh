@@ -2,7 +2,7 @@
 
 
 // mix의 세번째 인자를 0.5로 츄라이
-uniform sampler2D MainSampler;
+uniform sampler2D InSampler;
 uniform sampler2D MainDepthSampler;
 uniform sampler2D ControlSampler;
 uniform sampler2D ControlSamplerf;
@@ -37,7 +37,7 @@ const float exposuref = 0.7; //커질수록 더 밝아진다 기존: 2
 const float AOEF = 2.;// 커질수록 원의 크기가 작아진다 기존:8
 
 void main() {
-    vec4 prev_color  = texture(MainSampler, texCoord);
+    vec4 prev_color  = texture(InSampler, texCoord);
     vec4 overlay;
     vec4 overlay2;
     //vec4 overlay3;
