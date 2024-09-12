@@ -1,9 +1,9 @@
 {
-    "vertex": "minecraft:program/toggler/shader",
+    "vertex": "minecraft:program/glowing/shader",
     "fragment": "minecraft:program/glowing/overlay",
     "samplers": [
         { "name": "InSampler" },
-        { "name": "ControlSampler" },
+        { "name": "Control3Sampler" },
         { "name": "GlowingSampler"}
     ],
     "uniforms": [

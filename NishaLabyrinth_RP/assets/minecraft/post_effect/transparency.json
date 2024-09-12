@@ -222,14 +222,14 @@
                     "use_depth_buffer": true
                 },
                 {
+                    "sampler_name": "Control3",
+                    "target": "controller3"
+                },
+                {
                     "sampler_name": "Glowing",
                     "location": "glowing",
                     "width":  428,
                     "height": 241
-                },
-                {
-                    "sampler_name": "Control",
-                    "target": "controller3"
                 }
             ],
             "output": "final"
