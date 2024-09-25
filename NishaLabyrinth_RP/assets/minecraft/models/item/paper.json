@@ -20,5 +20,7 @@
 		,{"predicate": {"custom_model_data":3000014}, "model": "block/custom/maseok"}
 		,{"predicate": {"custom_model_data":3001001}, "model": "item/custom/explorer/survivor/survivor_perk_x"}
 		,{"predicate": {"custom_model_data":3001002}, "model": "item/custom/explorer/survivor/survivor_perk_y"}
+		,{"predicate": {"custom_model_data":3002001}, "model": "item/custom/explorer/wizard/wizard_perk_x"}
+		,{"predicate": {"custom_model_data":3002002}, "model": "item/custom/explorer/wizard/wizard_perk_y"}
 	]
 }

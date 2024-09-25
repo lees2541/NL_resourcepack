@@ -2,13 +2,13 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "item/custom/wizard_tool"
+		"layer0": "item/custom/wizard_perk_y"
 	},
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [90.6, 5.24, 0.26],
-			"translation": [-0.5, 1.25, 2],
-			"scale": [0.44726, 0.44726, 0]
+			"rotation": [156.29, -86.27, 157.36],
+			"translation": [0.25, 1, 0],
+			"scale": [0.6875, 0.68359, 0.47851]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, 90, 130],
@@ -16,9 +16,9 @@
 			"scale": [1.25, 1.25, 1]
 		},
 		"firstperson_righthand": {
-			"rotation": [-18.81, -39.17, -2.72],
-			"translation": [4.5, 1.75, -4.25],
-			"scale": [0.82469, 0.82664, 0]
+			"rotation": [-29.51, -42.52, 11.08],
+			"translation": [4.25, 0.25, -3],
+			"scale": [0.95945, 0.95945, 0.95945]
 		},
 		"firstperson_lefthand": {
 			"rotation": [-7, 115, -67],
@@ -26,13 +26,14 @@
 			"scale": [0.84, 1, 0.87]
 		},
 		"ground": {
-			"translation": [0, 4, 0],
-			"scale": [1, 1, 0]
+			"translation": [0, 4, 0]
 		},
 		"gui": {
-			"rotation": [0.99, -2.42, -0.37],
-			"translation": [0.25, 0.25, -5],
-			"scale": [1.03906, 1.03906, 1.03906]
+			"rotation": [-161.91, 1.21, 178.17],
+			"translation": [0, 0, -5]
+		},
+		"fixed": {
+			"rotation": [0, 0, -4.5]
 		}
 	}
 }

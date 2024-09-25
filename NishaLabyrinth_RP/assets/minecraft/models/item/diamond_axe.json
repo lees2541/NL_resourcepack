@@ -10,6 +10,7 @@
   {"predicate": {"custom_model_data":80002}, "model": "block/custom/imprison1"},
   {"predicate": {"custom_model_data":80003}, "model": "block/custom/imprison2"},
   {"predicate": {"custom_model_data":80004}, "model": "block/custom/imprison3"},
-  {"predicate": {"custom_model_data":80005}, "model": "block/custom/statue"}
+  {"predicate": {"custom_model_data":80005}, "model": "block/custom/statue"},
+  {"predicate": {"custom_model_data":80006}, "model": "block/custom/survivor_protein"}
  ]
 }
