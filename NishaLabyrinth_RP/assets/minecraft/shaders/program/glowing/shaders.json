@@ -1,12 +1,6 @@
 {
-    "blend": {
-        "func": "add",
-        "srcrgb": "one",
-        "dstrgb": "zero"
-    },
-    "vertex": "sobel",
-    "fragment": "glowing/shaders",
-    "attributes": [ "Position" ],
+    "vertex": "minecraft:post/sobel",
+    "fragment": "minecraft:program/glowing/shaders",
     "samplers": [
         { "name": "DiffuseSampler" },
         { "name": "DataSampler" },
@@ -17,7 +11,7 @@
         { "name": "ProjMat",  "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
         { "name": "InSize",   "type": "float",     "count": 2,  "values": [ 1.0, 1.0 ] },
         { "name": "OutSize",  "type": "float",     "count": 2,  "values": [ 1.0, 1.0 ] },
-        { "name": "Time",         "type": "float",     "count": 1,  "values": [ 0.0 ] },
+        { "name": "GameTime",         "type": "float",     "count": 1,  "values": [ 0.0 ] },
         { "name": "Frequency",    "type": "float",     "count": 2,  "values": [ 13.0, 10.0 ] },
         { "name": "WobbleAmount", "type": "float",     "count": 2,  "values": [ 0.02, 0.05 ] }
     ]

@@ -1,17 +1,10 @@
 {
-    "blend": {
-        "func": "add",
-        "srcrgb": "one",
-        "dstrgb": "zero"
-    },
-    "vertex": "toggler/shader",
-    "fragment": "glowing/overlay",
-    "attributes": [ "Position" ],
+    "vertex": "minecraft:program/glowing/shader",
+    "fragment": "minecraft:program/glowing/overlay",
     "samplers": [
-        { "name": "DiffuseSampler" },
-        { "name": "ControlSampler" },
-        { "name": "GlowingSampler"},
-        { "name": "ControlSampler" }
+        { "name": "InSampler" },
+        { "name": "Control3Sampler" },
+        { "name": "GlowingSampler"}
     ],
     "uniforms": [
         { "name": "ProjMat",    "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },

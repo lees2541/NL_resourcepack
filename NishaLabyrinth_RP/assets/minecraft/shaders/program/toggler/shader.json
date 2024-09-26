@@ -1,18 +1,13 @@
 {
-    "blend": {
-        "func": "add",
-        "srcrgb": "one",
-        "dstrgb": "zero"
-    },
-    "vertex": "toggler/shader",
-    "fragment": "toggler/shader",
-    "attributes": [ "Position" ],
+    "vertex": "minecraft:program/toggler/shader",
+    "fragment": "minecraft:program/toggler/shader",
     "samplers": [
-        { "name": "DiffuseSampler" },
+        { "name": "InSampler" },
         { "name": "ControlSampler" },
-        { "name": "DiffuseDepthSampler" },
+        { "name": "MainDepthSampler" },
         { "name": "DebuffSampler" },
-        { "name": "BuffSampler" }
+        { "name": "BuffSampler" },
+        {"name": "Control2Sampler"}
     ],
     "uniforms": [
         { "name": "ProjMat",    "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },

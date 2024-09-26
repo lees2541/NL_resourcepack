@@ -1,6 +1,6 @@
 #version 150
 
-uniform sampler2D DiffuseSampler;
+uniform sampler2D InSampler;
 
 in vec2 texCoord; //in -> in
 in vec2 oneTexel; //in -> in
@@ -18,8 +18,8 @@ void main() {
     if (texCoord.x > 0.99 && texCoord.y > 0.99) {
         for(float i = 0.0; i <= 1.0; i += checkGridSpacing) {
             for(float j = 0.0; j <= 1.0; j += checkGridSpacing) {
-                if(texture(DiffuseSampler, vec2(i, j)).rgb != vec3(0.0, 0.0, 0.0)) {
-                    fragColor = texture(DiffuseSampler, vec2(i, j));
+                if(texture(InSampler, vec2(i, j)).rgb != vec3(0.0, 0.0, 0.0)) {
+                    fragColor = texture(InSampler, vec2(i, j));
                     if(fragColor.rgb==vec3(1.0,1.0,1.0)){
                         fragColor = vec4(1.0, 1.0, 1.0, 1.0);
                     }

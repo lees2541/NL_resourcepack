@@ -1,6 +1,6 @@
 {
     "vertex": "minecraft:program/toggler/copy",
-    "fragment": "minecraft:program/toggler/findcolor",
+    "fragment": "minecraft:program/toggler/findcolor3",
     "samplers": [
         { "name": "InSampler" },
         { "name": "ParticlesSampler" }

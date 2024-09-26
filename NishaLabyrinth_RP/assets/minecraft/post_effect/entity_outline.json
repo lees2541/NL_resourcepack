@@ -1,0 +1,48 @@
+{
+    "targets": {
+        "swap":{},
+        "final":{},
+        "data":{},
+        "dataf":{}
+    },
+    "passes": [
+        {
+            "program": "minecraft:program/glowing/save_info",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "minecraft:entity_outline",
+                    "bilinear": true
+                }
+            ],
+            "output": "data"
+        },
+        {
+            "program": "minecraft:program/glowing/entity_outline",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "minecraft:entity_outline",
+                    "bilinear": true
+                },
+                {
+                    "sampler_name": "DataSampler",
+                    "target": "data"
+                }
+            ],
+            "output": "swap"
+            
+        },
+        {
+            "program": "minecraft:post/blit",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "swap",
+                    "bilinear": true
+                }
+            ],
+            "output": "minecraft:entity_outline"
+        }
+    ]
+}

@@ -1,16 +1,6 @@
 {
-    "blend": {
-        "func": "add",
-        "srcrgb": "srcalpha",
-        "dstrgb": "1-srcalpha"
-    },
-    "vertex": "rendertype_outline",
-    "fragment": "rendertype_outline",
-    "attributes": [
-        "Position",
-        "Color",
-        "UV0"
-    ],
+    "vertex": "minecraft:core/rendertype_outline",
+    "fragment": "minecraft:core/rendertype_outline",
     "samplers": [
         { "name": "Sampler0" }
     ],

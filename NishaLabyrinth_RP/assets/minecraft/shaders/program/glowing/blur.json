@@ -1,12 +1,6 @@
 {
-    "blend": {
-        "func": "add",
-        "srcrgb": "one",
-        "dstrgb": "zero"
-    },
-    "vertex": "sobel",
-    "fragment": "glowing/blur",
-    "attributes": [ "Position" ],
+    "vertex": "minecraft:post/sobel",
+    "fragment": "minecraft:program/glowing/blur",
     "samplers": [
         { "name": "DiffuseSampler" }
     ],
