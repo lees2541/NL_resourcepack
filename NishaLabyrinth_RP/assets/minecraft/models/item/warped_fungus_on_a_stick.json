@@ -7,9 +7,9 @@
 		{"predicate": {"custom_model_data":1001501}, "model": "item/custom/explorer/survivor/survivor_tool"}
 		,{"predicate": {"custom_model_data":1001502}, "model": "item/custom/explorer/survivor/survivor_tool_x"}
 		,{"predicate": {"custom_model_data":1001503}, "model": "item/custom/explorer/survivor/survivor_tool_y"}
-		,{"predicate": {"custom_model_data":1002001}, "model": "item/custom/explorer/wizard/wizard_tool"}
-		,{"predicate": {"custom_model_data":1002002}, "model": "item/custom/explorer/wizard/wizard_tool_x"}
-		,{"predicate": {"custom_model_data":1002003}, "model": "item/custom/explorer/wizard/wizard_tool_y"}
+		,{"predicate": {"custom_model_data":1002001}, "model": "block/custom/wizard_tool"}
+		,{"predicate": {"custom_model_data":1002002}, "model": "block/custom/wizard_tool_x"}
+		,{"predicate": {"custom_model_data":1002003}, "model": "block/custom/wizard_tool_y"}
 		,{"predicate": {"custom_model_data":1003055}, "model": "item/custom/explorer/swordsman/hwang_sword_broken_dust"}		
 		,{"predicate": {"custom_model_data":1003195}, "model": "item/custom/explorer/swordsman/hwang_sword_1"}
 		,{"predicate": {"custom_model_data":1003196}, "model": "item/custom/explorer/swordsman/hwang_sword_2"}

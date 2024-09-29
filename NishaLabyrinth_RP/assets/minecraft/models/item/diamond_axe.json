@@ -11,6 +11,8 @@
   {"predicate": {"custom_model_data":80003}, "model": "block/custom/imprison2"},
   {"predicate": {"custom_model_data":80004}, "model": "block/custom/imprison3"},
   {"predicate": {"custom_model_data":80005}, "model": "block/custom/statue"},
-  {"predicate": {"custom_model_data":80006}, "model": "block/custom/survivor_protein"}
+  {"predicate": {"custom_model_data":80006}, "model": "block/custom/ghost_girl_test"},
+  {"predicate": {"custom_model_data":80101}, "model": "block/custom/survivor_protein"},
+  {"predicate": {"custom_model_data":80102}, "model": "item/custom/explorer/survivor/survivor_cooked"}
  ]
 }
