@@ -1,0 +1,43 @@
+{
+    "model": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:count",
+      "normalize": false,
+      "scale": 1,
+      "entries": [
+        {
+          "threshold": 3,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/acacia_slab",
+            "tints": []
+          }
+        },
+        {
+          "threshold": 2,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/cobblestone",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": 15011856
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/bamboo_button"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/snowball"
+      }
+    },
+    "hand_animation_on_swap": true
+  }
