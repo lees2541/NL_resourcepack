@@ -1,5 +1,39 @@
 {
-    "model": {
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "cases": [
+        {
+          "when": "explorer",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "cases": [
+              {
+                "when": "magician",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/custom/explorer/wizard/broken_orb"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "when": "roamer",
+          "model": {
+            "type": "minecraft:bundle/selected_item"
+          }
+        }
+      ]
+    },
+    "on_false": {
       "type": "minecraft:select",
       "property": "minecraft:custom_model_data",
       "index": 0,
@@ -85,6 +119,7 @@
           }
         }
       ]
-    },
-    "hand_animation_on_swap": false
-  }
+    }
+  },
+  "hand_animation_on_swap": false
+}
