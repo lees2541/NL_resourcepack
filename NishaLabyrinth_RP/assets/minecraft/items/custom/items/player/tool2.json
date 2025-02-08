@@ -1,0 +1,56 @@
+{
+    "model": {
+      "type": "minecraft:condition",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "on_true": {
+        "type": "minecraft:empty"
+      },
+      "on_false": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "explorer",
+            "model": {
+              "type": "minecraft:select",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "cases": [
+                {
+                  "when": "magician",
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:damage",
+                    "normalize": true,
+                    "scale": 1,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "minecraft:item/custom/explorer/wizard/broken_orb"
+                        }
+                      }
+                    ],
+                    "fallback": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/custom/explorer/wizard/crystal_orb"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "roamer",
+            "model": {
+              "type": "minecraft:empty"
+            }
+          }
+        ]
+      }
+    },
+    "hand_animation_on_swap": true
+  }

@@ -1,0 +1,22 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 1,
+    "cases": [
+      {
+        "when": [
+          "80000"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "block/custom/staff"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_axe"
+    }
+  }
+}

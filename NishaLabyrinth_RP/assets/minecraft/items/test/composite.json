@@ -1,0 +1,40 @@
+{
+    "model": {
+      "type": "minecraft:composite",
+      "property": "minecraft:bundle/has_selected_item",
+      "on_true": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "scale": 1,
+        "entries": [
+          {
+            "threshold": 1,
+            "model": {
+              "type": "minecraft:composite",
+              "models": []
+            }
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:bundle/selected_item"
+      },
+      "models": [
+        {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/custom/test/test",
+              "tints": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:block/acacia_slab"
+        }
+      ]
+    }
+  }
