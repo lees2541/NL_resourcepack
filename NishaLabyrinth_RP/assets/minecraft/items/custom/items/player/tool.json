@@ -19,7 +19,7 @@
                 "when": "magician",
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/custom/explorer/wizard/broken_orb"
+                  "model": "explorer/magician/tool/broken_orb"
                 }
               }
             ]
@@ -57,21 +57,21 @@
                       "threshold": 1,
                       "model": {
                         "type": "minecraft:model",
-                        "model": "minecraft:item/custom/explorer/survivor/survivor_tool"
+                        "model": "explorer/survivor/tool/survivor_tool"
                       }
                     },
                     {
                       "threshold": 2,
                       "model": {
                         "type": "minecraft:model",
-                        "model": "minecraft:item/custom/explorer/survivor/survivor_tool_x"
+                        "model": "explorer/survivor/tool/survivor_tool_x"
                       }
                     },
                     {
                       "threshold": 3,
                       "model": {
                         "type": "minecraft:model",
-                        "model": "minecraft:item/custom/explorer/survivor/survivor_tool_y"
+                        "model": "explorer/survivor/tool/survivor_tool_y"
                       }
                     }
                   ]
@@ -89,21 +89,21 @@
                       "threshold": 1,
                       "model": {
                         "type": "minecraft:model",
-                        "model": "minecraft:item/custom/explorer/wizard/wizard_tool"
+                        "model": "explorer/magician/magician_tool"
                       }
                     },
                     {
                       "threshold": 2,
                       "model": {
                         "type": "minecraft:model",
-                        "model": "minecraft:item/custom/explorer/wizard/wizard_tool_x"
+                        "model": "explorer/magician/tool/magician_tool_x"
                       }
                     },
                     {
                       "threshold": 3,
                       "model": {
                         "type": "minecraft:model",
-                        "model": "minecraft:item/custom/explorer/wizard/wizard_tool_y"
+                        "model": "explorer/magician/magician_tool_y"
                       }
                     }
                   ]

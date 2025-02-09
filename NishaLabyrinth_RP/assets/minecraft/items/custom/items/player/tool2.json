@@ -30,13 +30,13 @@
                         "threshold": 0.5,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "minecraft:item/custom/explorer/wizard/broken_orb"
+                          "model": "explorer/magician/tool/broken_orb"
                         }
                       }
                     ],
                     "fallback": {
                       "type": "minecraft:model",
-                      "model": "minecraft:item/custom/explorer/wizard/crystal_orb"
+                      "model": "explorer/magician/tool/crystal_orb"
                     }
                   }
                 }
