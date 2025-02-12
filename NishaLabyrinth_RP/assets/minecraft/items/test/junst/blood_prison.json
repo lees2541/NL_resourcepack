@@ -1,0 +1,8 @@
+{
+    "model": {
+      "type": "minecraft:model",
+      "model": "minecraft:explorer/magician/image/magician_blood_prison",
+      "tints": []
+    },
+    "hand_animation_on_swap": false
+  }
