@@ -52,5 +52,5 @@
         ]
       }
     },
-    "hand_animation_on_swap": true
+    "hand_animation_on_swap": false
   }

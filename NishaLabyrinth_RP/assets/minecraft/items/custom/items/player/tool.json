@@ -89,7 +89,7 @@
                       "threshold": 1,
                       "model": {
                         "type": "minecraft:model",
-                        "model": "explorer/magician/magician_tool"
+                        "model": "explorer/magician/tool/magician_tool"
                       }
                     },
                     {
@@ -103,7 +103,7 @@
                       "threshold": 3,
                       "model": {
                         "type": "minecraft:model",
-                        "model": "explorer/magician/magician_tool_y"
+                        "model": "explorer/magician/tool/magician_tool_y"
                       }
                     }
                   ]

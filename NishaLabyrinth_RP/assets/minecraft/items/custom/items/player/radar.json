@@ -16,21 +16,21 @@
             "threshold": 1,
             "model": {
               "type": "minecraft:model",
-              "model": "block/custom/safe"
+              "model": "item/radar/safe"
             }
           },
           {
             "threshold": 2,
             "model": {
               "type": "minecraft:model",
-              "model": "block/custom/alert"
+              "model": "item/radar/alert"
             }
           },
           {
             "threshold": 3,
             "model": {
               "type": "minecraft:model",
-              "model": "block/custom/danger"
+              "model": "item/radar/danger"
             }
           }
         ],
