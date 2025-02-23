@@ -1,177 +1,292 @@
 {
-    "targets": [
-        { "name": "controller", "width": 8, "height": 16 },  
-        { "name": "controllerSwap", "width": 8, "height": 16 },
-        { "name": "controllerf", "width": 8, "height": 16 },
-        { "name": "controllerSwapf", "width": 8, "height": 16 },
-        { "name": "controllero", "width": 8, "height": 16 },
-        { "name": "controllerSwapo", "width": 8, "height": 16 },
-        "water",
-        "translucent",
-        "itemEntity",
-        "particles",
-        "clouds",
-        "weather",
-        "final",
-        "swap",
-        "swap1",
-		"previous"
-    ],
+    "targets": {
+        "final": {},
+        "swap": {},
+        "swap1": {},
+		"previous": {},
+        "controller": {"width":8, "height":16},  
+        "controller_swap": {"width":8, "height":16},
+        "controller2": {"width":8, "height":16},
+        "controller_swap2": {"width":8, "height":16},
+        "controller3": {"width":8, "height":16},
+        "controller_swap3": {"width":8, "height":16}
+    },
     "passes": [
         {
-            "name": "toggler/copy",
-            "intarget": "controllero",
-            "outtarget": "controllerSwapo"
+            "vertex_shader": "minecraft:program/toggler/copy",
+            "fragment_shader": "minecraft:post/blit",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "controller3"
+                }
+            ],
+            "output": "controller_swap3"
         },
         {
-            "name": "toggler/findcoloro",
-            "intarget": "controllerSwapo",
-            "outtarget": "controllero",
-            "auxtargets": [
+            "vertex_shader": "minecraft:program/toggler/copy",
+            "fragment_shader": "minecraft:program/toggler/findcolor3",
+            "inputs": [
                 {
-                    "name": "ParticleSampler",
-                    "id": "particles"
+                    "sampler_name": "In",
+                    "target": "controller_swap3"
+                },
+                {
+                    "sampler_name": "Particles",
+                    "target": "minecraft:particles"
                 }
-            ]
+            ],
+            "output": "controller3"
         },
 		{
-            "name": "toggler/copy",
-            "intarget": "controllerf",
-            "outtarget": "controllerSwapf"
-        },
-        {
-            "name": "toggler/findcolorf",
-            "intarget": "controllerSwapf",
-            "outtarget": "controllerf",
-            "auxtargets": [
+            "vertex_shader": "minecraft:program/toggler/copy",
+            "fragment_shader": "minecraft:post/blit",
+            "inputs": [
                 {
-                    "name": "ParticleSampler",
-                    "id": "particles"
+                    "sampler_name": "In",
+                    "target": "controller2"
                 }
-            ]
+            ],
+            "output": "controller_swap2"
         },
         {
-            "name": "toggler/copy",
-            "intarget": "controller",
-            "outtarget": "controllerSwap"
-        },
-        {
-            "name": "toggler/findcolor",
-            "intarget": "controllerSwap",
-            "outtarget": "controller",
-            "auxtargets": [
+            "vertex_shader": "minecraft:program/toggler/copy",
+            "fragment_shader": "minecraft:program/toggler/findcolor2",
+            "inputs": [
                 {
-                    "name": "ParticleSampler",
-                    "id": "particles"
+                    "sampler_name": "In",
+                    "target": "controller_swap2"
+                },
+                {
+                    "sampler_name": "Particles",
+                    "target": "minecraft:particles"
                 }
-            ]
+            ],
+            "output": "controller2"
         },
         {
-            "name": "toggler/remove",
-            "intarget": "particles",
-            "outtarget": "final"
-        },
-        {
-            "name": "blit",
-            "intarget": "final",
-            "outtarget": "particles"
-        },
-        {
-            "name": "transparency",
-            "intarget": "minecraft:main",
-            "outtarget": "swap",
-            "auxtargets": [
+            "vertex_shader": "minecraft:program/toggler/copy",
+            "fragment_shader": "minecraft:post/blit",
+            "inputs": [
                 {
-                    "name": "DiffuseDepthSampler",
-                    "id": "minecraft:main:depth"
-                },
-                {
-                    "name": "TranslucentSampler",
-                    "id": "translucent"
-                },
-                {
-                    "name": "TranslucentDepthSampler",
-                    "id": "translucent:depth"
-                },
-                {
-                    "name": "ItemEntitySampler",
-                    "id": "itemEntity"
-                },
-                {
-                    "name": "ItemEntityDepthSampler",
-                    "id": "itemEntity:depth"
-                },
-                {
-                    "name": "ParticlesSampler",
-                    "id": "particles"
-                },
-                {
-                    "name": "ParticlesDepthSampler",
-                    "id": "particles:depth"
-                },
-                {
-                    "name": "CloudsSampler",
-                    "id": "clouds"
-                },
-                {
-                    "name": "CloudsDepthSampler",
-                    "id": "clouds:depth"
-                },
-                {
-                    "name": "WeatherSampler",
-                    "id": "weather"
-                },
-                {
-                    "name": "WeatherDepthSampler",
-                    "id": "weather:depth"
+                    "sampler_name": "In",
+                    "target": "controller"
                 }
-            ]
+            ],            
+            "output": "controller_swap"
         },
         {
-            "name": "toggler/shader",
-            "intarget": "swap",
-            "outtarget": "final",
-            "auxtargets": [
-                {"name": "ControlSamplerf","id": "controllerf"},
-                {"name": "ControlSampler","id": "controller"},
-                {"name": "DiffuseDepthSampler","id": "minecraft:main:depth"},
-                {"name": "DebuffSampler","id": "debuff","width":  1712,"height": 11568,"bilinear": false},
-                {"name": "BuffSampler","id": "buff","width":  1712,"height": 11568,"bilinear": false}
-            ]
+            "vertex_shader": "minecraft:program/toggler/copy",
+            "fragment_shader": "minecraft:program/toggler/findcolor",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "controller_swap"
+                },
+                {
+                    "sampler_name": "Particles",
+                    "target": "minecraft:particles"
+                }
+            ],
+            "output": "controller"
         },
         {
-            "name": "blit",
-            "intarget": "final",
-            "outtarget": "swap"
+            "vertex_shader": "minecraft:program/toggler/copy",
+            "fragment_shader": "minecraft:program/toggler/remove",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "minecraft:particles"
+                }
+            ],
+            "output": "final"
         },
         {
-            "name": "glowing/overlay",
-            "intarget": "swap",
-            "outtarget": "final",
-            "auxtargets": [
-                {"name": "ControlSamplero","id": "controllero"},
-                {"name": "DiffuseDepthSampler","id": "minecraft:main:depth"},
-                {"name": "GlowingSampler","id": "glowing","width":  428,"height": 241,"bilinear": false}
-            ]
+            "vertex_shader": "minecraft:post/blit",
+            "fragment_shader": "minecraft:post/blit",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "final"
+                }
+            ],
+            "output": "minecraft:particles"
         },
         {
-            "name": "blit",
-            "intarget": "final",
-            "outtarget": "swap"
+            "vertex_shader": "minecraft:post/screenquad",
+            "fragment_shader": "minecraft:post/transparency",
+            "inputs": [
+                {
+                    "sampler_name": "Main",
+                    "target": "minecraft:main"
+                },
+                {
+                    "sampler_name": "MainDepth",
+                    "target": "minecraft:main",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Translucent",
+                    "target": "minecraft:translucent"
+                },
+                {
+                    "sampler_name": "TranslucentDepth",
+                    "target": "minecraft:translucent",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "ItemEntity",
+                    "target": "minecraft:item_entity"
+                },
+                {
+                    "sampler_name": "ItemEntityDepth",
+                    "target": "minecraft:item_entity",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Particles",
+                    "target": "minecraft:particles"
+                },
+                {
+                    "sampler_name": "ParticlesDepth",
+                    "target": "minecraft:particles",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Clouds",
+                    "target": "minecraft:clouds"
+                },
+                {
+                    "sampler_name": "CloudsDepth",
+                    "target": "minecraft:clouds",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Weather",
+                    "target": "minecraft:weather"
+                },
+                {
+                    "sampler_name": "WeatherDepth",
+                    "target": "minecraft:weather",
+                    "use_depth_buffer": true
+                }
+            ],
+            "output": "swap"
         },
         {
-            "name": "toggler/sobel",
-            "intarget": "swap",
-            "outtarget": "final",
-            "auxtargets": [
-                {"name": "ControlSampler","id": "controller"},
-                {"name": "DiffuseDepthSampler","id": "minecraft:main:depth"}
-            ]
+            "vertex_shader": "minecraft:program/toggler/shader",
+            "fragment_shader": "minecraft:program/toggler/shader",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "swap"
+                },
+                {
+                    "sampler_name": "Control2",
+                    "target": "controller2"
+                },
+                {
+                    "sampler_name": "Control",
+                    "target": "controller"
+                },
+                {
+                    "sampler_name": "MainDepth",
+                    "target": "minecraft:main",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Debuff",
+                    "location": "debuff",
+                    "width":  1712,
+                    "height": 11568
+                },
+                {
+                    "sampler_name": "Buff",
+                    "location": "buff",
+                    "width":  1712,
+                    "height": 11568
+                }
+            ],
+            "output": "final"
         },
         {
-            "name": "blit",
-            "intarget": "final",
-            "outtarget": "minecraft:main"
+            "vertex_shader": "minecraft:post/blit",
+            "fragment_shader": "minecraft:post/blit",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "final"
+                }
+            ],
+            "output": "swap"
+        },
+        {
+            "vertex_shader": "minecraft:program/glowing/shader",
+            "fragment_shader": "minecraft:program/glowing/overlay",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "swap"
+                },
+                {
+                    "sampler_name": "MainDepth",
+                    "target": "minecraft:main",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Control3",
+                    "target": "controller3"
+                },
+                {
+                    "sampler_name": "Glowing",
+                    "location": "glowing",
+                    "width":  428,
+                    "height": 241
+                }
+            ],
+            "output": "final"
+        },
+        {
+            "vertex_shader": "minecraft:post/blit",
+            "fragment_shader": "minecraft:post/blit",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "final"
+                }
+            ],
+            "output": "swap"
+        },
+        {
+            "vertex_shader": "minecraft:program/toggler/sobel",
+            "fragment_shader": "minecraft:program/toggler/sobel",
+            "inputs": [
+                {
+                    "sampler_name": "Main",
+                    "target": "swap"
+                },
+                {
+                    "sampler_name": "Control",
+                    "target": "controller"
+                },
+                {
+                    "sampler_name": "MainDepth",
+                    "target": "minecraft:main",
+                    "use_depth_buffer": true
+                }
+            ],
+            "output": "final"
+        },
+        {
+            "vertex_shader": "minecraft:post/blit",
+            "fragment_shader": "minecraft:post/blit",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "final"
+                }
+            ],
+            "output": "minecraft:main"
         }
 		
 		

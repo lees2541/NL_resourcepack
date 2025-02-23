@@ -5,12 +5,12 @@ uniform vec2 InSize;
 uniform vec2 OutSize;
 uniform vec2 ScreenSize;
 
-uniform sampler2D Control3Sampler;
+//uniform sampler2D Control3Sampler;
 
 out vec2 texCoord;
 
 void main(){
-    float poi = texture(Control3Sampler,vec2(0.0,0.0)).a;
+    //float poi = texture(Control3Sampler,vec2(0.0,0.0)).a;
     // same as blit_copy but you can change if u want
     float x = -1.0; 
     float y = -1.0;

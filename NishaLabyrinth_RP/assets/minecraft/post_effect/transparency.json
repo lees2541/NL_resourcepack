@@ -13,17 +13,31 @@
     },
     "passes": [
         {
-            "program": "minecraft:program/toggler/copy",
+            "vertex_shader": "minecraft:program/toggler/copy",
+            "fragment_shader": "minecraft:post/blit",
             "inputs": [
                 {
                     "sampler_name": "In",
                     "target": "controller3"
                 }
             ],
+            "uniforms": [
+                {
+                    "name": "ColorModulate",
+                    "type": "vec4",
+                    "values": [ 1.0, 1.0, 1.0, 1.0 ]
+                },
+                { 
+                    "name": "OutSize",
+                    "type": "vec2",
+                    "values": [ 1.0, 1.0 ] 
+                }
+            ],
             "output": "controller_swap3"
         },
         {
-            "program": "minecraft:program/toggler/findcolor3",
+            "vertex_shader": "minecraft:program/toggler/copy",
+            "fragment_shader": "minecraft:program/toggler/findcolor3",
             "inputs": [
                 {
                     "sampler_name": "In",
@@ -34,20 +48,41 @@
                     "target": "minecraft:particles"
                 }
             ],
+            "uniforms": [
+                { 
+                    "name": "OutSize",
+                    "type": "vec2",
+                    "values": [ 1.0, 1.0 ] 
+                }
+            ],
             "output": "controller3"
         },
 		{
-            "program": "minecraft:program/toggler/copy",
+            "vertex_shader": "minecraft:program/toggler/copy",
+            "fragment_shader": "minecraft:post/blit",
             "inputs": [
                 {
                     "sampler_name": "In",
                     "target": "controller2"
                 }
             ],
+            "uniforms": [
+                {
+                    "name": "ColorModulate",
+                    "type": "vec4",
+                    "values": [ 1.0, 1.0, 1.0, 1.0 ]
+                },
+                { 
+                    "name": "OutSize",
+                    "type": "vec2",
+                    "values": [ 1.0, 1.0 ] 
+                }            
+            ],
             "output": "controller_swap2"
         },
         {
-            "program": "minecraft:program/toggler/findcolor2",
+            "vertex_shader": "minecraft:program/toggler/copy",
+            "fragment_shader": "minecraft:program/toggler/findcolor2",
             "inputs": [
                 {
                     "sampler_name": "In",
@@ -58,20 +93,41 @@
                     "target": "minecraft:particles"
                 }
             ],
+            "uniforms": [
+                { 
+                    "name": "OutSize",
+                    "type": "vec2",
+                    "values": [ 1.0, 1.0 ] 
+                }            
+            ],
             "output": "controller2"
         },
         {
-            "program": "minecraft:program/toggler/copy",
+            "vertex_shader": "minecraft:program/toggler/copy",
+            "fragment_shader": "minecraft:post/blit",
             "inputs": [
                 {
                     "sampler_name": "In",
                     "target": "controller"
                 }
-            ],            
+            ],
+            "uniforms": [
+                {
+                    "name": "ColorModulate",
+                    "type": "vec4",
+                    "values": [ 1.0, 1.0, 1.0, 1.0 ]
+                },
+                { 
+                    "name": "OutSize",
+                    "type": "vec2",
+                    "values": [ 1.0, 1.0 ] 
+                }  
+            ],      
             "output": "controller_swap"
         },
         {
-            "program": "minecraft:program/toggler/findcolor",
+            "vertex_shader": "minecraft:program/toggler/copy",
+            "fragment_shader": "minecraft:program/toggler/findcolor",
             "inputs": [
                 {
                     "sampler_name": "In",
@@ -82,30 +138,59 @@
                     "target": "minecraft:particles"
                 }
             ],
+            "uniforms": [
+                { 
+                    "name": "OutSize",
+                    "type": "vec2",
+                    "values": [ 1.0, 1.0 ] 
+                },
+                { 
+                    "name": "GameTime",
+                    "type": "float",
+                    "values": [ 1.0 ] 
+                }  
+            ], 
             "output": "controller"
         },
         {
-            "program": "minecraft:program/toggler/remove",
+            "vertex_shader": "minecraft:program/toggler/copy",
+            "fragment_shader": "minecraft:program/toggler/remove",
             "inputs": [
                 {
                     "sampler_name": "In",
                     "target": "minecraft:particles"
                 }
             ],
+            "uniforms": [
+                { 
+                    "name": "OutSize",
+                    "type": "vec2",
+                    "values": [ 1.0, 1.0 ] 
+                }
+            ], 
             "output": "final"
         },
         {
-            "program": "minecraft:post/blit",
+            "vertex_shader": "minecraft:post/blit",
+            "fragment_shader": "minecraft:post/blit",
             "inputs": [
                 {
                     "sampler_name": "In",
                     "target": "final"
                 }
             ],
+            "uniforms": [
+                {
+                    "name": "ColorModulate",
+                    "type": "vec4",
+                    "values": [ 1.0, 1.0, 1.0, 1.0 ]
+                }
+            ],
             "output": "minecraft:particles"
         },
         {
-            "program": "minecraft:post/transparency",
+            "vertex_shader": "minecraft:post/screenquad",
+            "fragment_shader": "minecraft:post/transparency",
             "inputs": [
                 {
                     "sampler_name": "Main",
@@ -165,7 +250,8 @@
             "output": "swap"
         },
         {
-            "program": "minecraft:program/toggler/shader",
+            "vertex_shader": "minecraft:program/toggler/shader",
+            "fragment_shader": "minecraft:program/toggler/shader",
             "inputs": [
                 {
                     "sampler_name": "In",
@@ -197,20 +283,52 @@
                     "height": 11568
                 }
             ],
+            "uniforms": [
+                { 
+                    "name": "OutSize",
+                    "type": "vec2", 
+                    "values": [ 1.0, 1.0 ] 
+                },
+                { 
+                    "name": "_FOV",       
+                    "type": "float",     
+                    "values": [ 70.0 ] 
+                },
+                { 
+                    "name": "DebuffIcons",       
+                    "type": "float",     
+                    "values": [ 12.0 ] 
+                },
+                { 
+                    "name": "BuffIcons",       
+                    "type": "float",     
+                    "values": [ 12.0 ] 
+                }
+                      
+            ], 
             "output": "final"
         },
         {
-            "program": "minecraft:post/blit",
+            "vertex_shader": "minecraft:post/blit",
+            "fragment_shader": "minecraft:post/blit",
             "inputs": [
                 {
                     "sampler_name": "In",
                     "target": "final"
                 }
             ],
+            "uniforms": [
+                {
+                    "name": "ColorModulate",
+                    "type": "vec4",
+                    "values": [ 1.0, 1.0, 1.0, 1.0 ]
+                }
+            ],
             "output": "swap"
         },
         {
-            "program": "minecraft:program/glowing/overlay",
+            "vertex_shader": "minecraft:program/glowing/shader",
+            "fragment_shader": "minecraft:program/glowing/overlay",
             "inputs": [
                 {
                     "sampler_name": "In",
@@ -232,20 +350,36 @@
                     "height": 241
                 }
             ],
+            "uniforms": [
+                { 
+                    "name": "OutSize",
+                    "type": "vec2",
+                    "values": [ 1.0, 1.0 ] 
+                }
+            ], 
             "output": "final"
         },
         {
-            "program": "minecraft:post/blit",
+            "vertex_shader": "minecraft:post/blit",
+            "fragment_shader": "minecraft:post/blit",
             "inputs": [
                 {
                     "sampler_name": "In",
                     "target": "final"
                 }
             ],
+            "uniforms": [
+                {
+                    "name": "ColorModulate",
+                    "type": "vec4",
+                    "values": [ 1.0, 1.0, 1.0, 1.0 ]
+                }
+            ],
             "output": "swap"
         },
         {
-            "program": "minecraft:program/toggler/sobel",
+            "vertex_shader": "minecraft:program/toggler/sobel",
+            "fragment_shader": "minecraft:program/toggler/sobel",
             "inputs": [
                 {
                     "sampler_name": "Main",
@@ -264,11 +398,19 @@
             "output": "final"
         },
         {
-            "program": "minecraft:post/blit",
+            "vertex_shader": "minecraft:post/blit",
+            "fragment_shader": "minecraft:post/blit",
             "inputs": [
                 {
                     "sampler_name": "In",
                     "target": "final"
+                }
+            ],
+            "uniforms": [
+                {
+                    "name": "ColorModulate",
+                    "type": "vec4",
+                    "values": [ 1.0, 1.0, 1.0, 1.0 ]
                 }
             ],
             "output": "minecraft:main"

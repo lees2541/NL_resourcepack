@@ -7,13 +7,13 @@ uniform sampler2D ControlSampler;
 uniform sampler2D GlowingSampler;
 
 
-uniform vec4 ColorModulate;
+//uniform vec4 ColorModulate;
 
-uniform mat4 ProjMat;
-uniform vec2 InSize;
-uniform vec2 OutSize;
-uniform vec2 ScreenSize;
-uniform float _FOV;
+//uniform mat4 ProjMat;
+//uniform vec2 InSize;
+//uniform vec2 OutSize;
+//uniform vec2 ScreenSize;
+//uniform float _FOV;
 
 in vec2 texCoord;
 out vec4 fragColor;

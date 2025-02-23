@@ -3,7 +3,7 @@
 uniform sampler2D InSampler;
 uniform sampler2D ParticlesSampler;
 
-uniform float Time;
+//uniform float Time;
 
 in vec2 texCoord;
 

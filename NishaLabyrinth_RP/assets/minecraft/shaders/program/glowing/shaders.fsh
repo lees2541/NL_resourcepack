@@ -9,7 +9,7 @@ uniform sampler2D ControlSampler;
 in vec2 texCoord; //in -> in
 in vec2 oneTexel; // in -> in
 
-uniform float GameTime;
+//uniform float GameTime;
 uniform vec2 InSize;
 
 uniform vec2 Frequency;
