@@ -1,7 +1,13 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "item/custom/trap"
-    }
-	
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/custom/trap"
+	},
+	"display": {
+		"fixed": {
+			"rotation": [-89, 0, 0],
+			"translation": [0, 0, -7.75]
+		}
+	}
 }
