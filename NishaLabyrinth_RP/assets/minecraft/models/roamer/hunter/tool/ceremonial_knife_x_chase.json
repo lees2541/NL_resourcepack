@@ -17,8 +17,8 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [-50.69, -21.54, 74.41],
-			"translation": [-1.25, 4, -7.75],
-			"scale": [1.26023, 1.15672, 0.44164]
+			"translation": [-2.75, 5.75, -7.75],
+			"scale": [1.39109, 1.30125, 0.44164]
 		},
 		"firstperson_lefthand": {
 			"rotation": [-7, 115, -67],
