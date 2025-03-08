@@ -1,122 +1,241 @@
 {
-    "model": {
-      "type": "minecraft:condition",
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "on_true": {
+      "type": "minecraft:select",
       "property": "minecraft:custom_model_data",
       "index": 0,
-      "on_true": {
-        "type": "minecraft:select",
-        "property": "minecraft:custom_model_data",
-        "index": 0,
-        "cases": [
-          {
-            "when": "explorer",
-            "model": {
-              "type": "minecraft:select",
-              "property": "minecraft:custom_model_data",
-              "index": 1,
-              "cases": [
-                {
-                  "when": "magician",
-                  "model": {
+      "cases": [
+        {
+          "when": "explorer",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "cases": [
+              {
+                "when": "magician",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "explorer/magician/tool/broken_orb"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "when": "roamer",
+          "model": {
+            "type": "minecraft:bundle/selected_item"
+          }
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "cases": [
+        {
+          "when": "explorer",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "cases": [
+              {
+                "when": "survivor",
+                "model": {
+                  "type": "minecraft:range_dispatch",
+                  "property": "minecraft:custom_model_data",
+                  "index": 0,
+                  "scale": 1,
+                  "entries": [
+                    {
+                      "threshold": 0,
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "explorer/survivor/tool/survivor_tool"
+                      }
+                    },
+                    {
+                      "threshold": 1,
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "explorer/survivor/tool/survivor_tool_x"
+                      }
+                    },
+                    {
+                      "threshold": 2,
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "explorer/survivor/tool/survivor_tool_y"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "when": "magician",
+                "model": {
+                  "type": "minecraft:range_dispatch",
+                  "property": "minecraft:custom_model_data",
+                  "index": 0,
+                  "scale": 1,
+                  "entries": [
+                    {
+                      "threshold": 0,
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "explorer/magician/tool/magician_tool"
+                      }
+                    },
+                    {
+                      "threshold": 1,
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "explorer/magician/tool/magician_tool_x"
+                      }
+                    },
+                    {
+                      "threshold": 2,
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "explorer/magician/tool/magician_tool_y"
+                      }
+                    }
+                  ],
+                  "fallback": {
                     "type": "minecraft:model",
-                    "model": "explorer/magician/tool/broken_orb"
+                    "model": "explorer/magician/tool/magician_tool"
                   }
                 }
-              ]
-            }
-          },
-          {
-            "when": "roamer",
-            "model": {
-              "type": "minecraft:bundle/selected_item"
-            }
+              }
+            ]
           }
-        ]
-      },
-      "on_false": {
-        "type": "minecraft:select",
-        "property": "minecraft:custom_model_data",
-        "index": 0,
-        "cases": [
-          {
-            "when": "explorer",
-            "model": {
-              "type": "minecraft:select",
-              "property": "minecraft:custom_model_data",
-              "index": 1,
-              "cases": [
-                {
-                  "when": "survivor",
-                  "model": {
+        },
+        {
+          "when": "roamer",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "cases": [
+              {
+                "when": "hunter",
+                "model": {
+                  "type": "minecraft:range_dispatch",
+                  "property": "minecraft:custom_model_data",
+                  "index": 0,
+                  "scale": 1,
+                  "entries": [
+                    {
+                      "threshold": 0,
+                      "model": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:custom_model_data",
+                        "index": 1,
+                        "scale": 1,
+                        "entries": [
+                          {
+                            "threshold": 0,
+                            "model": {
+                              "type": "minecraft:model",
+                              "model": "minecraft:roamer/hunter/tool/ceremonial_knife"
+                            }
+                          },
+                          {
+                            "threshold": 1,
+                            "model": {
+                              "type": "minecraft:model",
+                              "model": "minecraft:roamer/hunter/tool/ceremonial_knife_chase"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 1,
+                      "model": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:custom_model_data",
+                        "index": 1,
+                        "scale": 1,
+                        "entries": [
+                          {
+                            "threshold": 0,
+                            "model": {
+                              "type": "minecraft:model",
+                              "model": "minecraft:roamer/hunter/tool/ceremonial_knife_x"
+                            }
+                          },
+                          {
+                            "threshold": 1,
+                            "model": {
+                              "type": "minecraft:model",
+                              "model": "minecraft:roamer/hunter/tool/ceremonial_knife_x_chase"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 2,
+                      "model": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:custom_model_data",
+                        "index": 1,
+                        "scale": 1,
+                        "entries": [
+                          {
+                            "threshold": 0,
+                            "model": {
+                              "type": "minecraft:model",
+                              "model": "minecraft:roamer/hunter/tool/ceremonial_knife_y"
+                            }
+                          },
+                          {
+                            "threshold": 1,
+                            "model": {
+                              "type": "minecraft:model",
+                              "model": "minecraft:roamer/hunter/tool/ceremonial_knife_y_chase"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "fallback": {
                     "type": "minecraft:range_dispatch",
                     "property": "minecraft:custom_model_data",
-                    "index": 0,
+                    "index": 1,
                     "scale": 1,
                     "entries": [
                       {
                         "threshold": 0,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "explorer/survivor/tool/survivor_tool"
+                          "model": "minecraft:roamer/hunter/tool/ceremonial_knife"
                         }
                       },
                       {
                         "threshold": 1,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "explorer/survivor/tool/survivor_tool_x"
-                        }
-                      },
-                      {
-                        "threshold": 2,
-                        "model": {
-                          "type": "minecraft:model",
-                          "model": "explorer/survivor/tool/survivor_tool_y"
+                          "model": "minecraft:roamer/hunter/tool/ceremonial_knife_chase"
                         }
                       }
                     ]
                   }
-                },
-                {
-                  "when": "magician",
-                  "model": {
-                    "type": "minecraft:range_dispatch",
-                    "property": "minecraft:custom_model_data",
-                    "index": 0,
-                    "scale": 1,
-                    "entries": [
-                      {
-                        "threshold": 1,
-                        "model": {
-                          "type": "minecraft:model",
-                          "model": "explorer/magician/tool/magician_tool_x"
-                        }
-                      },
-                      {
-                        "threshold": 2,
-                        "model": {
-                          "type": "minecraft:model",
-                          "model": "explorer/magician/tool/magician_tool_y"
-                        }
-                      }
-                    ],
-                    "fallback": {
-                      "type": "minecraft:model",
-                      "model": "explorer/magician/tool/magician_tool"
-                    }
-                  }
                 }
-              ]
-            }
-          },
-          {
-            "when": "roamer",
-            "model": {
-              "type": "minecraft:bundle/selected_item"
-            }
+              }
+            ]
           }
-        ]
-      }
-    },
-    "hand_animation_on_swap": false
-  }
+        }
+      ]
+    }
+  },
+  "hand_animation_on_swap": false
+}
