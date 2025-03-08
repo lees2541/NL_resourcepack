@@ -1,0 +1,8 @@
+{
+    "model": {
+      "type": "minecraft:model",
+      "model": "minecraft:roamer/hunter/tool/ceremonial_knife",
+      "tints": []
+    },
+    "hand_animation_on_swap": false
+  }
