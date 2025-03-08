@@ -1,0 +1,7 @@
+{
+    "model": {
+      "type": "minecraft:model",
+      "model": "explorer/survivor/item/survivor_food"
+    },
+    "hand_animation_on_swap": true
+  }

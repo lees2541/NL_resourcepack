@@ -1,0 +1,18 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/sweet_berries"
+	},
+	"display": {
+		"head": {
+			"rotation": [89.25, 0, 0],
+			"translation": [0, -8.75, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"rotation": [-89, 0, 0],
+			"translation": [0, 0, -7.75]
+		}
+	}
+}
