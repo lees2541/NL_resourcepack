@@ -1,7 +1,7 @@
 {
     "model": {
       "type": "minecraft:model",
-      "model": "image/swamp"
+      "model": "roamer/hunter/item/trap"
     },
     "hand_animation_on_swap": true
   }
