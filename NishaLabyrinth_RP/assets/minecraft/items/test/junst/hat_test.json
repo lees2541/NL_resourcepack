@@ -1,0 +1,57 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "explorer",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "survivor",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:explorer/survivor/skin/survivor_hat"
+              }
+            },
+            {
+              "when": "magician",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:explorer/magician/skin/magician_hat"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "roamer",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "hunter",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:roamer/hunter/skin/hunter_hat"
+              }
+            },
+            {
+              "when": "chopper",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:roamer/chopper/skin/chopper_hat"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
