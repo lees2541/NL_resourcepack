@@ -1,0 +1,8 @@
+{
+    "model": {
+      "type": "minecraft:model",
+      "model": "minecraft:roamer/hunter/item/hunter_perk_y"
+    },
+    "hand_animation_on_swap": false
+  }
+}
