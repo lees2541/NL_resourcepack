@@ -1,7 +1,7 @@
 {
     "model": {
       "type": "minecraft:model",
-      "model": "minecraft:roamer/hunter/item/hunter_perk_y"
+      "model": "minecraft:roamer/hunter/item/hunter_perk_x"
     },
     "hand_animation_on_swap": false
   }
