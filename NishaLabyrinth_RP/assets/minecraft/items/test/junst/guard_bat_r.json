@@ -1,0 +1,8 @@
+{
+    "model": {
+      "type": "minecraft:model",
+      "model": "minecraft:explorer/guard/tool/guard_bat_r",
+      "tints": []
+    },
+    "hand_animation_on_swap": false
+  }
