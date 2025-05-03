@@ -25,6 +25,54 @@
                 "model": "minecraft:explorer/magician/skin/magician_hat"
               }
             }
+            ,
+            {
+              "when": "fisher",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:explorer/fisher/skin/fisher_hat"
+              }
+            },
+            {
+              "when": "thief",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:explorer/thief/skin/thief_hat"
+              }
+            }
+            ,
+            {
+              "when": "swordman",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:explorer/swordman/skin/swordman_hat"
+              }
+            }
+            ,
+            {
+              "when": "blind",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:explorer/blind/skin/blind_hat"
+              }
+              
+            }
+            ,
+            {
+              "when": "soldier",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:explorer/soldier/skin/soldier_hat"
+              }
+            }
+			,
+            {
+              "when": "guard",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:explorer/guard/skin/guard_hat"
+              }
+            }
           ]
         }
       },
@@ -47,6 +95,30 @@
               "model": {
                 "type": "minecraft:model",
                 "model": "minecraft:roamer/chopper/skin/chopper_hat"
+              }
+            }
+            ,
+            {
+              "when": "sniffer",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:roamer/sniffer/skin/sniffer_hat"
+              }
+            }
+            ,
+            {
+              "when": "tellus",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:roamer/tellus/skin/tellus_hat"
+              }
+            }
+            ,
+            {
+              "when": "muffet",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:roamer/muffet/skin/muffet_hat"
               }
             }
           ]
