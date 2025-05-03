@@ -71,7 +71,8 @@
                           {
                             "threshold": 1,
                             "model": {
-                              "type": "minecraft:bundle/selected_item"
+                              "type": "minecraft:model",
+                              "model": "minecraft:explorer/guard/tool/guard_bat_r"
                             }
                           }
                         ]
