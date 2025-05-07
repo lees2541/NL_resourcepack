@@ -70,6 +70,13 @@
             "height": 30,
             "chars": ["\uE171"]
 		},
+				{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/characters/default/guard_headr.png",
+            "ascent": 19,
+            "height": 30,
+            "chars": ["\uE181"]
+		},
 		{
             "type": "bitmap",
             "file": "minecraft:custom/nl/characters/default/hunter_head.png",
