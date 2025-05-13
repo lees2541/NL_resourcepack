@@ -9,14 +9,14 @@
           "threshold": 1,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:block/acacia_door_top_left"
+            "model": "minecraft:explorer/magician/image/magician_x"
           }
         },
         {
           "threshold": 2,
           "model": {
             "type": "minecraft:model",
-            "model": "ㅁㄴㅇㅁㄴ"
+            "model": "minecraft:explorer/magician/image/magician_y"
           }
         }
       ]
