@@ -90,14 +90,14 @@
                             "threshold": 0,
                             "model": {
                               "type": "minecraft:model",
-                              "model": "minecraft:explorer/guard/tool/guard_bat"
+                              "model": "minecraft:explorer/guard/tool/guard_bat_x"
                             }
                           },
                           {
                             "threshold": 1,
                             "model": {
                               "type": "minecraft:model",
-                              "model": "minecraft:explorer/guard/tool/guard_bat_r"
+                              "model": "minecraft:explorer/guard/tool/guard_bat_r_x"
                             }
                           }
                         ]
@@ -115,14 +115,14 @@
                             "threshold": 0,
                             "model": {
                               "type": "minecraft:model",
-                              "model": "minecraft:explorer/guard/tool/guard_bat"
+                              "model": "minecraft:explorer/guard/tool/guard_bat_y"
                             }
                           },
                           {
                             "threshold": 1,
                             "model": {
                               "type": "minecraft:model",
-                              "model": "minecraft:explorer/guard/tool/guard_bat_r"
+                              "model": "minecraft:explorer/guard/tool/guard_bat_r_y"
                             }
                           }
                         ]
