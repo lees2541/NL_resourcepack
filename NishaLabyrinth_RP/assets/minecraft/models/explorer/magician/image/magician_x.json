@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "item/custom/magician_perk_x"
+		"layer0": "item/custom/magician_x"
 	},
 	"display": {
 		"thirdperson_righthand": {

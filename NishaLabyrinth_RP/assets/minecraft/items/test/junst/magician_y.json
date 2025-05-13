@@ -1,0 +1,7 @@
+{
+    "model": {
+      "type": "minecraft:model",
+      "model": "minecraft:explorer/magician/image/magician_y"
+    },
+    "hand_animation_on_swap": false
+  }
