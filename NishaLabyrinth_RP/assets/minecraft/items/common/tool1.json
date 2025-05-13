@@ -81,13 +81,51 @@
                     {
                       "threshold": 1,
                       "model": {
-                        "type": "minecraft:bundle/selected_item"
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:custom_model_data",
+                        "index": 1,
+                        "scale": 1,
+                        "entries": [
+                          {
+                            "threshold": 0,
+                            "model": {
+                              "type": "minecraft:model",
+                              "model": "minecraft:explorer/guard/tool/guard_bat"
+                            }
+                          },
+                          {
+                            "threshold": 1,
+                            "model": {
+                              "type": "minecraft:model",
+                              "model": "minecraft:explorer/guard/tool/guard_bat_r"
+                            }
+                          }
+                        ]
                       }
                     },
                     {
                       "threshold": 2,
                       "model": {
-                        "type": "minecraft:bundle/selected_item"
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:custom_model_data",
+                        "index": 1,
+                        "scale": 1,
+                        "entries": [
+                          {
+                            "threshold": 0,
+                            "model": {
+                              "type": "minecraft:model",
+                              "model": "minecraft:explorer/guard/tool/guard_bat"
+                            }
+                          },
+                          {
+                            "threshold": 1,
+                            "model": {
+                              "type": "minecraft:model",
+                              "model": "minecraft:explorer/guard/tool/guard_bat_r"
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
