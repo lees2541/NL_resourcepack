@@ -1,7 +1,7 @@
 {
     "model": {
       "type": "minecraft:model",
-      "model": "minecraft:item/maseok"
+      "model": "minecraft:npc/ghost"
     },
     "hand_animation_on_swap": false
   }

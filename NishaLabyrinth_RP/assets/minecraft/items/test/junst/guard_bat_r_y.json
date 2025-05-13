@@ -1,7 +1,8 @@
 {
     "model": {
       "type": "minecraft:model",
-      "model": "minecraft:item/maseok"
+      "model": "minecraft:explorer/guard/tool/guard_bat_r_y",
+      "tints": []
     },
     "hand_animation_on_swap": false
   }
