@@ -2,13 +2,13 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "item/custom/magician_perk_x"
+		"layer0": "item/custom/survivor_y"
 	},
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [-161.46, -86.27, 157.36],
+			"rotation": [-33.73, 84.51, -16.39],
 			"translation": [0.25, 1, 0],
-			"scale": [0.34765, 0.34765, 0.34765]
+			"scale": [0.50976, 0.50976, 0.50976]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, 90, 130],
@@ -16,9 +16,9 @@
 			"scale": [1.25, 1.25, 1]
 		},
 		"firstperson_righthand": {
-			"rotation": [-11.12, -29.59, -3.63],
-			"translation": [4, 2.25, -3],
-			"scale": [0.62547, 0.62547, 0.62547]
+			"rotation": [-22.85, -8.24, -32.07],
+			"translation": [4.25, 0.25, -3],
+			"scale": [0.95945, 0.95945, 0.95945]
 		},
 		"firstperson_lefthand": {
 			"rotation": [-7, 115, -67],
@@ -29,12 +29,12 @@
 			"translation": [0, 4, 0]
 		},
 		"gui": {
-			"rotation": [1.96, 3.95, 0.26],
-			"translation": [0.5, 0.25, -5]
+			"rotation": [-11.42, -0.71, -8.23],
+			"translation": [0, 0, -5]
 		},
 		"fixed": {
-			"rotation": [-179.94, -1.75, 177.5],
-			"translation": [-0.25, 0, 0]
+			"rotation": [-180, 5.75, 175.5],
+			"translation": [0, 0.5, 0]
 		}
 	}
 }
