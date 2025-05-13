@@ -1,25 +1,37 @@
 {
-    "model": {
-      "type": "minecraft:range_dispatch",
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "perk1": true
+    },
+    "on_true": {
+      "type": "minecraft:condition",
       "property": "minecraft:custom_model_data",
       "index": 0,
-      "scale": 1,
-      "entries": [
-        {
-          "threshold": 1,
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:explorer/guard/image/guard_x"
-          }
-        },
-        {
-          "threshold": 2,
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:explorer/guard/image/guard_y"
-          }
-        }
-      ]
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:explorer/guard/image/guard_x"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:explorer/guard/image/guard_perk_x"
+      }
     },
-    "hand_animation_on_swap": false
-  }
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:explorer/guard/image/guard_y"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:explorer/guard/image/guard_perk_y"
+      }
+    }
+  },
+  "hand_animation_on_swap": false
+}
