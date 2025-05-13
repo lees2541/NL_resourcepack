@@ -447,5 +447,12 @@
 [
 "guard/guard_roar"
 ]
+},
+"maseok_break":
+{
+"sounds":
+[
+"block/maseok/maseok_break"
+]
 }
 }
