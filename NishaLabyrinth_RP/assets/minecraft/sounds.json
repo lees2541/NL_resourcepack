@@ -454,5 +454,12 @@
 [
 "block/maseok/maseok_break"
 ]
+},
+"jready":
+{
+"sounds":
+[
+"random/jready"
+]
 }
 }
