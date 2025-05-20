@@ -175,6 +175,20 @@
 			}
 		},
 		{
+			"from": [5.5, 9, 5.5],
+			"to": [5.5, 10.5, 6],
+			"light_emission": 10,
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.75, 4, -2]},
+			"faces": {
+				"north": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"down": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"}
+			}
+		},
+		{
 			"from": [11, 4.25, 7.5],
 			"to": [11.75, 5.25, 13.5],
 			"light_emission": 10,
@@ -291,6 +305,48 @@
 			"to": [6.75, 7.5, 6],
 			"light_emission": 10,
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, 5.75, 9]},
+			"faces": {
+				"north": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"down": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 4.5, 14],
+			"to": [9.5, 13.75, 14.5],
+			"light_emission": 10,
+			"rotation": {"angle": 45, "axis": "z", "origin": [10.5, 5.5, 18]},
+			"faces": {
+				"north": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"down": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 13.75, 5.25],
+			"to": [9.5, 14.5, 14.25],
+			"light_emission": 10,
+			"rotation": {"angle": 45, "axis": "z", "origin": [10.5, 5.5, 18]},
+			"faces": {
+				"north": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"down": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 6.75, 5],
+			"to": [9.5, 13.75, 5.5],
+			"light_emission": 10,
+			"rotation": {"angle": 45, "axis": "z", "origin": [10.5, 5.5, 9]},
 			"faces": {
 				"north": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
 				"east": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
