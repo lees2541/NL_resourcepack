@@ -3,15 +3,15 @@
         {
             "type": "bitmap",
             "file": "minecraft:custom/nl/lifestone_slot/lifestone.png",
-            "ascent": -13,
+            "ascent": -9,
             "height": 8,
             "chars": ["\uE611"]
         },
 		{
             "type": "bitmap",
             "file": "minecraft:custom/nl/lifestone_slot/survivor/campfire.png",
-            "ascent": -13,
-            "height": 10,
+            "ascent": -11,
+            "height": 12,
             "chars": ["\uE612"]
         },
 		{
@@ -20,6 +20,13 @@
             "ascent": 13,
             "height": 40,
             "chars": ["\uE613"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/lifestone_slot/survivor/campfire_r.png",
+            "ascent": -2,
+            "height": 12,
+            "chars": ["\uE614"]
         }
     ]
 }

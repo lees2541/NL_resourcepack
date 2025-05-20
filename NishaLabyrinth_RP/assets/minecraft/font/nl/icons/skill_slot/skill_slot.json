@@ -2,24 +2,10 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "minecraft:custom/nl/skill_slot/swordman_block.png",
-            "ascent": -4,
+            "file": "minecraft:custom/nl/skill_slot/guard_bbadda_r.png",
+            "ascent": -2
             "height": 12,
-            "chars": ["\uE633"]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:custom/nl/skill_slot/thief_hide.png",
-            "ascent": -4,
-            "height": 12,
-            "chars": ["\uE635"]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:custom/nl/skill_slot/soldier_quest.png",
-            "ascent": -4,
-            "height": 12,
-            "chars": ["\uE637"]
+            "chars": ["\uE999"]
         }
     ]
 }
