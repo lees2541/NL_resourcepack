@@ -2,10 +2,17 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "minecraft:custom/nl/skill_slot/guard_bbadda_r.png",
-            "ascent": -2
+            "file": "minecraft:custom/nl/skill_slot/guard_bbadda.png",
+            "ascent": -11,
             "height": 12,
-            "chars": ["\uE999"]
+            "chars": ["\uE491"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/skill_slot/guard_bbadda_r.png",
+            "ascent": -2,
+            "height": 12,
+            "chars": ["\uE492"]
         }
     ]
 }

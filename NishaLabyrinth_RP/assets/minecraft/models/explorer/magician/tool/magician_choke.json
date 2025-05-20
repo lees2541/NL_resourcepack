@@ -1,5 +1,4 @@
 {
-	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "item/custom/magician_circle_1",
@@ -122,5 +121,6 @@
 			"translation": [-2, -2, 0],
 			"scale": [0.44727, 0.57227, 0.44727]
 		}
-	}
+	},
+	"format_version": "1.21.6"
 }
