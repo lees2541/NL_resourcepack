@@ -38,14 +38,14 @@
                               "threshold": 1,
                               "model": {
                                 "type": "minecraft:model",
-                                "model": "minecraft:explorer/magician/tool/chalk_in"
+                                "model": "minecraft:explorer/magician/tool/magician_chalk_in"
                               }
                             },
                             {
                               "threshold": 2,
                               "model": {
                                 "type": "minecraft:model",
-                                "model": "minecraft:explorer/magician/tool/chalk_out"
+                                "model": "minecraft:explorer/magician/tool/magician_chalk_out"
                               }
                             }
                           ]
