@@ -59,6 +59,10 @@
         {
             "type": "reference",
             "id": "minecraft:nl/icons/skill_slot/skill_slot"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:nl/icons/de_buff/de_buff"
         }
     ]
 }

@@ -3,8 +3,8 @@
         {
             "type": "bitmap",
             "file": "minecraft:custom/nl/lifestone_slot/lifestone.png",
-            "ascent": -9,
-            "height": 8,
+            "ascent": -12,
+            "height": 6,
             "chars": ["\uE611"]
         },
 		{

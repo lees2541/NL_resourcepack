@@ -3,6 +3,8 @@
 	"textures": {
 		"0": "block/custom/skull_jedan",
 		"1": "block/custom/broken",
+		"2": "block/custom/prison_bone_eye",
+		"3": "item/custom/soul_herb",
 		"particle": "block/custom/skull_jedan"
 	},
 	"elements": [
@@ -329,8 +331,8 @@
 			}
 		},
 		{
-			"from": [4.5, 10.5, 13.5],
-			"to": [11, 12, 14],
+			"from": [4.75, 10.5, 13.5],
+			"to": [10.75, 12, 14],
 			"light_emission": 10,
 			"rotation": {"angle": 0, "axis": "y", "origin": [3.75, 4, 6]},
 			"faces": {
@@ -480,6 +482,46 @@
 				"west": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
 				"up": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
 				"down": {"uv": [2.75, 5.75, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [5.25, 7.75, 6.75],
+			"to": [6, 8.5, 7.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 7.5, 5.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [9.5, 7.75, 6.75],
+			"to": [10.25, 8.5, 7.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, 7.5, 5.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [6.25, 13.5, 9.5],
+			"to": [10, 17.25, 9.5],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 14.25, 9.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 15.875, 16], "texture": "#3"},
+				"east": {"uv": [0, 0, 15.875, 16], "texture": "#3"},
+				"south": {"uv": [15.875, 0, 0, 16], "texture": "#3"},
+				"west": {"uv": [0, 0, 15.875, 16], "texture": "#3"},
+				"up": {"uv": [0, 0, 15.875, 16], "texture": "#3"},
+				"down": {"uv": [0, 0, 15.875, 16], "texture": "#3"}
 			}
 		}
 	],

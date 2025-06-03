@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/debuff/hunter_mark.png",
+            "ascent": -3,
+            "height": 12,
+            "chars": ["\uE215"]
+        }
+    ]
+}
