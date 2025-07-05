@@ -5,7 +5,6 @@
 		"0": "item/custom/magician_portal",
 		"1": "item/custom/white_tree",
 		"2": "item/custom/magician_circle_1",
-		"3": "item/custom/magician_portal_count_1",
 		"5": "item/custom/magician_portal_count_2",
 		"particle": "item/custom/magician_portal"
 	},
@@ -113,12 +112,12 @@
 			"to": [5.25, 1.25, 6],
 			"rotation": {"angle": 0, "axis": "y", "origin": [-0.25, 1.25, 1.25]},
 			"faces": {
-				"north": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#3"},
-				"east": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#3"},
-				"south": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#3"},
-				"west": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#3"},
-				"up": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#3"},
-				"down": {"uv": [-0.23437, -0.23437, 15.84375, 16], "rotation": 180, "texture": "#3"}
+				"north": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#5"},
+				"east": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#5"},
+				"south": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#5"},
+				"west": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#5"},
+				"up": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#5"},
+				"down": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#5"}
 			}
 		},
 		{
