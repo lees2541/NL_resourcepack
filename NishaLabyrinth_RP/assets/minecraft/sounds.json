@@ -475,5 +475,12 @@
 [
 "random/blood_stone_break"
 ]
+},
+"cave_sound1":
+{
+"sounds":
+[
+"random/cave_sound1"
+]
 }
 }
