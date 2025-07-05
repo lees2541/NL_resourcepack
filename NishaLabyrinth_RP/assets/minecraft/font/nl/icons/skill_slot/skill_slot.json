@@ -13,6 +13,13 @@
             "ascent": -2,
             "height": 12,
             "chars": ["\uE492"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/skill_slot/chopper_hungry.png",
+            "ascent": 11,
+            "height": 12,
+            "chars": ["\uE521"]
         }
     ]
 }

@@ -1,0 +1,7 @@
+{
+    "model": {
+      "type": "minecraft:model",
+      "model": "minecraft:explorer/survivor/item/survivor_wood"
+    },
+    "hand_animation_on_swap": false
+  }

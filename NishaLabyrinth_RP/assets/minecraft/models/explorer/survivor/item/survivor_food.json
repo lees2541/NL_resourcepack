@@ -1,18 +1,35 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
 		"layer0": "item/sweet_berries"
 	},
 	"display": {
+		"thirdperson_righthand": {
+			"rotation": [64.75, 0, 0],
+			"translation": [0, 0.25, 0.5],
+			"scale": [0.28516, 0.28516, 0.28516]
+		},
+		"firstperson_righthand": {
+			"translation": [1.25, 2.75, 0],
+			"scale": [0.36133, 0.36133, 0.36133]
+		},
+		"ground": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.4707, 0.4707, 0.4707]
+		},
+		"gui": {
+			"scale": [0.79883, 0.79883, 0.79883]
+		},
 		"head": {
 			"rotation": [89.25, 0, 0],
 			"translation": [0, -8.75, 0],
 			"scale": [0.625, 0.625, 0.625]
 		},
 		"fixed": {
-			"rotation": [-89, 0, 0],
-			"translation": [0, 0, -7.75]
+			"rotation": [-179, 0, 0],
+			"translation": [0, 0, 0.25]
 		}
 	}
 }
