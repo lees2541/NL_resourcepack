@@ -2,15 +2,15 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/custom/maseok",
-		"particle": "item/custom/maseok"
+		"0": "item/totem_of_undying",
+		"particle": "item/totem_of_undying"
 	},
 	"elements": [
 		{
-			"from": [3.25, 0, 6.5],
-			"to": [13.25, 10, 6.5],
+			"from": [3.25, 0, 7.75],
+			"to": [13.25, 10, 7.75],
 			"light_emission": 15,
-			"rotation": {"angle": 0, "axis": "y", "origin": [3.25, 0, 6.5]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [13.25, 0, 7.75]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
@@ -23,24 +23,22 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [71.25, 0, 0],
-			"translation": [0, 1, 3],
-			"scale": [0.51367, 0.51367, 0.51367]
+			"rotation": [73.25, 0, 0],
+			"translation": [0, 1, 2.5],
+			"scale": [0.56641, 0.56641, 0.56641]
 		},
 		"firstperson_righthand": {
-			"translation": [2.5, 4.75, 0],
-			"scale": [0.63281, 0.63281, 0.63281]
+			"rotation": [180, 29.25, 180],
+			"translation": [1, 5.75, 0],
+			"scale": [0.61328, 0.61328, 0.61328]
 		},
 		"ground": {
 			"translation": [0, 4.75, 0]
 		},
 		"gui": {
-			"translation": [-0.5, 5.25, 0],
-			"scale": [1.62305, 1.62305, 1.62305]
-		},
-		"fixed": {
-			"translation": [0, 5.25, 2.75],
-			"scale": [1.68945, 1.68945, 1.68945]
+			"rotation": [180, -2.25, 180],
+			"translation": [0.25, 4.75, 0],
+			"scale": [1.56836, 1.56836, 1.56836]
 		}
 	}
 }

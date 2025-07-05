@@ -5,9 +5,8 @@
 		"0": "item/custom/magician_portal",
 		"1": "item/custom/white_tree",
 		"2": "item/custom/magician_circle_1",
-		"3": "item/custom/magician_portal_count_1",
 		"4": "item/custom/magician_portal_count_3",
-		"5": "item/custom/magician_portal_count_2",
+		"6": "item/custom/magician_portal_3a",
 		"particle": "item/custom/magician_portal"
 	},
 	"elements": [
@@ -112,32 +111,35 @@
 		{
 			"from": [-0.25, 1.25, 1.25],
 			"to": [5.25, 1.25, 6],
+			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [-0.25, 1.25, 1.25]},
 			"faces": {
-				"north": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#3"},
-				"east": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#3"},
-				"south": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#3"},
-				"west": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#3"},
-				"up": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#3"},
-				"down": {"uv": [-0.23437, -0.23437, 15.84375, 16], "rotation": 180, "texture": "#3"}
+				"north": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#6"},
+				"east": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#6"},
+				"south": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#6"},
+				"west": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#6"},
+				"up": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#6"},
+				"down": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 270, "texture": "#6"}
 			}
 		},
 		{
 			"from": [10, 1.25, 0.5],
 			"to": [15.5, 1.25, 5.25],
+			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [10, 1.25, 0.5]},
 			"faces": {
-				"north": {"uv": [-0.23437, -0.23437, 15.84375, 16], "texture": "#5"},
-				"east": {"uv": [-0.23437, -0.23437, 15.84375, 16], "texture": "#5"},
-				"south": {"uv": [-0.23437, -0.23437, 15.84375, 16], "texture": "#5"},
-				"west": {"uv": [-0.23437, -0.23437, 15.84375, 16], "texture": "#5"},
-				"up": {"uv": [-0.23437, -0.23437, 15.84375, 16], "texture": "#5"},
-				"down": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 90, "texture": "#5"}
+				"north": {"uv": [-0.23437, -0.23437, 15.84375, 16], "texture": "#6"},
+				"east": {"uv": [-0.23437, -0.23437, 15.84375, 16], "texture": "#6"},
+				"south": {"uv": [-0.23437, -0.23437, 15.84375, 16], "texture": "#6"},
+				"west": {"uv": [-0.23437, -0.23437, 15.84375, 16], "texture": "#6"},
+				"up": {"uv": [-0.23437, -0.23437, 15.84375, 16], "texture": "#6"},
+				"down": {"uv": [-0.23437, -0.23437, 15.84375, 16], "texture": "#6"}
 			}
 		},
 		{
 			"from": [5.25, 1.25, 12.75],
 			"to": [10.75, 1.25, 17.5],
+			"light_emission": 15,
 			"rotation": {"angle": 22.5, "axis": "y", "origin": [10.75, 1.25, 13.5]},
 			"faces": {
 				"north": {"uv": [-0.23437, -0.23437, 15.84375, 16], "rotation": 90, "texture": "#4"},
