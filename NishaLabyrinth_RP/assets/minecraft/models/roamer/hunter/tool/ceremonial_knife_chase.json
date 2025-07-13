@@ -3,7 +3,6 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "item/custom/ceremonial_knife",
-		"1": "item/custom/wolves",
 		"particle": "item/custom/ceremonial_knife"
 	},
 	"elements": [
@@ -20,45 +19,25 @@
 				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
 			}
-		},
-		{
-			"from": [3.25, 3.95, 6],
-			"to": [10.5, 11.2, 6],
-			"light_emission": 15,
-			"rotation": {"angle": 0, "axis": "y", "origin": [1.25, 2.45, 6]},
-			"faces": {
-				"north": {"uv": [15.875, 16, 0, 0], "texture": "#1"},
-				"east": {"uv": [15.875, 16, 0, 0], "texture": "#1"},
-				"south": {"uv": [16, 15.875, 0, 0], "rotation": 270, "texture": "#1"},
-				"west": {"uv": [15.875, 16, 0, 0], "texture": "#1"},
-				"up": {"uv": [15.875, 16, 0, 0], "texture": "#1"},
-				"down": {"uv": [15.875, 16, 0, 0], "texture": "#1"}
-			}
-		},
-		{
-			"from": [3.25, 3.75, 7],
-			"to": [10.5, 11, 7],
-			"light_emission": 15,
-			"rotation": {"angle": 0, "axis": "y", "origin": [1.25, 2.25, 7]},
-			"faces": {
-				"north": {"uv": [15.875, 16, 0, 0], "texture": "#1"},
-				"east": {"uv": [15.875, 16, 0, 0], "texture": "#1"},
-				"south": {"uv": [16, 15.875, 0, 0], "rotation": 270, "texture": "#1"},
-				"west": {"uv": [15.875, 16, 0, 0], "texture": "#1"},
-				"up": {"uv": [15.875, 16, 0, 0], "texture": "#1"},
-				"down": {"uv": [15.875, 16, 0, 0], "texture": "#1"}
-			}
 		}
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [-159.88, 64.38, -59.94],
-			"translation": [2.5, -8.5, -0.5],
-			"scale": [1.04883, 1.04883, 1.04883]
+			"rotation": [3.33, 63.06, 130.2],
+			"translation": [1, -7.75, 1.25],
+			"scale": [0.86133, 0.86133, 0.86133]
 		},
 		"firstperson_righthand": {
-			"rotation": [148.28, 50.55, 94.82],
-			"translation": [-0.25, 4, -5.25]
+			"rotation": [144.55, 48.8, 89.24],
+			"translation": [-3.5, 4, -1.75],
+			"scale": [0.74805, 0.74805, 0.74805]
+		},
+		"gui": {
+			"translation": [-0.5, 2, 0],
+			"scale": [1.23242, 1.23242, 1.23242]
+		},
+		"fixed": {
+			"translation": [0, 1.5, 0]
 		}
 	}
 }
