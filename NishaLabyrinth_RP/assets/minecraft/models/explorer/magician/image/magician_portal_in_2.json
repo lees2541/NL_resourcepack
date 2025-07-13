@@ -5,6 +5,7 @@
 		"0": "item/custom/magician_portal",
 		"1": "item/custom/white_tree",
 		"2": "item/custom/magician_circle_1",
+		"4": "block/custom/portal_c2",
 		"5": "item/custom/magician_portal_count_2",
 		"particle": "item/custom/magician_portal"
 	},
@@ -133,6 +134,20 @@
 				"west": {"uv": [-0.23437, -0.23437, 15.84375, 16], "texture": "#5"},
 				"up": {"uv": [-0.23437, -0.23437, 15.84375, 16], "texture": "#5"},
 				"down": {"uv": [-0.23437, -0.23437, 16, 15.84375], "rotation": 90, "texture": "#5"}
+			}
+		},
+		{
+			"from": [0, 1, 8],
+			"to": [16, 17, 8],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [11.5, 1, 1.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#4"}
 			}
 		}
 	],
