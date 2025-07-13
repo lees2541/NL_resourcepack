@@ -1,0 +1,8 @@
+{
+    "model": {
+      "type": "minecraft:model",
+      "model": "minecraft:resource/staff",
+      "tints": []
+    },
+    "hand_animation_on_swap": false
+  }
