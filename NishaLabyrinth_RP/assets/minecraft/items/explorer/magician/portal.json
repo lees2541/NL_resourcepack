@@ -25,7 +25,7 @@
                 "threshold": 1,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:explorer/magician/image/magician_portal_in_2"
+                  "model": "minecraft:explorer/magician/image/magician_portal_in_3"
                 }
               },
               {
