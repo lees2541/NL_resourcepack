@@ -238,6 +238,13 @@
                               "type": "minecraft:model",
                               "model": "minecraft:roamer/hunter/tool/ceremonial_knife_chase"
                             }
+                          },
+                          {
+                            "threshold": 2,
+                            "model": {
+                              "type": "minecraft:model",
+                              "model": "minecraft:roamer/hunter/tool/ceremonial_knife_r"
+                            }
                           }
                         ]
                       }
