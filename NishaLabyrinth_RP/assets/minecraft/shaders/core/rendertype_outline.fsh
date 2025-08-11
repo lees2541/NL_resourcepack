@@ -1,7 +1,7 @@
 #version 150
 
 #moj_import <minecraft:dynamictransforms.glsl>
-#glowing outline에 대한 것
+//glowing outline에 대한 것
 uniform sampler2D Sampler0;
 
 in vec4 vertexColor;

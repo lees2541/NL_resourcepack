@@ -1,7 +1,7 @@
 #version 150
 
 #moj_import <minecraft:fog.glsl>
-#moj_import <minecraft:emissive_utils.glsl>
+//#moj_import <minecraft:emissive_utils.glsl>
 
 uniform sampler2D Sampler0;
 //uniform sampler2D Sampler2;  //추가
