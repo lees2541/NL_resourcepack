@@ -21,18 +21,15 @@
                     "target": "controller3"
                 }
             ],
-            "uniforms": [
+            "uniforms": {
+                "BlitConfig": [
                 {
                     "name": "ColorModulate",
                     "type": "vec4",
-                    "values": [ 1.0, 1.0, 1.0, 1.0 ]
-                },
-                { 
-                    "name": "OutSize",
-                    "type": "vec2",
-                    "values": [ 1.0, 1.0 ] 
+                    "value": [ 1.0, 1.0, 1.0, 1.0 ]
                 }
-            ],
+                ]
+            },
             "output": "controller_swap3"
         },
         {
@@ -48,13 +45,6 @@
                     "target": "minecraft:particles"
                 }
             ],
-            "uniforms": [
-                { 
-                    "name": "OutSize",
-                    "type": "vec2",
-                    "values": [ 1.0, 1.0 ] 
-                }
-            ],
             "output": "controller3"
         },
 		{
@@ -66,18 +56,15 @@
                     "target": "controller2"
                 }
             ],
-            "uniforms": [
-                {
-                    "name": "ColorModulate",
-                    "type": "vec4",
-                    "values": [ 1.0, 1.0, 1.0, 1.0 ]
-                },
-                { 
-                    "name": "OutSize",
-                    "type": "vec2",
-                    "values": [ 1.0, 1.0 ] 
-                }            
-            ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]        
+            },
             "output": "controller_swap2"
         },
         {
@@ -93,13 +80,6 @@
                     "target": "minecraft:particles"
                 }
             ],
-            "uniforms": [
-                { 
-                    "name": "OutSize",
-                    "type": "vec2",
-                    "values": [ 1.0, 1.0 ] 
-                }            
-            ],
             "output": "controller2"
         },
         {
@@ -111,18 +91,15 @@
                     "target": "controller"
                 }
             ],
-            "uniforms": [
-                {
-                    "name": "ColorModulate",
-                    "type": "vec4",
-                    "values": [ 1.0, 1.0, 1.0, 1.0 ]
-                },
-                { 
-                    "name": "OutSize",
-                    "type": "vec2",
-                    "values": [ 1.0, 1.0 ] 
-                }  
-            ],      
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]        
+            }, 
             "output": "controller_swap"
         },
         {
@@ -138,18 +115,6 @@
                     "target": "minecraft:particles"
                 }
             ],
-            "uniforms": [
-                { 
-                    "name": "OutSize",
-                    "type": "vec2",
-                    "values": [ 1.0, 1.0 ] 
-                },
-                { 
-                    "name": "GameTime",
-                    "type": "float",
-                    "values": [ 1.0 ] 
-                }  
-            ], 
             "output": "controller"
         },
         {
@@ -161,13 +126,6 @@
                     "target": "minecraft:particles"
                 }
             ],
-            "uniforms": [
-                { 
-                    "name": "OutSize",
-                    "type": "vec2",
-                    "values": [ 1.0, 1.0 ] 
-                }
-            ], 
             "output": "final"
         },
         {
@@ -179,13 +137,15 @@
                     "target": "final"
                 }
             ],
-            "uniforms": [
-                {
-                    "name": "ColorModulate",
-                    "type": "vec4",
-                    "values": [ 1.0, 1.0, 1.0, 1.0 ]
-                }
-            ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]        
+            }, 
             "output": "minecraft:particles"
         },
         {
@@ -250,7 +210,7 @@
             "output": "swap"
         },
         {
-            "vertex_shader": "minecraft:program/toggler/shader",
+            "vertex_shader": "minecraft:post/blit",
             "fragment_shader": "minecraft:program/toggler/shader",
             "inputs": [
                 {
@@ -283,29 +243,25 @@
                     "height": 11568
                 }
             ],
-            "uniforms": [
-                { 
-                    "name": "OutSize",
-                    "type": "vec2", 
-                    "values": [ 1.0, 1.0 ] 
-                },
-                { 
+            "uniforms": {
+                "GUI": [
+                    { 
                     "name": "_FOV",       
                     "type": "float",     
-                    "values": [ 70.0 ] 
+                    "value": 70.0
                 },
                 { 
                     "name": "DebuffIcons",       
                     "type": "float",     
-                    "values": [ 12.0 ] 
+                    "value": 12.0
                 },
                 { 
                     "name": "BuffIcons",       
                     "type": "float",     
-                    "values": [ 12.0 ] 
+                    "value": 12.0  
                 }
-                      
-            ], 
+                ]        
+            }, 
             "output": "final"
         },
         {
@@ -317,17 +273,19 @@
                     "target": "final"
                 }
             ],
-            "uniforms": [
-                {
-                    "name": "ColorModulate",
-                    "type": "vec4",
-                    "values": [ 1.0, 1.0, 1.0, 1.0 ]
-                }
-            ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]        
+            }, 
             "output": "swap"
         },
         {
-            "vertex_shader": "minecraft:program/glowing/shader",
+            "vertex_shader": "minecraft:post/blit",
             "fragment_shader": "minecraft:program/glowing/overlay",
             "inputs": [
                 {
@@ -350,13 +308,6 @@
                     "height": 241
                 }
             ],
-            "uniforms": [
-                { 
-                    "name": "OutSize",
-                    "type": "vec2",
-                    "values": [ 1.0, 1.0 ] 
-                }
-            ], 
             "output": "final"
         },
         {
@@ -368,13 +319,15 @@
                     "target": "final"
                 }
             ],
-            "uniforms": [
-                {
-                    "name": "ColorModulate",
-                    "type": "vec4",
-                    "values": [ 1.0, 1.0, 1.0, 1.0 ]
-                }
-            ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]
+            },
             "output": "swap"
         },
         {
@@ -406,13 +359,15 @@
                     "target": "final"
                 }
             ],
-            "uniforms": [
-                {
-                    "name": "ColorModulate",
-                    "type": "vec4",
-                    "values": [ 1.0, 1.0, 1.0, 1.0 ]
-                }
-            ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]
+            },
             "output": "minecraft:main"
         }
 		

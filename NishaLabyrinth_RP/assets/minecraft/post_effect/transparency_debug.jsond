@@ -21,6 +21,15 @@
                     "target": "controller3"
                 }
             ],
+            "uniforms": {
+                "BlitConfig": [
+                {
+                    "name": "ColorModulate",
+                    "type": "vec4",
+                    "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                }
+                ]
+            },
             "output": "controller_swap3"
         },
         {
@@ -47,6 +56,15 @@
                     "target": "controller2"
                 }
             ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]        
+            },
             "output": "controller_swap2"
         },
         {
@@ -72,7 +90,16 @@
                     "sampler_name": "In",
                     "target": "controller"
                 }
-            ],            
+            ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]        
+            }, 
             "output": "controller_swap"
         },
         {
@@ -110,6 +137,15 @@
                     "target": "final"
                 }
             ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]        
+            }, 
             "output": "minecraft:particles"
         },
         {
@@ -207,6 +243,25 @@
                     "height": 11568
                 }
             ],
+            "uniforms": {
+                "GUI": [
+                    { 
+                    "name": "_FOV",       
+                    "type": "float",     
+                    "value": 70.0
+                },
+                { 
+                    "name": "DebuffIcons",       
+                    "type": "float",     
+                    "value": 12.0
+                },
+                { 
+                    "name": "BuffIcons",       
+                    "type": "float",     
+                    "value": 12.0  
+                }
+                ]        
+            }, 
             "output": "final"
         },
         {
@@ -218,6 +273,15 @@
                     "target": "final"
                 }
             ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]        
+            }, 
             "output": "swap"
         },
         {
@@ -255,6 +319,15 @@
                     "target": "final"
                 }
             ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]
+            },
             "output": "swap"
         },
         {
@@ -286,6 +359,15 @@
                     "target": "final"
                 }
             ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]
+            },
             "output": "minecraft:main"
         }
 		
