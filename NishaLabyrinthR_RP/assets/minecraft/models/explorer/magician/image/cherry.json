@@ -1,0 +1,47 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/sweet_berries",
+		"particle": "item/sweet_berries"
+	},
+	"elements": [
+		{
+			"from": [3.25, 1, 4],
+			"to": [12.25, 1, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10.25, 1, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0.25, 4.25, 0.5],
+			"scale": [0.48828, 0.48828, 0.48828]
+		},
+		"firstperson_righthand": {
+			"rotation": [31.51, 49.94, 51.29],
+			"translation": [0, 5.25, 1]
+		},
+		"ground": {
+			"rotation": [35.11, 40.94, 56.7],
+			"translation": [-3, 3.5, 3.5]
+		},
+		"gui": {
+			"rotation": [95.54, 14.12, 180],
+			"translation": [-0.75, 1.25, 0],
+			"scale": [1.41016, 1.41016, 1.41016]
+		},
+		"fixed": {
+			"rotation": [91, 0, 0],
+			"translation": [-0.5, 0.5, 7.25],
+			"scale": [1.61719, 1.61719, 1.61719]
+		}
+	}
+}

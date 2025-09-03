@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/custom/magician_image1"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [60.95, 53.75, -22.78],
+			"translation": [0.5, 5.25, 2.5],
+			"scale": [0.65234, 0.58398, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-106.08, 52.19, 150.86],
+			"translation": [0.5, 5.25, 2.5],
+			"scale": [0.57723, 0.55033, 1]
+		},
+		"firstperson_righthand": {
+			"translation": [-10, 9, -5],
+			"scale": [1.60938, 1.41211, 1]
+		},
+		"firstperson_lefthand": {
+			"translation": [2.25, 4, 0],
+			"scale": [0.77734, 0.85352, 1]
+		}
+	}
+}
