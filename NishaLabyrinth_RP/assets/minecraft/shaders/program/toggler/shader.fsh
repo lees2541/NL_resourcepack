@@ -8,7 +8,7 @@ uniform sampler2D ControlSampler;
 //uniform sampler2D ControlSamplerf;
 uniform sampler2D DebuffSampler;
 uniform sampler2D BuffSampler;
-
+uniform sampler2D GlowingSampler;
 //uniform vec4 ColorModulate;
 
 //uniform mat4 ProjMat;
@@ -123,8 +123,9 @@ void main() {
         } 
     }
     
-	float buff = 0.0;
-	
+
+                
+
 	//Channel #3 for test SUSU
     /*control_color = texelFetch(ControlSamplerf, ivec2(0, 4), 0);// 새로운 버퍼 ControlSamplerf를 만든이유는 다음에 실행할때까지 저장되는 ControlSampler 버퍼에 덮어씌우지 않게 함으로서 따로 기능하게 만들기 위함
     if(int(control_color.g * 255.) == 250 ) {

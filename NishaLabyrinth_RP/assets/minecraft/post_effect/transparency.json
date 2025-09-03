@@ -241,6 +241,12 @@
                     "location": "buff",
                     "width":  1712,
                     "height": 11568
+                },
+                {
+                    "sampler_name": "Glowing",
+                    "location": "glowing",
+                    "width":  428,
+                    "height": 241
                 }
             ],
             "uniforms": {
@@ -293,13 +299,12 @@
                     "target": "swap"
                 },
                 {
-                    "sampler_name": "MainDepth",
-                    "target": "minecraft:main",
-                    "use_depth_buffer": true
-                },
-                {
                     "sampler_name": "Control3",
                     "target": "controller3"
+                },
+                {
+                    "sampler_name": "Control",
+                    "target": "controller"
                 },
                 {
                     "sampler_name": "Glowing",
