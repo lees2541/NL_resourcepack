@@ -29,8 +29,7 @@
                 },
                 { 
                     "name": "OutSize",
-                    "type": "float",     
-                    "count": 2,  
+                    "type": "vec2",
                     "values": [ 1.0, 1.0 ] 
                 }
             ],
@@ -52,8 +51,7 @@
             "uniforms": [
                 { 
                     "name": "OutSize",
-                    "type": "float",     
-                    "count": 2,  
+                    "type": "vec2",
                     "values": [ 1.0, 1.0 ] 
                 }
             ],
@@ -76,8 +74,7 @@
                 },
                 { 
                     "name": "OutSize",
-                    "type": "float",     
-                    "count": 2,  
+                    "type": "vec2",
                     "values": [ 1.0, 1.0 ] 
                 }            
             ],
@@ -99,8 +96,7 @@
             "uniforms": [
                 { 
                     "name": "OutSize",
-                    "type": "float",     
-                    "count": 2,  
+                    "type": "vec2",
                     "values": [ 1.0, 1.0 ] 
                 }            
             ],
@@ -123,8 +119,7 @@
                 },
                 { 
                     "name": "OutSize",
-                    "type": "float",     
-                    "count": 2,  
+                    "type": "vec2",
                     "values": [ 1.0, 1.0 ] 
                 }  
             ],      
@@ -146,14 +141,12 @@
             "uniforms": [
                 { 
                     "name": "OutSize",
-                    "type": "float",     
-                    "count": 2,  
+                    "type": "vec2",
                     "values": [ 1.0, 1.0 ] 
                 },
                 { 
                     "name": "GameTime",
-                    "type": "float",     
-                    "count": 1,  
+                    "type": "float",
                     "values": [ 1.0 ] 
                 }  
             ], 
@@ -171,8 +164,7 @@
             "uniforms": [
                 { 
                     "name": "OutSize",
-                    "type": "float",     
-                    "count": 2,  
+                    "type": "vec2",
                     "values": [ 1.0, 1.0 ] 
                 }
             ], 
@@ -294,26 +286,22 @@
             "uniforms": [
                 { 
                     "name": "OutSize",
-                    "type": "float",     
-                    "count": 2,  
+                    "type": "vec2", 
                     "values": [ 1.0, 1.0 ] 
                 },
                 { 
                     "name": "_FOV",       
                     "type": "float",     
-                    "count": 1,  
                     "values": [ 70.0 ] 
                 },
                 { 
                     "name": "DebuffIcons",       
                     "type": "float",     
-                    "count": 1,  
                     "values": [ 12.0 ] 
                 },
                 { 
                     "name": "BuffIcons",       
                     "type": "float",     
-                    "count": 1,  
                     "values": [ 12.0 ] 
                 }
                       
@@ -365,15 +353,8 @@
             "uniforms": [
                 { 
                     "name": "OutSize",
-                    "type": "float",     
-                    "count": 2,  
+                    "type": "vec2",
                     "values": [ 1.0, 1.0 ] 
-                },
-                { 
-                    "name": "WobbleAmount", 
-                    "type": "float",     
-                    "count": 2,  
-                    "values": [ 0.02, 0.05 ] 
                 }
             ], 
             "output": "final"

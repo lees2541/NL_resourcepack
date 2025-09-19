@@ -1,8 +1,10 @@
 #version 150
 in vec4 Position;
 
-uniform vec2 InSize;
-uniform vec2 OutSize;
+layout(std140) uniform SamplerInfo {
+    vec2 OutSize;
+    vec2 InSize;
+};
 uniform vec2 ScreenSize;
 
 //uniform sampler2D Control3Sampler;

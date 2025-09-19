@@ -29,21 +29,6 @@ void main() {
             // Row 1: 
             readMarker(fragColor, lastValue, ivec2(0, 6), vec2(254., 248.), 4);
             break;
-        /*case 2:
-            readMarker(fragColor, lastValue, ivec2(0, 2), vec2(254., 252.), 2);
-            break;
-            /*vec4 markerf = texelFetch(ParticlesSampler, ivec2(0,2),0);
-            // Row 2:
-            if (markerf.rg * 255 == vec2(254.,250.)){
-                readMarker(fragColor, lastValue, ivec2(0, 2), vec2(254., 250.), 2);
-            }else{
-                readMarker(fragColor, lastValue, ivec2(0, 2), vec2(254., 252.), 2);
-            }
-            break;*/
-		// 테스트용*/
-		/*case 3:
-			readMarker(fragColor, lastValue, ivec2(0, 4), vec2(254., 250.), 4);
-			break;*/
-
     }
+        
 }

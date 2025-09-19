@@ -7,8 +7,11 @@ in vec2 oneTexel;
 
 uniform vec2 InSize;
 
-uniform vec2 BlurDir;
-uniform float Radius;
+layout(std140) uniform BlurConfig {
+    vec2 BlurDir;
+    float Radius;
+};
+
 
 out vec4 fragColor;
 

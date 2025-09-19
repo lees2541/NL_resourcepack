@@ -21,6 +21,15 @@
                     "target": "controller3"
                 }
             ],
+            "uniforms": {
+                "BlitConfig": [
+                {
+                    "name": "ColorModulate",
+                    "type": "vec4",
+                    "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                }
+                ]
+            },
             "output": "controller_swap3"
         },
         {
@@ -47,6 +56,15 @@
                     "target": "controller2"
                 }
             ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]        
+            },
             "output": "controller_swap2"
         },
         {
@@ -72,7 +90,16 @@
                     "sampler_name": "In",
                     "target": "controller"
                 }
-            ],            
+            ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]        
+            }, 
             "output": "controller_swap"
         },
         {
@@ -110,6 +137,15 @@
                     "target": "final"
                 }
             ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]        
+            }, 
             "output": "minecraft:particles"
         },
         {
@@ -174,7 +210,7 @@
             "output": "swap"
         },
         {
-            "vertex_shader": "minecraft:program/toggler/shader",
+            "vertex_shader": "minecraft:post/blit",
             "fragment_shader": "minecraft:program/toggler/shader",
             "inputs": [
                 {
@@ -205,8 +241,33 @@
                     "location": "buff",
                     "width":  1712,
                     "height": 11568
+                },
+                {
+                    "sampler_name": "Glowing",
+                    "location": "glowing",
+                    "width":  428,
+                    "height": 241
                 }
             ],
+            "uniforms": {
+                "GUI": [
+                    { 
+                    "name": "_FOV",       
+                    "type": "float",     
+                    "value": 70.0
+                },
+                { 
+                    "name": "DebuffIcons",       
+                    "type": "float",     
+                    "value": 12.0
+                },
+                { 
+                    "name": "BuffIcons",       
+                    "type": "float",     
+                    "value": 12.0  
+                }
+                ]        
+            }, 
             "output": "final"
         },
         {
@@ -218,10 +279,19 @@
                     "target": "final"
                 }
             ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]        
+            }, 
             "output": "swap"
         },
         {
-            "vertex_shader": "minecraft:program/glowing/shader",
+            "vertex_shader": "minecraft:post/blit",
             "fragment_shader": "minecraft:program/glowing/overlay",
             "inputs": [
                 {
@@ -229,13 +299,12 @@
                     "target": "swap"
                 },
                 {
-                    "sampler_name": "MainDepth",
-                    "target": "minecraft:main",
-                    "use_depth_buffer": true
-                },
-                {
                     "sampler_name": "Control3",
                     "target": "controller3"
+                },
+                {
+                    "sampler_name": "Control",
+                    "target": "controller"
                 },
                 {
                     "sampler_name": "Glowing",
@@ -254,7 +323,16 @@
                     "sampler_name": "In",
                     "target": "final"
                 }
-            ],
+            ],00
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]
+            },
             "output": "swap"
         },
         {
@@ -286,6 +364,15 @@
                     "target": "final"
                 }
             ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]
+            },
             "output": "minecraft:main"
         }
 		

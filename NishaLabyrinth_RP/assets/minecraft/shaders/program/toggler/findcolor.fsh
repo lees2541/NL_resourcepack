@@ -1,11 +1,18 @@
 #version 150
 
+#moj_import <minecraft:globals.glsl>
+
 uniform sampler2D InSampler;
 uniform sampler2D ParticlesSampler;
 
-uniform float GameTime;
+layout(std140) uniform SamplerInfo {
+    vec2 OutSize;
+    vec2 InSize;
+};
+
 
 in vec2 texCoord;
+
 
 out vec4 fragColor;  //controller buffer에 저장 (transparency.json 참고)
 
@@ -42,17 +49,5 @@ void main() {
         case 2:
             readMarker(fragColor, lastValue, ivec2(0, 2), vec2(254., 252.), 2); // 왼쪽위 배터리를 위한 마커
             break;
-            /*vec4 markerf = texelFetch(ParticlesSampler, ivec2(0,2),0);
-            // Row 2:
-            if (markerf.rg * 255 == vec2(254.,250.)){
-                readMarker(fragColor, lastValue, ivec2(0, 2), vec2(254., 250.), 2);
-            }else{
-                readMarker(fragColor, lastValue, ivec2(0, 2), vec2(254., 252.), 2);
-            }
-            break;*/
-		// 테스트용
-		/*case 3:
-			readMarker(fragColor, lastValue, ivec2(0, 4), vec2(254., 250.), 4);
-			break;*/
     }
 }
