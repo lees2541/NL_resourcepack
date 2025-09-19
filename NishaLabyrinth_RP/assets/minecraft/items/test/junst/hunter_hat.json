@@ -1,0 +1,8 @@
+{
+    "model": {
+      "type": "minecraft:model",
+      "model": "minecraft:roamer/hunter/skin/hunter_hat",
+      "tints": []
+    },
+    "hand_animation_on_swap": false
+  }

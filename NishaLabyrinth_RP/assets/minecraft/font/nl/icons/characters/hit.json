@@ -60,7 +60,7 @@
             "type": "bitmap",
             "file": "minecraft:custom/nl/characters/hit/hunter_head_hit.png",
             "ascent": 19,
-            "height": 32,
+            "height": 40,
             "chars": ["\uE212"]
         },
 		{
