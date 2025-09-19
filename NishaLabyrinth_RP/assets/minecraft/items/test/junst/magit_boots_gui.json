@@ -1,0 +1,8 @@
+{
+    "model": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/magit_boots_gui",
+      "tints": []
+    },
+    "hand_animation_on_swap": false
+  }

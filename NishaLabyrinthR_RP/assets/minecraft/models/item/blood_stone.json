@@ -1,0 +1,49 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "item/custom/blood_stone"
+	},
+	"elements": [
+		{
+			"from": [7.25, 4, 5],
+			"to": [7.25, 9, 9.75],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.25, 4, 5]},
+			"faces": {
+				"north": {"uv": [0, 0, 15.625, 15.875], "texture": "#1"},
+				"east": {"uv": [0, 0, 15.625, 15.875], "texture": "#1"},
+				"south": {"uv": [0, 0, 15.625, 15.875], "texture": "#1"},
+				"west": {"uv": [0, 0, 15.625, 15.875], "texture": "#1"},
+				"up": {"uv": [0, 0, 15.625, 15.875], "texture": "#1"},
+				"down": {"uv": [0, 0, 15.625, 15.875], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [96.81, 81.71, -21.14],
+			"translation": [1.25, 1.75, 2.25],
+			"scale": [1.00195, 1.00195, 1.00195]
+		},
+		"firstperson_righthand": {
+			"rotation": [168.71, -52.81, -171.09],
+			"translation": [1.25, 5, -2.75],
+			"scale": [1.40625, 1.40625, 1.40625]
+		},
+		"ground": {
+			"translation": [-0.5, 3, 0],
+			"scale": [1.87305, 1.87305, 1.87305]
+		},
+		"gui": {
+			"rotation": [-175.75, -65.5, -180],
+			"translation": [-4.25, 5.75, 0],
+			"scale": [3.52344, 3.52344, 3.52344]
+		},
+		"fixed": {
+			"rotation": [-180, 89, -180],
+			"translation": [2.5, 5.75, -2.75],
+			"scale": [2.95703, 2.95703, 2.95703]
+		}
+	}
+}
