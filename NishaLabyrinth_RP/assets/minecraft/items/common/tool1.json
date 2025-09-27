@@ -210,6 +210,42 @@
             "index": 1,
             "cases": [
               {
+                "when": "chopper",
+                "model": {
+                  "type": "minecraft:range_dispatch",
+                  "property": "minecraft:custom_model_data",
+                  "index": 0,
+                  "scale": 1,
+                  "entries": [
+                    {
+                      "threshold": 0,
+                      "model": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:custom_model_data",
+                        "index": 1,
+                        "scale": 1,
+                        "entries": [
+                          {
+                            "threshold": 0,
+                            "model": {
+                              "type": "minecraft:model",
+                              "model": "minecraft:roamer/chopper/tool/chopper_knife"
+                            }
+                          },
+                          {
+                            "threshold": 1,
+                            "model": {
+                              "type": "minecraft:model",
+                              "model": "minecraft:roamer/chopper/tool/chopper_knife_eat"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
                 "when": "hunter",
                 "model": {
                   "type": "minecraft:range_dispatch",
