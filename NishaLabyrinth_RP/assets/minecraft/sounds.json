@@ -489,5 +489,12 @@
 [
 "random/game_start"
 ]
+},
+"survivor_hit":
+{
+"sounds":
+[
+"random/survivor_hit"
+]
 }
 }

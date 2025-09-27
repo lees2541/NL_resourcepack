@@ -1,8 +1,7 @@
 {
     "model": {
       "type": "minecraft:model",
-      "model": "minecraft:explorer/guard/skin/guard_hat",
-      "tints": []
+      "model": "minecraft:roamer/chopper/skin/chopper_hat"
     },
     "hand_animation_on_swap": false
   }
