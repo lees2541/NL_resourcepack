@@ -323,7 +323,7 @@
                     "sampler_name": "In",
                     "target": "final"
                 }
-            ],00
+            ],
             "uniforms": {
                 "BlitConfig": [
                     {
