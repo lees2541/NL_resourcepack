@@ -1,4 +1,4 @@
-#version 330
+#version 150
 
 #moj_import <minecraft:fog.glsl>
 #moj_import <minecraft:dynamictransforms.glsl>
@@ -15,8 +15,8 @@ out float sphericalVertexDistance;
 out float cylindricalVertexDistance;
 out vec2 texCoord0;
 out vec4 vertexColor;
-flat out vec4 tint;
 flat out float isMarker; // 마커 판별
+flat out vec4 tint;
 
 vec2[] corners = vec2[](
     vec2(0, 1),
@@ -24,6 +24,7 @@ vec2[] corners = vec2[](
     vec2(1, 0),
     vec2(1, 1)
 );
+
 const float minGreen = 246.0;  //252.0 -> 248.0 으로 바꿈 
 const float maxGreen = 253.0;
 
