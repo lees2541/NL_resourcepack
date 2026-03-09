@@ -1,0 +1,31 @@
+{
+	"model": {
+		"type": "composite",
+		"models": [
+			{
+				"type": "model",
+				"model": "minecraft:testgig/0"
+			},
+			{
+				"type": "model",
+				"model": "minecraft:testgig/1"
+			},
+			{
+				"type": "model",
+				"model": "minecraft:testgig/2"
+			},
+			{
+				"type": "model",
+				"model": "minecraft:testgig/3"
+			},
+			{
+				"type": "model",
+				"model": "minecraft:testgig/4"
+			},
+			{
+				"type": "model",
+				"model": "minecraft:testgig/5"
+			}
+		]
+	}
+}
