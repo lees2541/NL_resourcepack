@@ -1,8 +1,5 @@
 #version 330
 
-
-in vec4 Position;
-
 layout(std140) uniform SamplerInfo {
     vec2 OutSize;
     vec2 InSize;
@@ -11,23 +8,12 @@ layout(std140) uniform SamplerInfo {
 out vec2 texCoord;
 flat out vec2 oneTexel;
 
-// Modified blit to work for copying between buffers of different sizes
+// Full-screen copy pass for 1.21.9+ / 1.21.11
+// Replaces the old Position-based quad with a 3-vertex full-screen triangle.
+void main() {
+    vec2 uv = vec2((gl_VertexID << 1) & 2, gl_VertexID & 2);
 
-void main(){
-
-    float x = -1.0; 
-    float y = -1.0;
-
-    if (Position.x > 0.001){
-        x = 1.0;
-    }
-    if (Position.y > 0.001){
-        y = 1.0;
-    }
-
-    gl_Position = vec4(x, y, 0.2, 1.0);
-
-    texCoord = Position.xy / OutSize;
-
+    gl_Position = vec4(uv * 2.0 - 1.0, 0.2, 1.0);
+    texCoord = uv;
     oneTexel = 1.0 / OutSize;
 }
