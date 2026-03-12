@@ -1,0 +1,50 @@
+{
+	"textures": {
+		"0": "minecraft:block/custom/broken"
+	},
+	"elements": [
+		{
+			"from": [7.21149, -1.65928, 7.21149],
+			"to": [8.78851, 17.65928, 8.78851],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 5.5, 14],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 0, 5.5, 14],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [0, 0, 5.5, 14],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 0, 5.5, 14],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0, 0, 5.5, 14],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0, 0, 5.5, 14],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [5, 0, 0],
+			"translation": [1, 18.14652, -1.32452],
+			"scale": [1.26821, 1.26821, 1.26821]
+		},
+		"fixed": {
+			"rotation": [5, 0, 0],
+			"translation": [1, 18.14652, -1.32452],
+			"scale": [1.26821, 1.26821, 1.26821]
+		}
+	}
+}
