@@ -16,7 +16,7 @@
         },
         {
             "vertex_shader": "minecraft:core/screenquad",
-            "fragment_shader": "minecraft:glowing/entity_outline_box_blur",
+            "fragment_shader": "minecraft:program/glowing_outline/entity_outline_box_blur",
             "inputs": [
                 {
                     "sampler_name": "In",
@@ -42,7 +42,7 @@
         },
         {
             "vertex_shader": "minecraft:core/screenquad",
-            "fragment_shader": "minecraft:glowing/entity_outline_box_blur",
+            "fragment_shader": "minecraft:program/glowing_outline/entity_outline_box_blur",
             "inputs": [
                 {
                     "sampler_name": "In",
