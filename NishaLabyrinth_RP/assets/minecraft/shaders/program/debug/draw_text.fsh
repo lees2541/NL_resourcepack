@@ -1,4 +1,4 @@
-#version 150
+#version 330
 
 // INFO: Strings aren't supported natively by GLSL, so we need to create functions for:
 //  1. Rendering an array of ints to screen as their ASCII characters - printTextAt()

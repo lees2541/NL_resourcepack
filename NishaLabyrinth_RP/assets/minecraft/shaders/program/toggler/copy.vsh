@@ -1,6 +1,5 @@
-#version 150
+#version 330
 
-#moj_import <minecraft:projection.glsl>
 
 in vec4 Position;
 
