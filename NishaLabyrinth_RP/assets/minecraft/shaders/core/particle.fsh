@@ -1,4 +1,4 @@
-#version 150
+#version 330
 
 #moj_import <minecraft:fog.glsl>
 #moj_import <minecraft:dynamictransforms.glsl>
@@ -13,15 +13,6 @@ flat in float isMarker;
 flat in vec4 tint;
 
 out vec4 fragColor;
-
-/*void main() {
-    vec4 color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
-    if (color.a < 0.1) {
-        discard;
-    }
-    fragColor = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
-}*/
-
 
 void main() {
     if (isMarker == 1.0) {

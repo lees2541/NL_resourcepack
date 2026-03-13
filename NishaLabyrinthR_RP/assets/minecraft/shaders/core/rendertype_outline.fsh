@@ -15,5 +15,14 @@ void main() {
         discard;
     }
     fragColor = vec4(ColorModulator.rgb * vertexColor.rgb, ColorModulator.a);
+    //dark_aqua 감지
+    if(fragColor.r==0.0 && fragColor.g <0.7 && fragColor.g > 0.6 && fragColor.b == 0.0){
+        fragColor = vec4(0.0, 0.0, 0.0, 0.0);
+    }
+
+    //dark_green 감지
+    if(fragColor.rgb==vec3(0.0, 0.66666666, 0.0)){
+        fragColor = vec4(0.0, 0.0, 0.0, 0.0);
+    }
+    
 }
-// R 팩에서 바뀌는 사항이 있음

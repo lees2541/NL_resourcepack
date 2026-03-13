@@ -1,4 +1,4 @@
-#version 150
+#version 330
 
 // Checking for the exact alpha value breaks things, so I use this function to cut down on space while also making it work better.
 

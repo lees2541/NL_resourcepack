@@ -1,0 +1,4 @@
+core/entity.fsh
+core/lightmap.fsh
+core/particle.fsh
+core/particle.vsh

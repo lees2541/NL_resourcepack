@@ -1,6 +1,7 @@
 {
- "pack": {
-   "pack_format": 22,
-   "description": "For Nisha Labyrinth Map"
+  "pack": {
+    "description": "For Nisha Labyrinth Roamer",
+    "min_format": 75,
+    "max_format": 75
   }
 }
