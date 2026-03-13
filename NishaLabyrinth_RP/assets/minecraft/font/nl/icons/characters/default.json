@@ -95,14 +95,14 @@
             "type": "bitmap",
             "file": "minecraft:custom/nl/characters/default/sniffer_head.png",
             "ascent": 19,
-            "height": 32,
+            "height": 40,
             "chars": ["\uE231"]
         },
 		{
             "type": "bitmap",
             "file": "minecraft:custom/nl/characters/default/tellus_head.png",
             "ascent": 19,
-            "height": 32,
+            "height": 40,
             "chars": ["\uE241"]
         }
     ]

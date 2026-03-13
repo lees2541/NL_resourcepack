@@ -1,0 +1,64 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/spear_in_hand",
+	"textures": {
+		"0": "block/gold_block",
+		"particle": "block/gold_block"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 6],
+			"to": [9, 24, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [1, 22.25, 6],
+			"to": [7, 23, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 21, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 0.75], "texture": "#0"},
+				"east": {"uv": [0, 0, 6, 0.75], "texture": "#0"},
+				"south": {"uv": [0, 0, 6, 0.75], "texture": "#0"},
+				"west": {"uv": [0, 0, 6, 0.75], "texture": "#0"},
+				"up": {"uv": [0, 0, 6, 0.75], "texture": "#0"},
+				"down": {"uv": [0, 0, 6, 0.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-0.25, 23.5, 6],
+			"to": [3.75, 24.25, 8],
+			"rotation": {"angle": 12.5, "axis": "z", "origin": [7.75, 22.25, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 0.75], "texture": "#0"},
+				"east": {"uv": [0, 0, 6, 0.75], "texture": "#0"},
+				"south": {"uv": [0, 0, 6, 0.75], "texture": "#0"},
+				"west": {"uv": [0, 0, 6, 0.75], "texture": "#0"},
+				"up": {"uv": [0, 0, 6, 0.75], "texture": "#0"},
+				"down": {"uv": [0, 0, 6, 0.75], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0.25, 0, 0],
+			"translation": [0, 0, 2.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-5.41, 7.81, 1.58],
+			"translation": [1, 0, -1.75]
+		},
+		"gui": {
+			"rotation": [50.51, -24.22, -20.24],
+			"translation": [-2, -2.5, 0]
+		}
+	}
+}
