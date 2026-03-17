@@ -28,7 +28,8 @@
         {
           "when": "roamer",
           "model": {
-            "type": "minecraft:bundle/selected_item"
+            "type": "minecraft:model",
+            "model": "minecraft:bundle/selected_item"
           }
         }
       ]
@@ -45,6 +46,38 @@
             "property": "minecraft:custom_model_data",
             "index": 1,
             "cases": [
+              {
+                "when": "survivor",
+                "model": {
+                  "type": "minecraft:range_dispatch",
+                  "property": "minecraft:custom_model_data",
+                  "index": 0,
+                  "scale": 1,
+                  "entries": [
+                    {
+                      "threshold": 0,
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "explorer/survivor/tool/survivor_tool"
+                      }
+                    },
+                    {
+                      "threshold": 1,
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "explorer/survivor/tool/survivor_tool_x"
+                      }
+                    },
+                    {
+                      "threshold": 2,
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "explorer/survivor/tool/survivor_tool_y"
+                      }
+                    }
+                  ]
+                }
+              },
               {
                 "when": "guard",
                 "model": {
@@ -132,38 +165,6 @@
                 }
               },
               {
-                "when": "survivor",
-                "model": {
-                  "type": "minecraft:range_dispatch",
-                  "property": "minecraft:custom_model_data",
-                  "index": 0,
-                  "scale": 1,
-                  "entries": [
-                    {
-                      "threshold": 0,
-                      "model": {
-                        "type": "minecraft:model",
-                        "model": "explorer/survivor/tool/survivor_tool"
-                      }
-                    },
-                    {
-                      "threshold": 1,
-                      "model": {
-                        "type": "minecraft:model",
-                        "model": "explorer/survivor/tool/survivor_tool_x"
-                      }
-                    },
-                    {
-                      "threshold": 2,
-                      "model": {
-                        "type": "minecraft:model",
-                        "model": "explorer/survivor/tool/survivor_tool_y"
-                      }
-                    }
-                  ]
-                }
-              },
-              {
                 "when": "magician",
                 "model": {
                   "type": "minecraft:range_dispatch",
@@ -209,42 +210,6 @@
             "property": "minecraft:custom_model_data",
             "index": 1,
             "cases": [
-              {
-                "when": "chopper",
-                "model": {
-                  "type": "minecraft:range_dispatch",
-                  "property": "minecraft:custom_model_data",
-                  "index": 0,
-                  "scale": 1,
-                  "entries": [
-                    {
-                      "threshold": 0,
-                      "model": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:custom_model_data",
-                        "index": 1,
-                        "scale": 1,
-                        "entries": [
-                          {
-                            "threshold": 0,
-                            "model": {
-                              "type": "minecraft:model",
-                              "model": "minecraft:roamer/chopper/tool/chopper_knife"
-                            }
-                          },
-                          {
-                            "threshold": 1,
-                            "model": {
-                              "type": "minecraft:model",
-                              "model": "minecraft:roamer/chopper/tool/chopper_knife_eat"
-                            }
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                }
-              },
               {
                 "when": "hunter",
                 "model": {
@@ -332,32 +297,32 @@
                               "model": "minecraft:roamer/hunter/tool/ceremonial_knife_y_chase"
                             }
                           }
-                        ]
+                        ],
+                        "fallback": {
+                          "type": "minecraft:range_dispatch",
+                          "property": "minecraft:custom_model_data",
+                          "index": 1,
+                          "scale": 0,
+                          "entries": [
+                            {
+                              "threshold": 0,
+                              "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:roamer/hunter/tool/ceremonial_knife"
+                              }
+                            },
+                            {
+                              "threshold": 1,
+                              "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:roamer/hunter/tool/ceremonial_knife_chase"
+                              }
+                            }
+                          ]
+                        }
                       }
                     }
-                  ],
-                  "fallback": {
-                    "type": "minecraft:range_dispatch",
-                    "property": "minecraft:custom_model_data",
-                    "index": 1,
-                    "scale": 1,
-                    "entries": [
-                      {
-                        "threshold": 0,
-                        "model": {
-                          "type": "minecraft:model",
-                          "model": "minecraft:roamer/hunter/tool/ceremonial_knife"
-                        }
-                      },
-                      {
-                        "threshold": 1,
-                        "model": {
-                          "type": "minecraft:model",
-                          "model": "minecraft:roamer/hunter/tool/ceremonial_knife_chase"
-                        }
-                      }
-                    ]
-                  }
+                  ]
                 }
               }
             ]
@@ -366,5 +331,7 @@
       ]
     }
   },
-  "hand_animation_on_swap": false
+  "hand_animation_on_swap": true,
+  "oversized_in_gui": false,
+  "swap_animation_scale": 1
 }
