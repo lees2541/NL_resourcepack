@@ -4,8 +4,8 @@
 	"textures": {
 		"1": "item/custom/wizard_circle2",
 		"3": "item/custom/wizard_circle_y",
-		"4": "item/custom/wizard_rune3",
-		"particle": "item/custom/wizard_circle"
+		"4": "block/custom/wizard_rune3",
+		"particle": "block/custom/wizard_circle"
 	},
 	"elements": [
 		{

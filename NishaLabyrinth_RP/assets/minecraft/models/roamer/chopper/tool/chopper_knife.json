@@ -2,9 +2,9 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/custom/chopper_knife",
+		"0": "block/custom/chopper_knife",
 		"3": "block/custom/chopper6",
-		"particle": "item/custom/chopper_knife"
+		"particle": "block/custom/chopper_knife"
 	},
 	"elements": [
 		{

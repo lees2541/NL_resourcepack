@@ -1,10 +1,10 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"5": "block/custom/magician1",
 		"18": "block/custom/magician4",
-		"19": "block/custom/magician5",
-		"particle": "block/custom/mag1"
+		"19": "block/custom/magician5"
 	},
 	"elements": [
 		{
@@ -540,6 +540,7 @@
 			"from": [5.01413, -1.64977, 13.39405],
 			"to": [6.51413, 0.10023, 13.78099],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5.38913, -1.02477, 13.58752]},
+			"color": 8,
 			"faces": {
 				"north": {"uv": [0, 0, 4, 7], "texture": "#missing"},
 				"east": {"uv": [0, 0, 4, 7], "texture": "#missing"},

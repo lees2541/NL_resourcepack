@@ -2,10 +2,10 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/custom/chopper_knife",
+		"0": "block/custom/chopper_knife",
 		"1": "block/custom/chopper8",
 		"3": "block/custom/chopper6",
-		"particle": "item/custom/chopper_knife"
+		"particle": "block/custom/chopper_knife"
 	},
 	"elements": [
 		{
@@ -98,12 +98,12 @@
 			"light_emission": 15,
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [7.5, -0.25, 9.25]},
 			"faces": {
-				"north": {"uv": [16, 0.3125, 0, 16], "texture": "#1"},
-				"east": {"uv": [16, 0.3125, 0, 16], "texture": "#1"},
-				"south": {"uv": [16, 0.3125, 0, 16], "texture": "#1"},
+				"north": {"uv": [14, 0.3125, 0, 16], "texture": "#1"},
+				"east": {"uv": [14, 0.3125, 0, 16], "texture": "#1"},
+				"south": {"uv": [14, 0.3125, 0, 16], "texture": "#1"},
 				"west": {"uv": [14, 0.3125, 0, 16], "texture": "#1"},
-				"up": {"uv": [16, 0.3125, 0, 16], "texture": "#1"},
-				"down": {"uv": [16, 0.3125, 0, 16], "texture": "#1"}
+				"up": {"uv": [14, 0.3125, 0, 16], "texture": "#1"},
+				"down": {"uv": [14, 0.3125, 0, 16], "texture": "#1"}
 			}
 		},
 		{

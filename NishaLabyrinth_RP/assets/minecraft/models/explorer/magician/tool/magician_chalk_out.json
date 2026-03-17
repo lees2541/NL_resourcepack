@@ -1,9 +1,10 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/custom/portal_staff",
-		"1": "item/custom/magician_circle_1",
-		"particle": "item/custom/portal_staff"
+		"0": "block/custom/portal_staff",
+		"1": "block/custom/magician_circle_1",
+		"particle": "block/custom/portal_staff"
 	},
 	"elements": [
 		{

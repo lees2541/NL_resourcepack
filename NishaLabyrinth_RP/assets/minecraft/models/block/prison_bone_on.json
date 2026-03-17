@@ -1,9 +1,10 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "block/custom/broken",
 		"2": "block/custom/prison_bone_eye",
-		"3": "item/custom/soul_herb",
+		"3": "block/custom/soul_herb",
 		"4": "block/custom/skull_jedan_on"
 	},
 	"elements": [

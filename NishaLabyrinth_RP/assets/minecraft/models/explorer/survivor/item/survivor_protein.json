@@ -3,9 +3,9 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "block/custom/broken",
-		"2": "item/custom/survivor_protein_green",
-		"3": "item/custom/survivor_protein_pink",
-		"particle": "item/custom/survivor_protein_green"
+		"2": "block/custom/survivor_protein_green",
+		"3": "block/custom/survivor_protein_pink",
+		"particle": "block/custom/survivor_protein_green"
 	},
 	"elements": [
 		{

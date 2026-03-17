@@ -2,12 +2,12 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/custom/magician_portal",
-		"1": "item/custom/white_tree",
-		"2": "item/custom/magician_circle_1",
-		"3": "item/custom/magician_portal_count_1",
+		"0": "block/custom/magician_portal",
+		"1": "block/custom/white_tree",
+		"2": "block/custom/magician_circle_1",
+		"3": "block/custom/magician_portal_count_1",
 		"4": "block/custom/portal_c1",
-		"particle": "item/custom/magician_portal"
+		"particle": "block/custom/magician_portal"
 	},
 	"elements": [
 		{

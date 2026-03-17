@@ -2,9 +2,9 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/custom/magician_staff",
-		"1": "item/custom/magician_circle_2",
-		"particle": "item/custom/magician_staff"
+		"0": "block/custom/magician_staff",
+		"1": "block/custom/magician_circle_2",
+		"particle": "block/custom/magician_staff"
 	},
 	"elements": [
 		{

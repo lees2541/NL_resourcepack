@@ -1,8 +1,9 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/custom/hunter2",
-		"1": "item/custom/blood_stone1",
+		"1": "block/custom/blood_stone1",
 		"2": "block/custom/black_upper",
 		"4": "block/custom/man",
 		"5": "block/custom/broken",
