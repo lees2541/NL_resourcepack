@@ -2,8 +2,8 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/custom/ceremonial_knife",
-		"particle": "item/custom/ceremonial_knife"
+		"0": "block/custom/ceremonial_knife",
+		"particle": "block/custom/ceremonial_knife"
 	},
 	"elements": [
 		{
