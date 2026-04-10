@@ -41,6 +41,13 @@
             "ascent": 25,
             "height": 60,
             "chars": ["\uE605"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/nl/stigma/fade.png",
+            "ascent": 110,
+            "height": 170,
+            "chars": ["\uE609"]
         }
     ]
 }
