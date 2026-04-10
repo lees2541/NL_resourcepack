@@ -1,7 +1,7 @@
 {
     "model": {
       "type": "minecraft:model",
-      "model": "minecraft:roamer/hunter/tool/ceremonial_knife"
+      "model": "minecraft:explorer/survivor/tool/survivor_tool"
     },
     "hand_animation_on_swap": false
   }

@@ -2,8 +2,7 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "item/custom/survivor_tool_x",
-		"particle": "item/custom/survivor_tool"
+		"1": "block/custom/survivor_tool_x"
 	},
 	"elements": [
 		{

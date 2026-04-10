@@ -2,10 +2,10 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "item/custom/wizard_circle_t",
-		"3": "item/custom/wizard_circle",
-		"4": "item/custom/wizard_rune1",
-		"particle": "item/custom/wizard_rune1"
+		"2": "block/custom/wizard_circle_t",
+		"3": "block/custom/wizard_circle",
+		"4": "block/custom/wizard_rune1",
+		"particle": "block/custom/wizard_rune1"
 	},
 	"elements": [
 		{

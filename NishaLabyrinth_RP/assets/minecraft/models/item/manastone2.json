@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/custom/maseok"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [60.25, 0, 0],
+			"translation": [0, 0.5, 1.25],
+			"scale": [0.36133, 0.36133, 0.36133]
+		}
+	}
+}
